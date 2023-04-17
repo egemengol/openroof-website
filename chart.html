@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Line Chart with Chart.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style type="text/css">
+      html,
+      body,
+      #container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <canvas id="lineChart"></canvas>
+      <label for="mySlider">Mulk sahibi katilim payi</label>
+      <div style="display: flex; flex-direction: row;">
+        <p id="sliderVal">%0</p>
+        <input type="range" min="0" max="50" value="0" id="mySlider">
+      </div>
+      
+    </div>
+    <script>
+      const data = {
+        labels: [],
+        datasets: [
+          {
+            label: 'OpenRoof',
+            data: [],
+            borderColor: 'red',
+            // fill: "origin",
+            fill: true,
+            backgroundColor: 'rgba(255, 0, 0, 0.1)',
+            // stack: 'OpenRoof'
+          },
+          {
+            label: 'Yatirimci',
+            data: [],
+            borderColor: 'green',
+            // fill: "origin",
+            fill: true,
+            backgroundColor: 'rgba(0, 255, 0, 0.1)',
+            // stack: 'Yatirimci'
+          },
+          {
+            label: 'Mulk Sahibi',
+            data: [],
+            borderColor: 'blue',
+            // fill: "origin",
+            fill: true,
+            backgroundColor: 'rgba(0, 0, 255, 0.1)',
+            // stack: 'Mulk Sahibi'
+          },
+
+        ]
+      }
+      function shares(year, sliderVal) {
+        const yatirimci_total = 90
+        // , openroof, yatirimci, mulksahibi percents
+        if (year < 10) {
+          const mulk_sahibi_yatirim = yatirimci_total * sliderVal / 100
+          const yatirimci_external = yatirimci_total - mulk_sahibi_yatirim
+          return [ 5, yatirimci_external, mulk_sahibi_yatirim + 5,]
+        } else if (year < 15) {
+          const mulk_sahibi_ozluk = 5
+          const openroof = 5
+          const yatirimci_total = 90 * (15 - year) / 5
+          const yatirimci = yatirimci_total * (100 - sliderVal) / 100
+          const mulk_sahibi = mulk_sahibi_ozluk + (100-sliderVal)*0.9 - yatirimci
+          // const mulk_sahibi_start_percent = (sliderVal + 5)
+
+          // const mulk_sahibi_year_percent = mulk_sahibi_start_percent + ((100 - mulk_sahibi_start_percent) / (15 - year) * 5)
+          // // const mulk_sahibi = mulk_sahibi_year_ratio * 100
+          // const openroof = 5;
+          // const yatirim = 100 - mulk_sahibi_year_percent - openroof
+          // const mulk_sahibi_yatirim_start = yatirimci_total * sliderVal / 100
+          // const yatirimci_external_start = yatirimci_total - mulk_sahibi_yatirim_start
+          // const external_yatirimci_kayip = 0.9 * (100 - sliderVal) / (15 - year)
+          // const mulk_sahibi_yatirim = mulk_sahibi_yatirim_start + external_yatirimci_kayip
+          // const yatirimci_external = yatirimci_external_start - external_yatirimci_kayip
+          return [ 5, yatirimci, mulk_sahibi]
+        } else if (year === 15) {
+          return [5, 0, 95]
+        } else {
+          return [0, 0, 100]
+        }
+      }
+
+      function setData(sliderVal) {
+        data.labels = Array.from({length: 30}, (_, n) => n+1);
+        data.datasets[0].data = data.labels.map(year => shares(year, sliderVal)[0])
+        data.datasets[1].data = data.labels.map(year => shares(year, sliderVal)[1])
+        data.datasets[2].data = data.labels.map(year => shares(year, sliderVal)[2])
+      }
+
+      const config = {
+        type: 'line',
+        data: data,
+        options: {
+          responsive: true,
+          title: {
+            display: true,
+            text: "Gelir Paylasimi"
+          },
+          tooltips: {
+            mode: 'index',
+            intersect: false
+          },
+          hover: {
+            mode: 'nearest',
+            intersect: true
+          },
+          scales: {
+            x: {
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Yil'
+                },
+                // stacked: true
+              },
+            y: {
+                display: true,
+                scaleLabel: {
+                  display: true,
+                  labelString: 'Gelir Paylasimi'
+                },
+                // stacked: true
+              }
+          },
+          // fill: false
+        }
+      };
+
+      var slider = document.getElementById('mySlider');
+      slider.addEventListener('change', function() {
+        setData(slider.value);
+        var sliderValElem = document.getElementById("sliderVal")
+        console.log(slider.value)
+        sliderValElem.textContent = `% ${slider.value}`
+        myChart.update();
+      });
+
+      const lineChart = document.getElementById('lineChart').getContext('2d');
+      setData(slider.value);
+      const myChart = new Chart(lineChart, config);
+    </script>
+  </body>
+</html>
