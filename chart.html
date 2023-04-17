@@ -25,6 +25,7 @@
       
     </div>
     <script>
+      const stacked = true
       const data = {
         labels: [],
         datasets: [
@@ -32,8 +33,7 @@
             label: 'OpenRoof',
             data: [],
             borderColor: 'red',
-            // fill: "origin",
-            fill: true,
+            fill: stacked ? "origin" : true,
             backgroundColor: 'rgba(255, 0, 0, 0.1)',
             // stack: 'OpenRoof'
           },
@@ -41,8 +41,7 @@
             label: 'Yatirimci',
             data: [],
             borderColor: 'green',
-            // fill: "origin",
-            fill: true,
+            fill: stacked ? "origin" : true,
             backgroundColor: 'rgba(0, 255, 0, 0.1)',
             // stack: 'Yatirimci'
           },
@@ -50,8 +49,7 @@
             label: 'Mulk Sahibi',
             data: [],
             borderColor: 'blue',
-            // fill: "origin",
-            fill: true,
+            fill: stacked ? "origin" : true,
             backgroundColor: 'rgba(0, 0, 255, 0.1)',
             // stack: 'Mulk Sahibi'
           },
@@ -59,18 +57,26 @@
         ]
       }
       function shares(year, sliderVal) {
-        const yatirimci_total = 90
+        const yatirim_total = 90
+        const mulk_ozluk = 5
+        const mulk_yatirim = 90 * sliderVal / 100
+        const external_yatirim = yatirim_total - mulk_yatirim
+        const openroof = 5
+
         // , openroof, yatirimci, mulksahibi percents
-        if (year < 10) {
-          const mulk_sahibi_yatirim = yatirimci_total * sliderVal / 100
-          const yatirimci_external = yatirimci_total - mulk_sahibi_yatirim
-          return [ 5, yatirimci_external, mulk_sahibi_yatirim + 5,]
-        } else if (year < 15) {
-          const mulk_sahibi_ozluk = 5
-          const openroof = 5
-          const yatirimci_total = 90 * (15 - year) / 5
-          const yatirimci = yatirimci_total * (100 - sliderVal) / 100
-          const mulk_sahibi = mulk_sahibi_ozluk + (100-sliderVal)*0.9 - yatirimci
+        if (year <= 10) {
+          return [ openroof, external_yatirim, mulk_yatirim + mulk_ozluk]
+        } else if (year <= 15) {
+          // linear ratio of mulk_yatirim to 90 from 10 to 15
+          const mulk_yatirim_year = mulk_yatirim + (90 - mulk_yatirim) / (15 - 10) * (year - 10)
+          const external_yatirim_year = external_yatirim - (external_yatirim) / (15 - 10) * (year - 10)
+          return [ openroof, external_yatirim_year, mulk_yatirim_year + mulk_ozluk]
+          
+          // const mulk_sahibi_ozluk = 5
+          // const openroof = 5
+          // const yatirimci_total = 90 * (15 - year) / 5
+          // const yatirimci = yatirimci_total * (100 - sliderVal) / 100
+          // const mulk_sahibi = mulk_sahibi_ozluk + (100-sliderVal)*0.9 - yatirimci
           // const mulk_sahibi_start_percent = (sliderVal + 5)
 
           // const mulk_sahibi_year_percent = mulk_sahibi_start_percent + ((100 - mulk_sahibi_start_percent) / (15 - year) * 5)
@@ -82,9 +88,9 @@
           // const external_yatirimci_kayip = 0.9 * (100 - sliderVal) / (15 - year)
           // const mulk_sahibi_yatirim = mulk_sahibi_yatirim_start + external_yatirimci_kayip
           // const yatirimci_external = yatirimci_external_start - external_yatirimci_kayip
-          return [ 5, yatirimci, mulk_sahibi]
+          // return [ 5, yatirimci, mulk_sahibi]
         } else if (year === 15) {
-          return [5, 0, 95]
+          return [openroof, 0, 100 - openroof]
         } else {
           return [0, 0, 100]
         }
@@ -129,10 +135,10 @@
                   display: true,
                   labelString: 'Gelir Paylasimi'
                 },
-                // stacked: true
+                stacked: stacked
               }
           },
-          // fill: false
+          fill: stacked ? false : true
         }
       };
 
