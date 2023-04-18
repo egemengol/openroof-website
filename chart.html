@@ -36,6 +36,8 @@
             fill: stacked ? "origin" : true,
             backgroundColor: 'rgba(255, 0, 0, 0.1)',
             // stack: 'OpenRoof'
+            stepped: true,
+            
           },
           {
             label: 'Yatirimci',
@@ -97,7 +99,7 @@
       }
 
       function setData(sliderVal) {
-        data.labels = Array.from({length: 30}, (_, n) => n+1);
+        data.labels = Array.from({length: 31}, (_, n) => n);
         data.datasets[0].data = data.labels.map(year => shares(year, sliderVal)[0])
         data.datasets[1].data = data.labels.map(year => shares(year, sliderVal)[1])
         data.datasets[2].data = data.labels.map(year => shares(year, sliderVal)[2])
@@ -138,7 +140,8 @@
                 stacked: stacked
               }
           },
-          fill: stacked ? false : true
+          fill: stacked ? false : true,
+          // stepped: true,
         }
       };
 
