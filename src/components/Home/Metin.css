@@ -1,0 +1,192 @@
+.metin-page {
+  /* width: 715px;
+  height: 455.6px; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 14px;
+}
+
+.metin-head {
+  color: white;
+  font-family: "Reem Kufi Fun";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+}
+
+.metin-body {
+  white-space: nowrap;
+  color: white;
+  font-family: "Nunito";
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+}
+.metin-button {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.metin-button:hover {
+  .metin-body-button {
+    background-color: darkgreen;
+    transition: background 0.5s linear 0.1s, color 0.5s linear 0s;
+    border: none;
+  }
+  .metin-button-text-info {
+    color: #ffffff;
+  }
+  .phone-img-button {
+    fill: #ffffff;
+  }
+}
+.phone-img-button {
+  fill: #252422;
+  width: 33.36px;
+  height: 33.36px;
+}
+
+.metin-body-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 258.81px;
+  height: 55.6px;
+  border-radius: 5.55987px;
+  padding: 14px 21px;
+  border: 2.78px solid #4a584e;
+  background-color: #fff5e9;
+}
+
+.metin-img-button {
+  /* width: 33.36px;
+  height: 33.36px; */
+}
+.metin-button-text {
+}
+
+.metin-button-text-info {
+  width: 171.24px;
+  padding: 0 11px;
+  font-size: 19.46px;
+  font-weight: 700;
+  line-height: 29.19px;
+  color: #252422;
+}
+
+@media screen and (max-width: 1440px) {
+  .metin-page {
+    /* width: 626px; */
+    gap: 17px;
+  }
+  .metin-head {
+    font-size: 64px;
+  }
+  .metin-body {
+    font-size: 28px;
+  }
+  .metin-button-text-info {
+    font-size: 17.69px;
+  }
+  .phone-img-button {
+    width: 30.33px;
+    height: 30.33px;
+  }
+  .metin-button {
+  }
+  .metin-body-button {
+    width: 234.82px;
+    height: 50.54px;
+    padding: 10px 23px;
+  }
+}
+
+@media screen and (max-width: 1277px) {
+  .metin-page {
+    /* width: 537px;
+    height: 379.32px; */
+    gap: 16px;
+  }
+  .metin-head {
+    font-size: 60px;
+  }
+  .metin-body {
+    font-size: 24px;
+  }
+  .metin-button-text-info {
+    font-size: 14.74px;
+  }
+  .phone-img-button {
+    width: 25.27px;
+    height: 25.27px;
+  }
+  .metin-button {
+  }
+  .metin-body-button {
+    width: 196.19px;
+    height: 42.12px;
+    padding: 8px 19px;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .metin-page {
+    /* width: 358px;
+    height: 278.4px; */
+    gap: 12px;
+  }
+  .metin-head {
+    font-size: 44px;
+  }
+  .metin-body {
+    font-size: 16px;
+  }
+  .metin-button-text-info {
+    font-size: 11.3401px;
+  }
+  .phone-img-button {
+    width: 19.44px;
+    height: 19.44px;
+  }
+  .metin-button {
+  }
+  .metin-body-button {
+    width: 150.99px;
+    height: 32.4px;
+    padding: 6px 15px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .metin-page {
+    /* width: 269px;
+    height: 216px; */
+    gap: 12px;
+  }
+  .metin-head {
+    font-size: 32px;
+  }
+  .metin-body {
+    font-size: 12px;
+  }
+  .metin-button-text-info {
+    font-size: 10.5px;
+  }
+  .phone-img-button {
+    width: 18px;
+    height: 18px;
+  }
+  .metin-button {
+  }
+  .metin-body-button {
+    width: 140.25px;
+    height: 30px;
+    padding: 6px 13px;
+  }
+}

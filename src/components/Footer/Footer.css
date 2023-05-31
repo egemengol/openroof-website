@@ -1,0 +1,290 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  background: #ce6d29;
+  padding: 109px 146px;
+  margin: auto;
+}
+.footer-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-logo-text {
+  /* width: 258.48px;
+  height: 61px; */
+}
+
+.footer-number {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* width: 218px;
+  height: 182px; */
+  margin: 40px 0;
+}
+.footer-address {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  color: #fff5e9;
+}
+.footer-phone {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  color: #fff5e9;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.footer-mail {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.06em;
+  text-decoration-line: underline;
+  color: #fff5e9;
+}
+.footer-copy {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: left;
+  letter-spacing: 0.1em;
+  color: #fff5e9;
+}
+
+.footer-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 162px;
+  height: 242px; */
+}
+.mid-head {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: left;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin-bottom: 40px;
+  padding-top: 1.4rem;
+}
+.ul-link {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  text-align:left;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+.footer-last {
+  display: flex;
+  flex-direction: column;
+}
+.last-head {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: left;
+  letter-spacing: 0.06em;
+  text-decoration-line: underline;
+  color: #fff5e9;
+  padding-top: 1.4rem;
+}
+.last-body {
+  margin: 43px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.last-body-first {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: left;
+  letter-spacing: 0.06em;
+  text-decoration-line: underline;
+  color: #fff5e9;
+}
+.last-body-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.last-body-mid {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: left;
+  letter-spacing: 0.06em;
+  color: #fff5e9;
+}
+.veya {
+  margin-top: 32px;
+}
+.footer-button {
+  /* width: 258.81px;
+  height: 55.6px; */
+  cursor: pointer;
+}
+
+.footer-body-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4.17px;
+  height: 55.6px;
+  border-radius: 5.55987px;
+  padding: 11px 25px;
+  border: 2.78px solid #4a584e;
+  background-color: #fff5e9;
+}
+.footer-button:hover{
+  .footer-body-button{
+    background-color: darkgreen;
+    transition: background 0.5s linear 0.1s , color 0.5s linear 0s;
+    border: none;
+  }
+  .footer-button-text-info{
+    color: #ffffff;
+
+  }
+  .phone-img-button-footer {
+    fill: #ffffff;
+  }
+}
+.phone-img-button-footer {
+  fill: #252422;
+  width: 33.36px;
+  height: 33.36px;
+
+}
+.footer-img-button {
+  /* width: 33.36px;
+  height: 33.36px; */
+}
+.footer-button-text {
+  /* width: 171.24px;
+  height: 29px;
+  padding: 0 11px; */
+}
+
+.footer-button-text-info {
+  /* width: 161px; */
+  padding: 0 11px;
+  font-size: 19.46px;
+  font-weight: 700;
+  /* line-height: 29.19px; */
+  color: #252422;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .footer{
+    padding: 105px 122px 162px 122px;
+  }
+  .phone-img-button-footer{
+    width: 30.33px;
+    height: 30.33px;
+  }
+  .footer-button-text-info {
+    font-size: 17.69px;
+  }
+}
+@media screen and (max-width: 1277px) {
+  .footer{
+    padding: 108px 103px 130px 108px;
+  }
+  .footer-logo-text{
+    width: 206.78px;
+    height: 48.8px;
+  }
+  .footer-copy {
+    font-size: 12px;
+  }
+  .footer-address{
+    font-size: 16px;
+  }
+  .footer-mail{
+    font-size: 16px;
+  }
+  .footer-phone{
+    font-size: 16px;
+  }
+  .mid-head{
+    font-size:20px ;
+  }
+  .ul-link{
+    font-size: 16px;
+  }
+  .last-body-first{
+    font-size: 16px;
+  }
+  .last-body-mid{
+    font-size: 14px;
+  }
+  .veya {
+    margin-top: 32px;
+  }
+  .footer-body-button{
+    padding: 9px 20px;
+  }
+  .phone-img-button-footer{
+    width: 25.27px;
+    height: 25.27px;
+  }
+  .footer-button-text-info {
+    font-size: 14.74px;
+  }
+
+}
+@media screen and (max-width: 744px) {
+  .footer{
+    flex-direction: column;
+    justify-content: center;
+    padding: 54px;
+  }
+  .phone-img-button-footer{
+    width: 19.44px;
+    height: 19.44px;
+  }
+  .footer-button-text-info {
+    font-size: 11.3401px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .phone-img-button-footer{
+    width: 18px;
+    height: 18px;
+  }
+  .footer-button-text-info {
+    font-size: 10.5px;
+  }
+}
