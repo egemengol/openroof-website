@@ -267,9 +267,37 @@
 }
 @media screen and (max-width: 744px) {
   .footer{
-    flex-direction: column;
-    justify-content: center;
-    padding: 54px;
+    padding: 30px;
+  }
+  .footer-copy {
+    font-size: 10px;
+  }
+  .footer-address{
+    font-size: 14px;
+  }
+  .footer-mail{
+    font-size: 14x;
+  }
+  .footer-phone{
+    font-size: 14px;
+  }
+  .mid-head{
+    font-size:16px ;
+  }
+  .ul-link{
+    font-size: 14px;
+  }
+  .last-head{
+    font-size: 14px;
+  }
+  .last-body-first{
+    font-size: 14px;
+  }
+  .last-body-mid{
+    font-size: 12px;
+  }
+  .veya {
+    margin-top: 20px;
   }
   .footer-logo-text{
     width: 100.78px;
@@ -284,6 +312,11 @@
   }
 }
 @media screen and (max-width: 390px) {
+  .footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .footer-logo-text{
     width: 78px;
     height: 25px;

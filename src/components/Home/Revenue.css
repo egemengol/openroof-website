@@ -356,7 +356,7 @@
   .icon-class{
     width: 59.5px;
     height: 81.67px;
-    margin: -50px 0px 0px 0px;
+    margin: -40px 0px 0px 0px;
   }
   .description{
     /* width: 372px; */
@@ -372,6 +372,7 @@
     font-size: 16px;
     text-align: center;
     margin: 0px 9.33px;
+    padding: 14px 0px 28px 0px
   }
   .one {
     margin-left: 0;
@@ -483,7 +484,7 @@
     padding-bottom: 70.66px;
   }
   .icon-class{
-    margin-top: -50px;
+    margin-top: -40px;
   }
   .description{
     /* width: 252px; */
@@ -548,7 +549,7 @@
   .icon-class{
     /* width: 51px;
     height: 70px; */
-    margin-top: -50px;
+    margin-top: -40px;
     
   }
   .line{

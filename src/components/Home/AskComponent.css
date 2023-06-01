@@ -91,10 +91,11 @@
 .arrow-right-svg path {
   stroke: #a5a6f6;
   transition: all 0.2s;
+  width: 29px;
 }
 
 .arrow-right-img {
-  width: 29px;
+  /* width: 29px; */
   margin-left: 28px;
 }
 .answer {
@@ -162,8 +163,11 @@
     margin-right: 16px;
   }
   .arrow-right-img {
-    width: 24px;
     margin-left: 24px;
+  }
+  .arrow-right-svg{
+    width: 24px;
+
   }
   .answer {
     /* width: 648px; */
@@ -219,8 +223,11 @@
     margin-right: 14.22px;
   }
   .arrow-right-img {
-    width: 21.33px;
     margin-left: 21.33px;
+  }
+  .arrow-right-svg{
+    width: 21.33px;
+
   }
   .answer {
     /* width: 576px; */
@@ -277,8 +284,11 @@
     margin-right: 8.26px;
   }
   .arrow-right-img {
-    width: 8px;
     margin-left: 2px;
+  }
+  .arrow-right-svg{
+    width: 8px;
+
   }
   .answer {
     /* width: 334.8px;
@@ -316,16 +326,19 @@
   .ask {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .ask-all {
     /* width: 280.13px;
     height: 182.05px; */
     margin: 0px;
+    width: 100%;
     z-index: 0;
   }
   .answer {
     /* width: 283.64px;
     height: 206.49; */
+    width: 100%;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 10px;
@@ -352,8 +365,11 @@
     line-height: 11px;
   }
   .arrow-right-img {
-    width: 10.51px;
     margin-left: 10.51px;
+  }
+  .arrow-right-svg{
+    width: 10.51px;
+
   }
   .ask-body {
     margin-top: 0px;
@@ -399,9 +415,12 @@
     line-height: 9px;
   }
   .arrow-right-img {
+    margin-left: 8.62px;
+  }
+  .arrow-right-svg{
     width: 8.62px;
     height: 8.62px;
-    margin-left: 8.62px;
+
   }
   .ask-body {
     margin-top: 0px;
