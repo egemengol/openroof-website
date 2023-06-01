@@ -29,18 +29,22 @@
 }
 
 .imagehome {
-  /* width: 473.96px; */
-  /* height: 547.76px; */
-  width: 100%;
-  margin: auto;
+  width: 473.96px; 
+  height: 547.76px;
+  /* width: 100%; */
+  /* margin: auto;
   position: relative;
   top: -32px;
   /* left: 165px; */
-  left: 121px;
-  right: -126px;
+ /* left: 121px;
+  right: -126px; */
   /* margin-top: -32px;
   margin-left: 165px;
   margin-right: -126px; */
+}
+.image-home-res{
+  resize: both;
+  overflow: auto;
 }
 
 .bgimg {
@@ -54,16 +58,16 @@
 
 @media screen and (max-width: 1440px) {
   .homemenit {
-    margin-top: 192px;
-    position: relative;
+    /* margin-top: 192px;
+    position: relative; */
   }
   .imagehome {
     /* position:absolute; */
-    width: 394.97px;
+     width: 394.97px;
     height: 456.47px;
-    top: -9.72px;
+    /*top: -9.72px;
     left: 43px;
-    right: -104px;
+    right: -104px; */
     /* margin-top: -9.72px;
     margin-left: 43px;
     margin-right: -104px; */
@@ -78,11 +82,11 @@
     margin-top: 148px;
   }
   .imagehome{
-    width: 358.44px;
+     width: 358.44px;
     height: 414.24px;
-    top: -3.36px;
+   /* top: -3.36px;
     left: 201px;
-    right: -49.62px;
+    right: -49.62px; */
     /* margin-top: -3.36px;
     margin-left: 201px;
     margin-right: -49.62px; */
@@ -99,8 +103,8 @@
   .imagehome{
     width: 236.56px;
     height: 273.4px;
-    margin-right: -38.59px;
-    margin-left: 43.38px;
+    /*margin-right: -38.59px;
+    margin-left: 43.38px; */
   }
   .bgimg {
     height: 430px;
