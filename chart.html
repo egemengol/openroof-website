@@ -37,7 +37,6 @@
             backgroundColor: 'rgba(255, 0, 0, 0.1)',
             // stack: 'OpenRoof'
             stepped: true,
-            
           },
           {
             label: 'Yatirimci',
@@ -99,7 +98,7 @@
       }
 
       function setData(sliderVal) {
-        data.labels = Array.from({length: 31}, (_, n) => n);
+        data.labels = Array.from({length: 20}, (_, n) => n);
         data.datasets[0].data = data.labels.map(year => shares(year, sliderVal)[0])
         data.datasets[1].data = data.labels.map(year => shares(year, sliderVal)[1])
         data.datasets[2].data = data.labels.map(year => shares(year, sliderVal)[2])
@@ -138,6 +137,7 @@
                   labelString: 'Gelir Paylasimi'
                 },
                 stacked: stacked
+              <!-- stacked: true -->
               }
           },
           fill: stacked ? false : true,
