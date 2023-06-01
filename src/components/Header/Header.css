@@ -131,9 +131,6 @@ nav {
     width: 30.33px;
     height: 30.33px;
   }
-  .header-button-text-info {
-    font-size: 17.69px;
-  }
 }
 
 @media screen and (max-width: 1277px) {
@@ -180,45 +177,64 @@ nav {
 }
 
 @media screen and (max-width: 744px) {
+  .header{
+    height: 64.4px;
+    padding: 0px 24px;
+  }
   .logo-header{
-    min-width: 152.54px;
-    height: 36px;
+    width: 152.54px;
+    min-height: 36px;
     padding: 14px 17px;
+  }
+  .header-button {
+    height: 32.4px;
+  }
+  .header-body-button{
+    min-width: 150.99px;
+    height: 32.4px;
+    padding: 6px 15px;
   }
   .phone-img-button-header {
     width: 19.44px;
     height: 19.44px;
   }
   .header-button-text-info {
-    font-size: 11.3401px;
+    font-size: 11px;
   }
 }
 @media screen and (max-width: 390px) {
+  .header{
+    height: 56px;
+    padding: 0px;
+  }
   .logo-header{
     min-width: 127.12px;
-    height: 30px;
+    min-height: 30px;
     padding: 12px 14px;
   }
 
   .header-body-button{
     display: block;
+    min-width: 36px;
     padding: 6px 3px;
   }
   .header-button-text-info{
     display: none;
   }
   .phone-img-button-header {
-    width: 18px;
-    height: 18px;
+    width: 20.68px;
+    height: 17px;
   }
   .header-button-text-info {
     font-size: 10.5px;
   }
 }
 @media screen and (max-width: 320px) {
+  .header{
+    height: 56px;
+  }
   .logo-header{
     min-width: 127.12px;
-    
     padding: 12px 14px;
   }
 }

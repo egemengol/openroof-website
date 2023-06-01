@@ -16,7 +16,7 @@ const Benefit = () => {
       <div className="cartmain">
         <div className="cartbody">
           <div className="headcartframe">
-            <img  src={frame309} alt="frame309" />
+            <img className="headcartframe-size" src={frame309} alt="frame309" />
           </div>
           <div className="cartdetail">
             <p className="cartdetailhead">Yatırım</p>
@@ -29,7 +29,7 @@ const Benefit = () => {
         </div>
         <div className="cartbody">
           <div className="headcartframe">
-            <img src={frame2} alt="..." />
+            <img className="headcartframe-size" src={frame2} alt="..." />
           </div>
           <div className="cartdetail">
             <p className="cartdetailhead">Kurulum</p>
@@ -42,7 +42,7 @@ const Benefit = () => {
         </div>
         <div className="cartbody">
           <div className="headcartframe">
-            <img src={frame3} alt="..." />
+            <img className="headcartframe-size" src={frame3} alt="..." />
           </div>
           <div className="cartdetail">
             <p className="cartdetailhead">Kazanç</p>

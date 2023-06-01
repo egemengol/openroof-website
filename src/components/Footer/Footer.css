@@ -271,6 +271,10 @@
     justify-content: center;
     padding: 54px;
   }
+  .footer-logo-text{
+    width: 100.78px;
+    height: 35.8px;
+  }
   .phone-img-button-footer{
     width: 19.44px;
     height: 19.44px;
@@ -280,6 +284,10 @@
   }
 }
 @media screen and (max-width: 390px) {
+  .footer-logo-text{
+    width: 78px;
+    height: 25px;
+  }
   .phone-img-button-footer{
     width: 18px;
     height: 18px;

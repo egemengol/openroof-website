@@ -24,9 +24,17 @@
     margin: 14.82px 15.6px 14.82px 26px;
   }
 
+  @media screen and (max-width: 1277px) {
+    .hamburgerIcon{
+      min-width: 41px;
+      min-height: 32px;
+    }
+  }
   @media screen and (max-width: 744px) {
     .hamburgerIcon{
         margin: 11.4px 12px 11.4px 20px;
+        width: 32px;
+        height: 25.6px;
       }
     
   }

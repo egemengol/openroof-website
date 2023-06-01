@@ -333,6 +333,7 @@
     /* width: 400px; */
     flex-direction: column;
     margin-bottom: 23.3px;
+    padding: 0px;
   }
   .wrap-row-one{
     display: flex;
@@ -360,7 +361,7 @@
   .description{
     /* width: 372px; */
     padding: 0px 9px;
-    margin: 5.83px 14px 28px 14px;
+    /* margin: 5.83px 14px 28px 14px; */
   }
   .desc-head{
     font-size: 21px;
