@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 133px 0;
+  
 }
 .ask {
   display: flex;
@@ -25,6 +25,7 @@
   line-height: 77px;
   display: block;
   margin-left: 144px;
+  padding-top: 133px;
   /* margin-left: 2rem; */
 }
 .ask-all {
@@ -131,7 +132,7 @@
 
 @media screen and (max-width: 1440px) {
   .askcomponent {
-    padding: 104px 0;
+   
   }
   .ask {
     margin-top: 49.94px;
@@ -141,6 +142,7 @@
     font-size: 48px;
     line-height: 64px;
     margin-left: 120px;
+    padding-top: 104px ;
   }
   .ask-all {
     /* width: 640px; */
@@ -191,7 +193,7 @@
 
 @media screen and (max-width: 1277px) {
   .askcomponent {
-    padding: 80px 0;
+   
   }
   .ask {
     margin-top: 28.25px;
@@ -201,6 +203,7 @@
     font-size: 42.66px;
     line-height: 57px;
     margin-left: 106.66px;
+    padding-top: 80px;
   }
   .ask-all {
     /* width: 568.89px; */
@@ -252,7 +255,7 @@
 
 @media screen and (max-width: 744px) {
   .askcomponent {
-    padding: 40px 0;
+   
   }
   .ask {
     margin-top: 16.56px;
@@ -267,6 +270,7 @@
     margin-left: 35px;
     font-size: 24.8px;
     line-height: 33px;
+    padding-top: 40px ;
   }
   .ask-body {
     margin-top: 16.56px;

@@ -20,9 +20,9 @@ const Header = () => {
   return (
     <nav>
       <div className={`header ${scrolled && "scrolled"}`}>
-        <div className="logo-header">
+        <div className="">
           <a href="/">
-            <img className=" " src={logo} alt="Your SVG" />
+            <img className="logo-header" src={logo} alt="Your SVG" />
           </a>
         </div>
         <div className="navbar">
@@ -37,7 +37,7 @@ const Header = () => {
               <li className="nav-link">Gelir Paylaşımı</li>
             </Link>
             <Link to="/">
-              <li className="nav-link">S.S.S.</li>
+              <li className="nav-link sss">S.S.S.</li>
             </Link>
           </ul>
         </div>

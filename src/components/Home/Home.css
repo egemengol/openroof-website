@@ -29,8 +29,8 @@
 }
 
 .imagehome {
-  width: 473.96px; 
-  height: 547.76px;
+  /* width: 473.96px; 
+  height: 547.76px; */
   /* width: 100%; */
   /* margin: auto;
   position: relative;
@@ -63,8 +63,8 @@
   }
   .imagehome {
     /* position:absolute; */
-     width: 394.97px;
-    height: 456.47px;
+     /* width: 394.97px;
+    height: 456.47px; */
     /*top: -9.72px;
     left: 43px;
     right: -104px; */
@@ -82,8 +82,8 @@
     margin-top: 148px;
   }
   .imagehome{
-     width: 358.44px;
-    height: 414.24px;
+     /* width: 358.44px;
+    height: 414.24px; */
    /* top: -3.36px;
     left: 201px;
     right: -49.62px; */
@@ -101,8 +101,8 @@
     margin-top: 97px;
   }
   .imagehome{
-    width: 236.56px;
-    height: 273.4px;
+    /* width: 236.56px;
+    height: 273.4px; */
     /*margin-right: -38.59px;
     margin-left: 43.38px; */
   }

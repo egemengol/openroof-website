@@ -21,10 +21,10 @@ const AskComponents = () => {
   };
   return (
     <div className="margin">
-      <div className="askcomponent">
         <div className="ask-head">
           <p>Sıkça Sorulan Sorular</p>
         </div>
+      <div className="askcomponent">
         <div className="ask">
           <div className="ask-all">
             <div className="ask-body">

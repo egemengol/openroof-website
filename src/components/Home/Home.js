@@ -18,9 +18,9 @@ const Home = () => {
         <div className="homebody">
           <div className="homemenit">
             <Metin />
-            <div className="image-home-res">
+            {/* <div className="image-home-res">
             <img className="imagehome" src={home} alt="home" />
-            </div>
+            </div> */}
            
           </div>
           <img className="arrimg" src={ko} alt="arrow" />
