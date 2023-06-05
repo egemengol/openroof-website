@@ -17,20 +17,27 @@ const Home = () => {
       <div className="homepage">
         <div className="homebody">
           <div className="homemenit">
-            <Metin />
-            {/* <div className="image-home-res">
-            <img className="imagehome" src={home} alt="home" />
-            </div> */}
+            <div className="home-metin">
+              <div className="curve">
+                <img className="imagehome" src={home} alt="home" />
+                <div className="metin-componenet">
+                 <Metin />
+                </div>
+                 <img className="arrimg" src={ko} alt="arrow" />
+              </div>
+            </div>
+            <div className="image-home-res">
+            </div>
            
           </div>
-          <img className="arrimg" src={ko} alt="arrow" />
+          {/* <img className="arrimg" src={ko} alt="arrow" /> */}
         </div>
-        <div className="bgimg">
+        {/* <div className="bgimg">
           <img src={backGround} alt="backGround" />
         </div>
         <div className="bgimg-two">
           <img src={backGroundback} alt="backGround" />
-        </div>
+        </div> */}
       </div>
       <Benefit />
     </div>
