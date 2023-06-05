@@ -160,7 +160,7 @@
   justify-content: center;
   align-items: center;
   gap: 4.17px;
-  height: 55.6px;
+  /* height: 55.6px; */
   border-radius: 5.55987px;
   padding: 11px 25px;
   border: 2.78px solid #4a584e;
@@ -170,7 +170,7 @@
   .footer-body-button{
     background-color: darkgreen;
     transition: background 0.5s linear 0.1s , color 0.5s linear 0s;
-    border: none;
+    border: 2.78px solid transparent;
   }
   .footer-button-text-info{
     color: #ffffff;

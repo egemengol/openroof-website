@@ -219,6 +219,11 @@ nav {
     font-size: 11px;
   }
 }
+@media screen and (max-width: 744px) {
+  .header{
+    padding: 0 5px;
+  }
+}
 @media screen and (max-width: 390px) {
   .header{
     height: 56px;
