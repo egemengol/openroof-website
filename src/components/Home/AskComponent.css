@@ -26,11 +26,9 @@
   display: block;
   margin-left: 144px;
   padding-top: 133px;
-  /* margin-left: 2rem; */
+
 }
 .ask-all {
-  /* width: 768px; */
-  /* height: 491px; */
   z-index: 1;
   width: 50%;
   height: 100%;
@@ -40,7 +38,6 @@
 .ask-body {
   margin-top: 38.47px;
   border-radius: 15px;
-  /* box-shadow: 0px 0px 1.2px 1.2px rgba(0, 0, 0, 0.15); */
   border: #fafbff solid 1px;
 }
 .question-box {
@@ -96,12 +93,9 @@
 }
 
 .arrow-right-img {
-  /* width: 29px; */
   margin-left: 28px;
 }
 .answer {
-  /* width: 777.7px;
-  height: 556.1px; */
   width: 50%;
   background: #fafbff;
   box-shadow: 0px 0px 4.8px 1.2px rgba(0, 0, 0, 0.15);
@@ -131,9 +125,6 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .askcomponent {
-   
-  }
   .ask {
     margin-top: 49.94px;
     margin-bottom: 49.94px;
@@ -145,8 +136,6 @@
     padding-top: 104px ;
   }
   .ask-all {
-    /* width: 640px; */
-    /* height: 408px; */
     margin-left: 120px;
   }
   .ask-body {
@@ -172,8 +161,6 @@
 
   }
   .answer {
-    /* width: 648px; */
-    /* height: 471.75px; */
     margin-left: -88px;
     margin-right: 120px;
   }
@@ -192,9 +179,7 @@
 }
 
 @media screen and (max-width: 1277px) {
-  .askcomponent {
-   
-  }
+ 
   .ask {
     margin-top: 28.25px;
     margin-bottom: 25.5px;
@@ -206,8 +191,6 @@
     padding-top: 80px;
   }
   .ask-all {
-    /* width: 568.89px; */
-    /* height: 365.33px; */
     margin-left: 106.66px;
   }
   .ask-body {
@@ -233,9 +216,6 @@
 
   }
   .answer {
-    /* width: 576px; */
-    /* width: 500px; */
-    /* height: 419.33px; */
     margin-left: -78.25px;
     margin-right: 106.66px;
   }
@@ -254,16 +234,11 @@
 }
 
 @media screen and (max-width: 744px) {
-  .askcomponent {
-   
-  }
   .ask {
     margin-top: 16.56px;
     margin-bottom: 14.17;
   }
   .ask-all {
-    /* width: 330.67px; */
-    /* height: 213px; */
     margin-left: 62px;
   }
   .ask-head {
@@ -296,8 +271,6 @@
 
   }
   .answer {
-    /* width: 334.8px;
-    height: 243.74px; */
     margin-left: -64.46px;
     margin-right: 62px;
   }
@@ -334,15 +307,11 @@
     align-items: center;
   }
   .ask-all {
-    /* width: 280.13px;
-    height: 182.05px; */
     margin: 0px;
     width: 100%;
     z-index: 0;
   }
   .answer {
-    /* width: 283.64px;
-    height: 206.49; */
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
@@ -392,14 +361,8 @@
     line-height: 23px;
   }
   .ask-all {
-    /* width: 229.85px;
-    height: 149.2px; */
     margin: auto;
     z-index: 0;
-  }
-  .answer {
-    /* width: 232.73px;
-    height: 169.43px; */
   }
   .answer-box-head {
     font-size: 6.46px;

@@ -1,5 +1,4 @@
 .benefit {
-  /* margin-top: 307px; */
   width: 100%;
   margin-bottom: 107px;
 }
@@ -78,7 +77,6 @@
 
 @media screen and (max-width: 1440px) {
   .benefit {
-    /* margin-top: 229px; */
     margin-bottom: 97.33px;
   }
   .tophead {
@@ -118,7 +116,6 @@
 
 @media screen and (max-width: 1277px) {
   .benefit{
-    /* margin-top: 233px; */
     margin-bottom: 96.79px;
   }
   .tophead {
@@ -189,7 +186,6 @@
 }
 @media screen and (max-width: 744px) {
   .benefit {
-    /* margin-top: 131.35px; */
     width: 100%;
     margin-bottom: 82px;
   }
@@ -233,7 +229,7 @@
 
 @media screen and (max-width: 390px) {
   .benefit {
-    /* margin-top: 155.7px; */
+   
     margin-bottom: 56.84px;
   }
   .cartmain{
@@ -257,7 +253,6 @@
 }
 @media screen and (max-width: 320px) {
   .benefit {
-    /* margin-top: 65px; */
     margin-bottom: 51.87px;
   }
   .tophead{
@@ -279,7 +274,6 @@
     height: 39.28px;
   }
   .cartdetail{
-    /* gap: 15px; */
     padding: 22px 10px;
   }
   .cartdetailhead{
