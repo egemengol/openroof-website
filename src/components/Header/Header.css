@@ -78,16 +78,16 @@ nav {
 }
 .header-button:hover {
   .header-body-button {
-    background-color: darkgreen;
-    transition: background 0.5s linear 0.1s, color 0.5s linear 0s;
-    border: 2.78px solid transparent;
+    background-color: #fbc98c;
+        transition: all 200ms;
+    /* border: 2.78px solid transparent; */
   }
-  .header-button-text-info {
+  /* .header-button-text-info {
     color: #ffffff;
   }
   .phone-img-button-header {
     fill: #ffffff;
-  }
+  } */
 }
 .phone-img-button-header {
   fill: #252422;

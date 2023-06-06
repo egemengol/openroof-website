@@ -13,20 +13,20 @@ import AskComponents from "./AskComponents";
 const Home = () => {
   return (
     <>
-            <div className="home-metin">
-              <div className="curve">
-                <img className="imagehome" src={home} alt="home" />
-                <div className="metin-componenet">
-                 <Metin />
-                </div>
-                <img className="arrimg" src={ko} alt="arrow" />
-              </div>
-            </div>
-           
+      <div className="home-metin">
+        <div className="curve">
+          <img className="imagehome" src={home} alt="home" />
+          <div className="metin-componenet">
+            <Metin />
+          </div>
+          <img className="arrimg" src={ko} alt="arrow" />
+        </div>
+      </div>
+
       <Benefit />
-      <Revenue/>
-      <WildLife/>
-      <AskComponents/>
+      <Revenue />
+      {/* <WildLife />
+      <AskComponents /> */}
     </>
   );
 };

@@ -168,17 +168,17 @@
 }
 .footer-button:hover{
   .footer-body-button{
-    background-color: darkgreen;
-    transition: background 0.5s linear 0.1s , color 0.5s linear 0s;
-    border: 2.78px solid transparent;
+ background-color: #fbc98c;
+ transition: all 200ms;
+ /* border: 2.78px solid transparent; */
   }
-  .footer-button-text-info{
+  /* .footer-button-text-info{
     color: #ffffff;
 
   }
   .phone-img-button-footer {
     fill: #ffffff;
-  }
+  } */
 }
 .phone-img-button-footer {
   fill: #252422;
