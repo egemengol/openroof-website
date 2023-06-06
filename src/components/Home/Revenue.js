@@ -101,8 +101,6 @@ const Revenue = () => {
       </div>
 
       <div className="shake">
-        {/* <div className='empity'></div>
-      <div className='empity'></div> */}
         <div className="home-item-wrapper">
           <img className="homeOwner" src={shakehand} alt="homeOwner" />
           <div className="item-wrapper">
