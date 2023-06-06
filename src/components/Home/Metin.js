@@ -1,39 +1,35 @@
 import React from "react";
 import phonecell from "../../assets/Header/phone-call 1.svg";
 import { Link } from "react-router-dom";
-import './Metin.css'
+import "./Metin.css";
 import { PhoneButton } from "./Ask/svg/phone";
 const Metin = () => {
   return (
     <div className="metin-page">
       <div>
         <p className="metin-head">
-          <strong className="metin-head">DÜŞÜK</strong> Yatırım 
+          <strong className="metin-head">DÜŞÜK</strong> Yatırım
         </p>
         <p className="metin-head">
-          <strong className="metin-head">YÜKSEK</strong>Getiri 
+          <strong className="metin-head">YÜKSEK</strong>Getiri
         </p>
-        <p className="metin-head">  
+        <p className="metin-head">
           <strong className="metin-head">MİNİMAL</strong> Risk
         </p>
       </div>
 
-      <div className="metin-body">
-        Yatırımlarınızı Güneşin Gücüyle Büyütün!
-      </div>
+      <div className="metin-body">Yatırımlarınızı Güneşin Gücüyle Büyütün!</div>
       <div className="metin-button">
-        <Link to="/">
+        <a href="https://tally.so#tally-open=mKeeAg&tally-layout=modal&tally-overlay=1&tally-emoji-text=☀️&tally-emoji-animation=wave&tally-auto-close=2000">
           <button className="metin-body-button">
             <div className="metin-img-button ">
-              <PhoneButton className='phone-img-button ' ></PhoneButton>
+              <PhoneButton className="phone-img-button "></PhoneButton>
             </div>
             <div className="metin-button-text">
-              <p className="metin-button-text-info">
-                Sizi Arayalım!
-              </p>
+              <p className="metin-button-text-info">Sizi Arayalım!</p>
             </div>
           </button>
-        </Link>
+        </a>
       </div>
     </div>
   );

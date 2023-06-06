@@ -34,16 +34,16 @@
 }
 .metin-button:hover {
   .metin-body-button {
-    background-color: darkgreen;
-    transition: background 0.5s linear 0.1s, color 0.5s linear 0s;
-    border: none;
+    background-color: #fbc98c;
+    transition: all 200ms;
+    /* border: none; */
   }
-  .metin-button-text-info {
+  /* .metin-button-text-info {
     color: #ffffff;
   }
   .phone-img-button {
     fill: #ffffff;
-  }
+  } */
 }
 .phone-img-button {
   fill: #252422;

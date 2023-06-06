@@ -44,7 +44,7 @@ const Header = () => {
         {/* {/* <div className="nav-sm"> */}
         <div className="header-right-action-wrapper">
           <div className="header-button">
-            <Link to="/">
+            <a href="https://tally.so#tally-open=mKeeAg&tally-layout=modal&tally-overlay=1&tally-emoji-text=☀️&tally-emoji-animation=wave&tally-auto-close=2000">
               <button className="header-body-button">
                 <div className="header-img-button ">
                   <PhoneButton className="phone-img-button-header "></PhoneButton>
@@ -53,7 +53,7 @@ const Header = () => {
                   <p className="header-button-text-info">Sizi Arayalım!</p>
                 </div>
               </button>
-            </Link>
+            </a>
           </div>
           <div className="nav-sm-act">
             <DrawerNav />
