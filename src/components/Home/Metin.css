@@ -56,7 +56,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* width: 258.81px; */
+  width: 100%;
   height: 55.6px;
   border-radius: 5.55987px;
   padding: 14px 21px;
@@ -102,7 +102,7 @@
   .metin-button {
   }
   .metin-body-button {
-    width: 234.82px;
+    /* width: 234.82px; */
     height: 50.54px;
     padding: 10px 23px;
   }
@@ -129,7 +129,7 @@
   }
  
   .metin-body-button {
-    width: 196.19px;
+    /* width: 196.19px; */
     height: 42.12px;
     padding: 8px 19px;
   }
@@ -151,7 +151,7 @@
   .metin-button {
   }
   .metin-body-button {
-    width: 165.19px;
+    /* width: 165.19px; */
     height: 39.12px;
     padding: 7px 17px;
   }
@@ -178,7 +178,7 @@
   .metin-button {
   }
   .metin-body-button {
-    width: 150.99px;
+    /* width: 150.99px; */
     height: 32.4px;
     padding: 6px 15px;
   }
@@ -198,7 +198,7 @@
     height: 18.4px;
   }
   .metin-body-button {
-    width: 143.25px;
+    /* width: 143.25px; */
     height: 30px;
     padding: 6px 13px;
   }
@@ -221,7 +221,7 @@
     height: 17px;
   }
   .metin-body-button {
-    width: 140px;
+    /* width: 140px; */
     height: 30px;
     padding: 6px 13px;
   }
@@ -241,7 +241,7 @@
     height: 15px;
   }
   .metin-body-button {
-    width: 130px;
+    /* width: 130px; */
     height: 25px;
     padding: 6px 13px;
   }
@@ -266,7 +266,7 @@
     height: 18px;
   }
   .metin-body-button {
-    width: 140.25px;
+    /* width: 140.25px; */
     height: 30px;
     padding: 6px 13px;
   }

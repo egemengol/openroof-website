@@ -18,8 +18,8 @@ const Revenue = () => {
   return (
     <>
     <div className='revenue'>
-      {/* <div className='empity'></div>
-      <div className='empity'></div> */}
+     
+      <div className='head'>Neden OpenRoof?</div>
       <div className='home-item-wrapper'>
         <img className='homeOwner' src={homeOwner} alt='homeOwner' />
         <div className='item-wrapper'>
