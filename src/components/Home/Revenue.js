@@ -1,142 +1,142 @@
-// 
-import React from 'react'
-import './revenue1.css'
-import homeOwner from '../../assets/Home/Homeowner.svg'
-import guy from '../../assets/Home/Homeownercoin.svg'
-import shakehand from '../../assets/Home/Homeowner hand.svg'
-import itemIcon from '../../assets/Home/ikon.svg'
-import itemIcontwo from '../../assets/Home/ikon sta.svg'
-import itemIconthree from '../../assets/Home/ikonhome.svg'
-import iconfour from '../../assets/Home/ikon4.svg'
-import iconfive from '../../assets/Home/ikon5.svg'
-import iconsix from '../../assets/Home/ikon6.svg'
-import iconseven from '../../assets/Home/ikon7.svg'
-import itemIconeight from '../../assets/Home/ikon8.svg'
-import itemIconnine from '../../assets/Home/ikon9.svg'
-import itemIconten from '../../assets/Home/ikon10.svg'
+//
+import React from "react";
+import "./revenue1.css";
+import homeOwner from "../../assets/Home/Homeowner.svg";
+import guy from "../../assets/Home/Homeownercoin.svg";
+import shakehand from "../../assets/Home/Homeowner hand.svg";
+import itemIcon from "../../assets/Home/ikon.svg";
+import itemIcontwo from "../../assets/Home/ikon sta.svg";
+import itemIconthree from "../../assets/Home/ikonhome.svg";
+import iconfour from "../../assets/Home/ikon4.svg";
+import iconfive from "../../assets/Home/ikon5.svg";
+import iconsix from "../../assets/Home/ikon6.svg";
+import iconseven from "../../assets/Home/ikon7.svg";
+import itemIconeight from "../../assets/Home/ikon8.svg";
+import itemIconnine from "../../assets/Home/ikon9.svg";
+import itemIconten from "../../assets/Home/ikon10.svg";
 const Revenue = () => {
   return (
     <>
-    <div className='revenue'>
-     
-      <div className='head'>Neden OpenRoof?</div>
-      <div className='home-item-wrapper'>
-        <img className='homeOwner' src={homeOwner} alt='homeOwner' />
-        <div className='item-wrapper'>
-          <div className='item' id='first'>
-            <img className='item-icon' src={itemIcon} alt='itemIcon'/>
-            <div className='item-title'>
-               Panel kurulum maliyetini üstleniyoruz
+      <div className="revenue" id="Faydalar">
+        <div className="head">Neden OpenRoof?</div>
+        <div className="home-item-wrapper">
+          <img className="homeOwner" src={homeOwner} alt="homeOwner" />
+          <div className="item-wrapper">
+            <div className="item" id="first">
+              <img className="item-icon" src={itemIcon} alt="itemIcon" />
+              <div className="item-title">
+                Panel kurulum maliyetini üstleniyoruz
+              </div>
+              <div className="item-desc">
+                Maliyetin istediğiniz kadarına ortak olarak, elektrik
+                faturasından tasarruf etmek ile para kazanmak arasında bir
+                tercih yapabilirsiniz.
+              </div>
             </div>
-            <div className='item-desc'>
-              Maliyetin istediğiniz kadarına ortak olarak, elektrik faturasından
-              tasarruf etmek ile para kazanmak arasında bir tercih
-              yapabilirsiniz.
+            <div className="item" id="second">
+              <img className="item-icon" src={itemIcontwo} alt="itemIcon" />
+              <div className="item-title">Evin satış değerini artırıyoruz</div>
+              <div className="item-desc">
+                Elektrik faturası ödemeyen, hatta kendi kendine para kazandıran
+                bir ev satışına imkan sağlıyoruz.
+              </div>
             </div>
-           
-          </div>
-          <div className='item' id='second'>
-          <img className='item-icon' src={itemIcontwo} alt='itemIcon'/>
-          <div className='item-title'>
-             Evin satış değerini artırıyoruz
-          </div>
-            <div className='item-desc'>
-            Elektrik faturası ödemeyen, hatta kendi kendine para kazandıran
-              bir ev satışına imkan sağlıyoruz.
-            </div>
-          </div>
-          <div className='item' id='third'>
-            <img className='item-icon' src={itemIconthree} alt='itemIcon'/>
-            <div className='item-title'>
-                Panelleri devrediyoruz
-            </div>
-            <div className='item-desc'>
+            <div className="item" id="third">
+              <img className="item-icon" src={itemIconthree} alt="itemIcon" />
+              <div className="item-title">Panelleri devrediyoruz</div>
+              <div className="item-desc">
                 Sözleşme sonunda tüm sistemi ve gelirleri mülk sahibine
                 devrediyoruz.
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-   
-    <div className='guy'>
-      <div className='guy-item-wrapper'>
-        <img className='guy-mobile' src={guy} alt='guy'/>
-        <div className='item-wrapper-two'>
-          <div className='itemtwo' id='four'>
-             <img className='item-icon-two' src={iconfour} alt='iconfour'/>
-             <div className='item-title'>Hızlı amorti süresi</div>
-             <div className='item-desc'> Güneş doğmaya devam ettikçe 5-6 yıl içinde yatırımınızı geri
-              alabilirsiniz.</div>
-          </div>
-          <div className='itemtwo' id='five'>
-          <img className='item-icon-two' src={iconfive} alt='iconfive'/>
-          <div className='item-title'>Gerçek üretim temelli</div>
-          <div className='item-desc'> Yatırımınız gerçek üretimden beslendiği için spekülatif risklerden
-              uzak, sağlam bir temele oturtuyoruz.</div>
 
+      <div className="guy">
+        <div className="guy-item-wrapper">
+          <img className="guy-mobile" src={guy} alt="guy" />
+          <div className="item-wrapper-two">
+            <div className="itemtwo" id="four">
+              <img className="item-icon-two" src={iconfour} alt="iconfour" />
+              <div className="item-title">Hızlı amorti süresi</div>
+              <div className="item-desc">
+                {" "}
+                Güneş doğmaya devam ettikçe 5-6 yıl içinde yatırımınızı geri
+                alabilirsiniz.
+              </div>
+            </div>
+            <div className="itemtwo" id="five">
+              <img className="item-icon-two" src={iconfive} alt="iconfive" />
+              <div className="item-title">Gerçek üretim temelli</div>
+              <div className="item-desc">
+                {" "}
+                Yatırımınız gerçek üretimden beslendiği için spekülatif
+                risklerden uzak, sağlam bir temele oturtuyoruz.
+              </div>
+            </div>
+            <div className="itemtwo" id="six">
+              <img className="item-icon-two" src={iconsix} alt="iconsix" />
+              <div className="item-title">Minimal risk</div>
+              <div className="item-desc">
+                {" "}
+                Yatırımcıyı koruyan sözleşmemiz sayesinde ana paranızı geri
+                almanızı garanti ediyoruz!
+              </div>
+            </div>
+            <div className="itemtwo" id="seven">
+              <img className="item-icon-two" src={iconseven} alt="iconseven" />
+              <div className="item-title">
+                Yatırım anından itibaren şeffaflık
+              </div>
+              <div className="item-desc">
+                {" "}
+                GES projesinin akıbeti ve aylık geri ödemelerin raporlanması
+                gibi tüm süreçlerde para akışlarını şeffaflıkla paylaşıyoruz.
+              </div>
+            </div>
           </div>
-          <div className='itemtwo' id='six'>
-          <img className='item-icon-two' src={iconsix} alt='iconsix'/>
-          <div className='item-title'>Minimal risk</div>
-          <div className='item-desc'> Yatırımcıyı koruyan sözleşmemiz sayesinde ana paranızı geri
-              almanızı garanti ediyoruz!</div>
-
-          </div>
-          <div className='itemtwo' id='seven'>
-          <img className='item-icon-two' src={iconseven} alt='iconseven'/>
-          <div className='item-title'>Yatırım anından itibaren şeffaflık</div>
-          <div className='item-desc'>  GES projesinin akıbeti ve aylık geri ödemelerin raporlanması gibi
-              tüm süreçlerde para akışlarını şeffaflıkla paylaşıyoruz.</div>
-          </div>
+          <img className="guy-img" src={guy} alt="guy" />
         </div>
-        <img className='guy-img' src={guy} alt='guy'/>
       </div>
-    </div>
-    
-    <div className='shake'>
-      {/* <div className='empity'></div>
+
+      <div className="shake">
+        {/* <div className='empity'></div>
       <div className='empity'></div> */}
-      <div className='home-item-wrapper'>
-        <img className='homeOwner' src={shakehand} alt='homeOwner' />
-        <div className='item-wrapper'>
-          <div className='item' id='first'>
-            <img className='item-icon' src={itemIconeight} alt='itemIcon'/>
-            <div className='item-title'>
-            Gerçek üretim temelli
+        <div className="home-item-wrapper">
+          <img className="homeOwner" src={shakehand} alt="homeOwner" />
+          <div className="item-wrapper">
+            <div className="item" id="first">
+              <img className="item-icon" src={itemIconeight} alt="itemIcon" />
+              <div className="item-title">Gerçek üretim temelli</div>
+              <div className="item-desc">
+                Yatırımınız gerçek üretimden beslendiği için spekülatif
+                risklerden uzak, sağlam bir temele oturtuyoruz.
+              </div>
             </div>
-            <div className='item-desc'>
-            Yatırımınız gerçek üretimden beslendiği için spekülatif risklerden
-              uzak, sağlam bir temele oturtuyoruz.
+            <div className="item" id="second">
+              <img className="item-icon" src={itemIconnine} alt="itemIcon" />
+              <div className="item-title">Minimal risk</div>
+              <div className="item-desc">
+                Yatırımcıyı koruyan sözleşmemiz sayesinde ana paranızı geri
+                almanızı garanti ediyoruz!
+              </div>
             </div>
-           
-          </div>
-          <div className='item' id='second'>
-          <img className='item-icon' src={itemIconnine} alt='itemIcon'/>
-          <div className='item-title'>
-          Minimal risk
-          </div>
-            <div className='item-desc'>
-            Yatırımcıyı koruyan sözleşmemiz sayesinde ana paranızı geri
-              almanızı garanti ediyoruz!
-            </div>
-          </div>
-          <div className='item' id='third'>
-            <img className='item-icon' src={itemIconten} alt='itemIcon'/>
-            <div className='item-title'>
-            Yatırım anından itibaren şeffaflık
-            </div>
-            <div className='item-desc'>
-            GES projesinin akıbeti ve aylık geri ödemelerin raporlanması gibi
-              tüm süreçlerde para akışlarını şeffaflıkla paylaşıyoruz.
+            <div className="item" id="third">
+              <img className="item-icon" src={itemIconten} alt="itemIcon" />
+              <div className="item-title">
+                Yatırım anından itibaren şeffaflık
+              </div>
+              <div className="item-desc">
+                GES projesinin akıbeti ve aylık geri ödemelerin raporlanması
+                gibi tüm süreçlerde para akışlarını şeffaflıkla paylaşıyoruz.
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </>
+  );
+};
 
-    </div>
-  </>
-  )
-}
-
-export default Revenue
+export default Revenue;

@@ -20,10 +20,10 @@ const AskComponents = () => {
     setAnswer("five");
   };
   return (
-    <div className="margin">
-        <div className="ask-head">
-          <p>Sıkça Sorulan Sorular</p>
-        </div>
+    <div className="margin container mx-auto" id="questions">
+      <div className="ask-head">
+        <p>Sıkça Sorulan Sorular</p>
+      </div>
       <div className="askcomponent">
         <div className="ask">
           <div className="ask-all">
@@ -37,8 +37,8 @@ const AskComponents = () => {
                     </button>
                   </div>
 
-                 <div className="arrow-right-img" >
-                  <ArrowRight className="arrow-right-svg"></ArrowRight>
+                  <div className="arrow-right-img">
+                    <ArrowRight className="arrow-right-svg"></ArrowRight>
                   </div>
                 </div>
               </div>
@@ -55,8 +55,8 @@ const AskComponents = () => {
                     </button>
                   </div>
 
-                  <div className="arrow-right-img" >
-                  <ArrowRight className="arrow-right-svg"></ArrowRight>
+                  <div className="arrow-right-img">
+                    <ArrowRight className="arrow-right-svg"></ArrowRight>
                   </div>
                 </div>
               </div>
@@ -72,8 +72,8 @@ const AskComponents = () => {
                     </button>
                   </div>
 
-                                    <div className="arrow-right-img" >
-                  <ArrowRight className="arrow-right-svg"></ArrowRight>
+                  <div className="arrow-right-img">
+                    <ArrowRight className="arrow-right-svg"></ArrowRight>
                   </div>
                 </div>
               </div>
@@ -89,8 +89,8 @@ const AskComponents = () => {
                     </button>
                   </div>
 
-                                    <div className="arrow-right-img" >
-                  <ArrowRight className="arrow-right-svg"></ArrowRight>
+                  <div className="arrow-right-img">
+                    <ArrowRight className="arrow-right-svg"></ArrowRight>
                   </div>
                 </div>
               </div>
@@ -106,8 +106,8 @@ const AskComponents = () => {
                       </p>
                     </button>
                   </div>
-                                    <div className="arrow-right-img" >
-                  <ArrowRight className="arrow-right-svg"></ArrowRight>
+                  <div className="arrow-right-img">
+                    <ArrowRight className="arrow-right-svg"></ArrowRight>
                   </div>
                 </div>
               </div>

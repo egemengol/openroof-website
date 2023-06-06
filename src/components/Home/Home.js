@@ -5,6 +5,7 @@ import ko from "../../assets/Header/ok0.svg";
 import Metin from "./Metin";
 import Benefit from "./Benefit";
 import Revenue from "./Revenue";
+import AskComponents from "./AskComponents";
 
 const Home = () => {
   return (
@@ -21,8 +22,8 @@ const Home = () => {
 
       <Benefit />
       <Revenue />
-      {/* <WildLife />
-      <AskComponents /> */}
+      {/* <WildLife /> */}
+      <AskComponents />
     </>
   );
 };

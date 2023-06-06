@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "../../assets/Header/Frame 318.svg";
-import phonecell from "../../assets/Header/phone-call 1.svg";
 import "./Header.css";
-//test
+import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 import { PhoneButton } from "../Home/Ask/svg/phone";
 import DrawerNav from "./DrawerNav";
@@ -27,18 +26,18 @@ const Header = () => {
         </div>
         <div className="navbar">
           <ul className="ul-navbar">
-            <Link to="/">
+            <HashLink smooth to="#nasil">
               <li className="nav-link">Nasıl Çalışır?</li>
-            </Link>
-            <Link to="/">
+            </HashLink>
+            <HashLink smooth to="#Faydalar">
               <li className="nav-link">Faydalar</li>
-            </Link>
-            <Link to="/">
+            </HashLink>
+            <HashLink smooth to="#Faydalar">
               <li className="nav-link">Gelir Paylaşımı</li>
-            </Link>
-            <Link to="/">
+            </HashLink>
+            <HashLink smooth to="#questions">
               <li className="nav-link sss">S.S.S.</li>
-            </Link>
+            </HashLink>
           </ul>
         </div>
         {/* {/* <div className="nav-sm"> */}
