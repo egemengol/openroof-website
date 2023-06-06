@@ -9,7 +9,7 @@ import AskComponents from "./AskComponents";
 
 const Home = () => {
   return (
-    <>
+    <div className="app-wrapper">
       <div className="home-metin">
         <div className="curve">
           <img className="imagehome" src={home} alt="home" />
@@ -24,7 +24,7 @@ const Home = () => {
       <Revenue />
       {/* <WildLife /> */}
       <AskComponents />
-    </>
+    </div>
   );
 };
 

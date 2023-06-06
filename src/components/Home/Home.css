@@ -1,8 +1,7 @@
-
-.home-metin{
+.home-metin {
   width: 100%;
 }
-.curve{
+.curve {
   width: 100%;
   height: 841px;
   border-bottom-left-radius: 52% 66%;
@@ -12,30 +11,35 @@
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  background: linear-gradient(180deg, #E7DAC9 0%, #CE6D29 42.19%);
+  background: linear-gradient(180deg, #e7dac9 0%, #ce6d29 42.19%);
   box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 172px;
 }
-.imagehome{
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imagehome {
   position: absolute;
   bottom: 102px;
   right: 80px;
   width: 473.96px;
-height: 547.76px;
+  height: 547.76px;
 }
-.metin-componenet{
+.metin-componenet {
   position: absolute;
   left: 200px;
   top: 188px;
-
 }
-.arrimg{
+.arrimg {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 100px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
 }
 @keyframes bounce {
   0% {
@@ -52,189 +56,177 @@ height: 547.76px;
   animation: bounce 1s 7;
 }
 
-
-
 @media screen and (max-width: 1440px) {
-
-  .curve{
-    height: 710PX;
+  .curve {
+    height: 710px;
     margin-bottom: 108px;
   }
-  .imagehome{
+  .imagehome {
     width: 394.97px;
     height: 456.47px;
   }
-  .arrimg{
+  .arrimg {
     bottom: 85px;
   }
-  .metin-componenet{
-
+  .metin-componenet {
   }
 }
 
 @media screen and (max-width: 1277px) {
-
-  .imagehome{
+  .imagehome {
     width: 358.44px;
     height: 414.24px;
-    bottom:110px ;
+    bottom: 110px;
     right: 39px;
   }
-  .metin-componenet{
+  .metin-componenet {
     left: 90px;
     top: 130px;
   }
-  .curve{
-    height: 644PX;
+  .curve {
+    height: 644px;
     margin-bottom: 137px;
   }
-  .arrimg{
+  .arrimg {
     width: 55px;
     height: 55px;
   }
 }
 @media screen and (max-width: 1020px) {
-  .curve{
-    height: 540PX;
+  .curve {
+    height: 540px;
     margin-bottom: 120px;
   }
-  .imagehome{
+  .imagehome {
     width: 290px;
     height: 320px;
     bottom: 86px;
     right: 6px;
   }
-  .metin-componenet{
+  .metin-componenet {
     left: 70px;
     top: 130px;
   }
-  .arrimg{
+  .arrimg {
     width: 50px;
     height: 40px;
   }
-
 }
 @media screen and (max-width: 744px) {
- 
-  .curve{
-    height: 430PX;
+  .curve {
+    height: 430px;
     margin-bottom: 101px;
   }
-  .imagehome{
+  .imagehome {
     width: 236.56px;
     height: 273.4px;
     bottom: 78px;
     right: 11px;
   }
-  .metin-componenet{
+  .metin-componenet {
     left: 52px;
     top: 80px;
   }
-  .arrimg{
+  .arrimg {
     width: 48.6px;
     height: 28.6px;
   }
 }
 @media screen and (max-width: 650px) {
-  .curve{
-    height: 426PX;
+  .curve {
+    height: 426px;
     margin-bottom: 101px;
   }
-  .imagehome{
+  .imagehome {
     width: 210.56px;
     height: 250.4px;
     bottom: 78px;
     right: 11px;
   }
-  .metin-componenet{
+  .metin-componenet {
     left: 52px;
     top: 110px;
   }
-  .arrimg{
+  .arrimg {
     bottom: 20px;
   }
-  
 }
 @media screen and (max-width: 590px) {
-  .curve{
-    height: 340PX;
+  .curve {
+    height: 340px;
     margin-bottom: 101px;
   }
-  .imagehome{
+  .imagehome {
     width: 165px;
     height: 200px;
     bottom: 60px;
     right: 10px;
   }
-  .metin-componenet{
+  .metin-componenet {
     left: 45px;
     top: 90px;
   }
-  .arrimg{
+  .arrimg {
     bottom: 20px;
   }
 }
 @media screen and (max-width: 475px) {
-  .curve{
-    height: 320PX;
+  .curve {
+    height: 320px;
     margin-bottom: 101px;
   }
-  .imagehome{
+  .imagehome {
     width: 145px;
     height: 190px;
     bottom: 60px;
-    right:6px;
+    right: 6px;
   }
-  .metin-componenet{
+  .metin-componenet {
     left: 28px;
     top: 90px;
   }
-  .arrimg{
+  .arrimg {
     bottom: 20px;
   }
 }
 @media screen and (max-width: 390px) {
- 
-  .imagehome{
+  .imagehome {
     width: 145px;
     height: 167.58px;
     right: 10px;
     bottom: -30px;
   }
-  .metin-componenet{
+  .metin-componenet {
     left: 35px;
     top: 87.12px;
   }
-  .arrimg{
+  .arrimg {
     width: 48.6px;
     height: 24.3px;
     bottom: 31px;
   }
-  .curve{
+  .curve {
     height: 422.15px;
     border-bottom-left-radius: 146% 99%;
     border-bottom-right-radius: 85% 46%;
     margin-bottom: 90px;
   }
-
 }
 @media screen and (max-width: 320px) {
- 
-  .imagehome{
+  .imagehome {
     width: 136.86px;
     height: 158.16px;
-    
   }
-  .metin-componenet{
+  .metin-componenet {
     left: 21px;
     top: 87px;
   }
-  .arrimg{
+  .arrimg {
     width: 28px;
     height: 14px;
     bottom: 18px;
   }
-  .curve{
+  .curve {
     margin-bottom: 69px;
   }
 }

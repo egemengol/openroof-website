@@ -20,7 +20,7 @@ const AskComponents = () => {
     setAnswer("five");
   };
   return (
-    <div className="margin container mx-auto" id="questions">
+    <div className="margin" id="questions">
       <div className="ask-head">
         <p>Sıkça Sorulan Sorular</p>
       </div>

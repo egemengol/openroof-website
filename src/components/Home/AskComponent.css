@@ -1,20 +1,26 @@
 .margin {
-  margin: auto;
   width: 100%;
-  background-color: #ffffff;
-}
-.askcomponent {
+  max-width: 1728px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  padding: 0 144px;
+}
+
+.askcomponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 }
 .ask {
   display: flex;
   flex-direction: row;
   margin-top: 57.3px;
-  margin-bottom: 57.8px;
+  width: 100%;
+  margin-bottom: 133px;
 }
 .ask-head {
   color: #18191f;
@@ -26,14 +32,13 @@
   display: block;
   margin-left: 144px;
   padding-top: 133px;
-
 }
 .ask-all {
   z-index: 1;
-  width: 50%;
+  width: 100%;
   height: 100%;
+  max-width: 660px;
   padding-bottom: 25px;
-  margin-left: 144px;
 }
 .ask-body {
   margin-top: 38.47px;
@@ -96,15 +101,14 @@
   margin-left: 28px;
 }
 .answer {
-  width: 50%;
+  width: 771px;
   background: #fafbff;
   box-shadow: 0px 0px 4.8px 1.2px rgba(0, 0, 0, 0.15);
   border-radius: 19.2px;
   margin-left: -105.6px;
-  margin-right: 144px;
 }
 .answer-box {
-  margin: 48px 80px 15.7px 172.8px;
+  padding: 48px 80px 15.7px 172.8px;
 }
 .answer-box-head {
   font-family: "Inter";
@@ -125,6 +129,9 @@
 }
 
 @media screen and (max-width: 1440px) {
+  .margin {
+    padding: 0 120px;
+  }
   .ask {
     margin-top: 49.94px;
     margin-bottom: 49.94px;
@@ -133,11 +140,9 @@
     font-size: 48px;
     line-height: 64px;
     margin-left: 120px;
-    padding-top: 104px ;
+    padding-top: 104px;
   }
-  .ask-all {
-    margin-left: 120px;
-  }
+
   .ask-body {
     margin-top: 32.06px;
   }
@@ -156,16 +161,15 @@
   .arrow-right-img {
     margin-left: 24px;
   }
-  .arrow-right-svg{
+  .arrow-right-svg {
     width: 24px;
-
   }
   .answer {
     margin-left: -88px;
-    margin-right: 120px;
+    width: 100%;
   }
   .answer-box {
-    margin: 40px 70px 13.75px 144px;
+    padding: 40px 70px 13.75px 144px;
   }
   .answer-box-head {
     font-size: 18px;
@@ -179,7 +183,12 @@
 }
 
 @media screen and (max-width: 1277px) {
- 
+  .margin {
+    padding: 0 105px;
+  }
+  .ask-all {
+    /* width: 771px; */
+  }
   .ask {
     margin-top: 28.25px;
     margin-bottom: 25.5px;
@@ -189,9 +198,6 @@
     line-height: 57px;
     margin-left: 106.66px;
     padding-top: 80px;
-  }
-  .ask-all {
-    margin-left: 106.66px;
   }
   .ask-body {
     margin-top: 28.5px;
@@ -211,16 +217,14 @@
   .arrow-right-img {
     margin-left: 21.33px;
   }
-  .arrow-right-svg{
+  .arrow-right-svg {
     width: 21.33px;
-
   }
   .answer {
     margin-left: -78.25px;
-    margin-right: 106.66px;
   }
   .answer-box {
-    margin: 35.56px 60px 12px 128px;
+    padding: 35.56px 60px 12px 128px;
   }
   .answer-box-head {
     font-size: 16px;
@@ -234,19 +238,19 @@
 }
 
 @media screen and (max-width: 744px) {
+  .margin {
+    padding: 0 62px;
+  }
   .ask {
     margin-top: 16.56px;
     margin-bottom: 14.17;
-  }
-  .ask-all {
-    margin-left: 62px;
   }
   .ask-head {
     text-align: center;
     margin-left: 35px;
     font-size: 24.8px;
     line-height: 33px;
-    padding-top: 40px ;
+    padding-top: 40px;
   }
   .ask-body {
     margin-top: 16.56px;
@@ -266,16 +270,14 @@
   .arrow-right-img {
     margin-left: 2px;
   }
-  .arrow-right-svg{
+  .arrow-right-svg {
     width: 8px;
-
   }
   .answer {
     margin-left: -64.46px;
-    margin-right: 62px;
   }
   .answer-box {
-    margin: 20.67px 16.53px 7.04px 74.4px;
+    padding: 20.67px 16.53px 7.04px 74.4px;
   }
   .answer-box-head {
     font-size: 9.3px;
@@ -289,11 +291,12 @@
 }
 
 @media screen and (max-width: 390px) {
+  .margin {
+    padding: 0 55px;
+  }
   .askcomponent {
     padding: 24px 0;
     align-items: center;
-    margin-left: 54px;
-    margin-right: 54px;
   }
   .ask-head {
     margin-left: 0px;
@@ -318,7 +321,7 @@
     margin-top: 10px;
   }
   .answer-box {
-    margin: 20px 30px;
+    padding: 20px 30px;
   }
   .answer-box-head {
     font-size: 7.87879px;
@@ -341,9 +344,8 @@
   .arrow-right-img {
     margin-left: 10.51px;
   }
-  .arrow-right-svg{
+  .arrow-right-svg {
     width: 10.51px;
-
   }
   .ask-body {
     margin-top: 0px;
@@ -351,10 +353,11 @@
 }
 
 @media screen and (max-width: 320px) {
+  .margin {
+    padding: 0 44px;
+  }
   .askcomponent {
     padding: 24px 0;
-    margin-left: 44px;
-    margin-right: 44px;
   }
   .ask-head {
     font-size: 17.23px;
@@ -385,10 +388,9 @@
   .arrow-right-img {
     margin-left: 8.62px;
   }
-  .arrow-right-svg{
+  .arrow-right-svg {
     width: 8.62px;
     height: 8.62px;
-
   }
   .ask-body {
     margin-top: 0px;
