@@ -8,9 +8,18 @@
        align-items: center;
         width: 100%;
 }
-.empity{
-    height: 130px;
-    width: 100%;
+.head{
+    text-align: center;
+    width: 100%;   
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #CE6D29;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .home-item-wrapper{
   width: 100%;
@@ -150,6 +159,11 @@
     .revenue{
         padding: 60px 70px;
     }
+    .head{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        font-size: 50px;
+    }
     .item{
         height: 130px;
         width: 100%;
@@ -183,6 +197,11 @@
   @media screen and (max-width: 1020px) {
     .revenue{
         padding: 40px 50px;
+    }
+    .head{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 40px;
     }
     .item{
         height: 110px;
@@ -219,6 +238,11 @@
 
      padding: 40px 40px;
  }
+ .head{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
  .shake{
     padding: 40px 40px;
  }
@@ -227,6 +251,11 @@
  }
 }
 @media screen and (max-width: 580px) {
+    .head{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
    .guy{
     border-top: 2px solid black;
    }

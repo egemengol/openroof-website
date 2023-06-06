@@ -7,11 +7,12 @@ import { PhoneButton } from '../Home/Ask/svg/phone';
 
 const Footer = () => {
   return (
+    <div className='footer-copy-com'>
     <div className='footer'>
         <div className='footer-first'>
-            <div className='footer-logo-text'>
+            
                 <img className='footer-logo' src={logo} alt='logo'/>
-            </div>
+            
             <div className='footer-number'>
                 <p className='footer-address'>
                 Adres Mah. Adres Sk. 
@@ -30,17 +31,17 @@ const Footer = () => {
                 info@openroof.com.tr
                 </p>
             </div>
-            <div className='footer-copy'>
+            {/* <div className='footer-copy'>
                 <p>
                 ©2023 OpenRoof A.Ş. Tüm Hakları Saklıdır.
                 </p>
-            </div>
+            </div> */}
         </div>
         <div className='footer-mid'>
             <p className='mid-head'>
                 Site Haritası
             </p>
-            <div>
+            
 
                 <ul className="ul-link">
                 <Link to="/">
@@ -56,7 +57,7 @@ const Footer = () => {
                 <li className="li-link">S.S.S.</li>
                 </Link>
             </ul>
-            </div>
+           
         </div>
         <div className='footer-last'>
             <p className='last-head'>
@@ -92,6 +93,12 @@ const Footer = () => {
         </div>
         </div>
     </div>
+        
+                <p className='footer-copy'>
+                ©2023 OpenRoof A.Ş. Tüm Hakları Saklıdır.
+                </p>
+            
+     </div>
   )
 }
 
