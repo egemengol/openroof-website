@@ -10,9 +10,7 @@ import frame3 from "../../assets/Home/Frame 3.svg";
 const Benefit = () => {
   return (
     <div className="benefit" id="nasil">
-      <div>
-        <p className="tophead">Nasıl Çalışır?</p>
-      </div>
+      <p className="tophead">Nasıl Çalışır?</p>
       <div className="cartmain">
         <div className="cartbody">
           <div className="headcartframe">

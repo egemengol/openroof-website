@@ -1,6 +1,4 @@
 .metin-page {
-  /* width: 715px;
-  height: 455.6px; */
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -64,17 +62,11 @@
   background-color: #fff5e9;
 }
 
-.metin-img-button {
-  /* width: 33.36px;
-  height: 33.36px; */
-}
 .metin-button-text {
   padding: 0 11px;
 }
 
 .metin-button-text-info {
-  /* width: 171.24px;
-  padding: 0 11px; */
   font-size: 19.46px;
   font-weight: 700;
   line-height: 29.19px;
@@ -83,7 +75,6 @@
 
 @media screen and (max-width: 1440px) {
   .metin-page {
-    /* width: 626px; */
     gap: 17px;
   }
   .metin-head {
@@ -102,7 +93,6 @@
   .metin-button {
   }
   .metin-body-button {
-    /* width: 234.82px; */
     height: 50.54px;
     padding: 10px 23px;
   }
@@ -110,8 +100,6 @@
 
 @media screen and (max-width: 1277px) {
   .metin-page {
-    /* width: 537px;
-    height: 379.32px; */
     gap: 16px;
   }
   .metin-head {
@@ -129,7 +117,6 @@
   }
  
   .metin-body-button {
-    /* width: 196.19px; */
     height: 42.12px;
     padding: 8px 19px;
   }
@@ -151,15 +138,12 @@
   .metin-button {
   }
   .metin-body-button {
-    /* width: 165.19px; */
     height: 39.12px;
     padding: 7px 17px;
   }
 }
 @media screen and (max-width: 744px) {
   .metin-page {
-    /* width: 358px;
-    height: 278.4px; */
     gap: 12px;
   }
   .metin-head {
@@ -178,7 +162,6 @@
   .metin-button {
   }
   .metin-body-button {
-    /* width: 150.99px; */
     height: 32.4px;
     padding: 6px 15px;
   }
@@ -198,7 +181,6 @@
     height: 18.4px;
   }
   .metin-body-button {
-    /* width: 143.25px; */
     height: 30px;
     padding: 6px 13px;
   }
@@ -221,7 +203,6 @@
     height: 17px;
   }
   .metin-body-button {
-    /* width: 140px; */
     height: 30px;
     padding: 6px 13px;
   }
@@ -241,15 +222,12 @@
     height: 15px;
   }
   .metin-body-button {
-    /* width: 130px; */
     height: 25px;
     padding: 6px 13px;
   }
 }
 @media screen and (max-width: 390px) {
   .metin-page {
-    /* width: 269px;
-    height: 216px; */
     gap: 12px;
   }
   .metin-head {
@@ -266,7 +244,6 @@
     height: 18px;
   }
   .metin-body-button {
-    /* width: 140.25px; */
     height: 30px;
     padding: 6px 13px;
   }
