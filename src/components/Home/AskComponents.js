@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./AskComponent.css";
 import { ArrowRight } from "./Ask/svg/srrow";
-
+import { browserHistory } from "../../router";
 const AskComponents = () => {
   const [answer, setAnswer] = useState("one");
   const handleOne = () => {
@@ -21,10 +21,20 @@ const AskComponents = () => {
   };
   return (
     <div className="margin" id="questions">
-      <div className="ask-head" data-aos-once="true" data-aos="fade-down" data-aos-delay="300">
+      <div
+        className="ask-head"
+        data-aos-once="true"
+        data-aos="fade-down"
+        data-aos-delay="300"
+      >
         <p>Sıkça Sorulan Sorular</p>
       </div>
-      <div className="askcomponent" data-aos-once="true" data-aos="fade-down" data-aos-delay="300">
+      <div
+        className="askcomponent"
+        data-aos-once="true"
+        data-aos="fade-down"
+        data-aos-delay="300"
+      >
         <div className="ask">
           <div className="ask-all">
             <div className="ask-body">
@@ -153,6 +163,16 @@ const AskComponents = () => {
             ) : null}
           </div>
         </div>
+        <a href="/faq">
+          <button
+            onClick={() => {
+              browserHistory.push("/faq");
+            }}
+            className="learn-more-button"
+          >
+            Learn more!
+          </button>
+        </a>
       </div>
     </div>
   );

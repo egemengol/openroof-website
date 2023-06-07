@@ -8,7 +8,24 @@
   padding: 0 144px;
   padding-bottom: 100px !important  ;
 }
-
+.learn-more-button {
+  background-color: #ce6d29; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: -10px;
+  transition: all 0.2s;
+}
+.learn-more-button:hover {
+  background-color: #e36c18; /* Green */
+}
 .askcomponent {
   display: flex;
   flex-direction: column;
@@ -21,7 +38,7 @@
   flex-direction: row;
   margin-top: 57.3px;
   width: 100%;
-  margin-bottom: 133px;
+  margin-bottom: 50px;
 }
 .ask-head {
   color: #18191f;
@@ -31,7 +48,6 @@
   font-size: 57.6px;
   line-height: 77px;
   display: block;
-  margin-left: 144px;
   padding-top: 133px;
 }
 .ask-all {
@@ -135,7 +151,6 @@
   }
   .ask {
     margin-top: 49.94px;
-    margin-bottom: 49.94px;
   }
   .ask-head {
     font-size: 48px;
@@ -192,7 +207,6 @@
   }
   .ask {
     margin-top: 28.25px;
-    margin-bottom: 25.5px;
   }
   .ask-head {
     font-size: 42.66px;
@@ -244,7 +258,6 @@
   }
   .ask {
     margin-top: 16.56px;
-    margin-bottom: 14.17;
   }
   .ask-head {
     text-align: center;

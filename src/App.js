@@ -5,6 +5,8 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CustomRouter, { browserHistory } from "./router";
+import { FAQ } from "./components/FAQ";
 const App = () => {
   useEffect(() => {
     AOS.init();
@@ -12,9 +14,12 @@ const App = () => {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <CustomRouter history={browserHistory}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
+      </CustomRouter>
       <Footer />
     </>
   );
