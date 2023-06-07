@@ -12,8 +12,20 @@ const Home = () => {
     <div className="app-wrapper">
       <div className="home-metin">
         <div className="curve">
-          <img className="imagehome" src={home} alt="home" />
-          <div className="metin-componenet">
+          <img
+            className="imagehome"
+            src={home}
+            alt="home"
+            data-aos-once="true"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          />
+          <div
+            className="metin-componenet"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-once="true"
+          >
             <Metin />
           </div>
           <img className="arrimg" src={ko} alt="arrow" />

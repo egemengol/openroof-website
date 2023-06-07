@@ -21,10 +21,10 @@ const AskComponents = () => {
   };
   return (
     <div className="margin" id="questions">
-      <div className="ask-head">
+      <div className="ask-head" data-aos-once="true" data-aos="fade-down" data-aos-delay="300">
         <p>Sıkça Sorulan Sorular</p>
       </div>
-      <div className="askcomponent">
+      <div className="askcomponent" data-aos-once="true" data-aos="fade-down" data-aos-delay="300">
         <div className="ask">
           <div className="ask-all">
             <div className="ask-body">

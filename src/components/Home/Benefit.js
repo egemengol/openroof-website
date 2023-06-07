@@ -10,9 +10,11 @@ import frame3 from "../../assets/Home/Frame 3.svg";
 const Benefit = () => {
   return (
     <div className="benefit" id="nasil">
-      <p className="tophead">Nasıl Çalışır?</p>
+      <p className="tophead" data-aos-once="true" data-aos="fade-down" data-aos-delay="300">
+        Nasıl Çalışır?
+      </p>
       <div className="cartmain">
-        <div className="cartbody">
+        <div className="cartbody"data-aos-once="true" data-aos="fade-down" data-aos-delay="300">
           <div className="headcartframe">
             <img className="headcartframe-size" src={frame309} alt="frame309" />
           </div>
@@ -25,7 +27,7 @@ const Benefit = () => {
             </p>
           </div>
         </div>
-        <div className="cartbody">
+        <div className="cartbody"data-aos-once="true" data-aos="fade-down" data-aos-delay="300">
           <div className="headcartframe">
             <img className="headcartframe-size" src={frame2} alt="..." />
           </div>
@@ -38,7 +40,7 @@ const Benefit = () => {
             </p>
           </div>
         </div>
-        <div className="cartbody">
+        <div className="cartbody"data-aos-once="true" data-aos="fade-down" data-aos-delay="300">
           <div className="headcartframe">
             <img className="headcartframe-size" src={frame3} alt="..." />
           </div>
