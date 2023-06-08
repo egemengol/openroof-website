@@ -43,7 +43,7 @@ const Header = () => {
         {/* {/* <div className="nav-sm"> */}
         <div className="header-right-action-wrapper">
           <div className="header-button">
-            <a href="https://tally.so#tally-open=mKeeAg&tally-layout=modal&tally-overlay=1&tally-emoji-text=☀️&tally-emoji-animation=wave&tally-auto-close=2000">
+            <a href="https://tally.so#tally-open=mKeeAg&tally-layout=modal&tally-overlay=1&tally-width=500&tally-emoji-text=☀️&tally-emoji-animation=wave&tally-auto-close=2000">
               <button className="header-body-button">
                 <div className="header-img-button ">
                   <PhoneButton className="phone-img-button-header "></PhoneButton>

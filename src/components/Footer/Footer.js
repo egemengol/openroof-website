@@ -60,7 +60,7 @@ const Footer = () => {
             <p className="last-body-mid veya">veya</p>
           </div>
           <div className=" footer-button">
-            <a href="https://tally.so#tally-open=mKeeAg&tally-layout=modal&tally-overlay=1&tally-emoji-text=☀️&tally-emoji-animation=wave&tally-auto-close=2000">
+            <a href="https://tally.so#tally-open=mKeeAg&tally-layout=modal&tally-overlay=1&tally-width=500&tally-emoji-text=☀️&tally-emoji-animation=wave&tally-auto-close=2000">
               <button className="footer-body-button">
                 {/* <div className="footer-img-button">
                     <img src={phonecell} alt="phone-cell" />
