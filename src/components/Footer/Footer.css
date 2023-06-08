@@ -1,14 +1,19 @@
-.footer-copy-com{
-  
+.footer-copy-com {
   background: #ce6d29;
   padding: 100px 100px 90px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .footer {
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
-  background: #ce6d29; 
+  background: #ce6d29;
+  max-width: 1720px;
 }
 .footer-first {
   display: flex;
@@ -85,11 +90,10 @@
   font-weight: 300;
   font-size: 20px;
   line-height: 150%;
-  text-align:left;
+  text-align: left;
   letter-spacing: 0.06em;
   color: #ffffff;
   cursor: pointer;
-
 }
 .footer-last {
   display: flex;
@@ -158,11 +162,11 @@
   border: 2.78px solid #4a584e;
   background-color: #fff5e9;
 }
-.footer-button:hover{
-  .footer-body-button{
- background-color: #fbc98c;
- transition: all 200ms;
- /* border: 2.78px solid transparent; */
+.footer-button:hover {
+  .footer-body-button {
+    background-color: #fbc98c;
+    transition: all 200ms;
+    /* border: 2.78px solid transparent; */
   }
   /* .footer-button-text-info{
     color: #ffffff;
@@ -176,7 +180,6 @@
   fill: #252422;
   width: 33.36px;
   height: 33.36px;
-
 }
 
 .footer-button-text-info {
@@ -186,12 +189,11 @@
   color: #252422;
 }
 
-
 @media screen and (max-width: 1440px) {
-  .footer-copy-com{
+  .footer-copy-com {
     padding: 60px 80px 60px 80px;
   }
-  .phone-img-button-footer{
+  .phone-img-button-footer {
     width: 30.33px;
     height: 30.33px;
   }
@@ -200,91 +202,90 @@
   }
 }
 @media screen and (max-width: 1277px) {
-  .footer-copy-com{
+  .footer-copy-com {
     padding: 50px 60px 50px 60px;
   }
-  .footer-logo{
+  .footer-logo {
     width: 206.78px;
     height: 48.8px;
   }
   .footer-copy {
     font-size: 12px;
   }
-  .footer-address{
+  .footer-address {
     font-size: 16px;
   }
-  .footer-mail{
+  .footer-mail {
     font-size: 16px;
   }
-  .footer-phone{
+  .footer-phone {
     font-size: 16px;
   }
-  .mid-head{
-    font-size:20px ;
+  .mid-head {
+    font-size: 20px;
   }
-  .ul-link{
+  .ul-link {
     font-size: 16px;
   }
-  .last-body-first{
+  .last-body-first {
     font-size: 16px;
   }
-  .last-body-mid{
+  .last-body-mid {
     font-size: 14px;
   }
   .veya {
     margin-top: 32px;
   }
-  .footer-body-button{
+  .footer-body-button {
     padding: 9px 20px;
   }
-  .phone-img-button-footer{
+  .phone-img-button-footer {
     width: 25.27px;
     height: 25.27px;
   }
   .footer-button-text-info {
     font-size: 14.74px;
   }
-
 }
 @media screen and (max-width: 744px) {
-  .footer-copy-com{
+  .footer-copy-com {
     padding: 30px 30px 30px 30px;
   }
   .footer-copy {
     font-size: 10px;
   }
-  .footer-address{
+  .footer-address {
     font-size: 14px;
   }
-  .footer-mail{
+  .footer-mail {
     font-size: 14x;
   }
-  .footer-phone{
+  .footer-phone {
     font-size: 14px;
   }
-  .mid-head{
-    font-size:16px ;
+  .mid-head {
+    font-size: 16px;
   }
-  .ul-link{
+  .ul-link {
     font-size: 14px;
   }
-  .last-head{
+  .last-head {
     font-size: 14px;
   }
-  .last-body-first{
+  .last-body-first {
     font-size: 14px;
   }
-  .last-body-mid{
+  .last-body-mid {
     font-size: 12px;
   }
   .veya {
     margin-top: 20px;
   }
-  .footer-logo{
+  .footer-logo {
     width: 100.78px;
     height: 35.8px;
   }
-  .phone-img-button-footer{
+  .phone-img-button-footer {
     width: 19.44px;
     height: 19.44px;
   }
@@ -293,96 +294,95 @@
   }
 }
 @media screen and (max-width: 545px) {
-  .footer-copy-com{
+  .footer-copy-com {
     padding: 30px 15px 30px 15px;
   }
-  .footer-copy{
-  font-size: 10px;
-}
-.footer-address{
-  font-size: 12px;
-}
-.footer-mail{
-  font-size: 12px;
-}
-.footer-phone{
-  font-size: 12px;
-}
-.mid-head{
-  font-size:12px ;
-}
-.ul-link{
-  font-size: 12px;
-}
-.last-head{
-  font-size: 12px;
-}
-.last-body-first{
-  font-size: 12px;
-}
-.last-body-mid{
-  font-size: 10px;
-}
-.veya {
-  margin-top: 20px;
-}
-.footer-logo{
-  width: 100.78px;
-  height: 35.8px;
-}
-.footer-body-button{
-  padding: 7px 10px;
-}
-.phone-img-button-footer{
-  width: 18px;
-  height: 18px;
-}
-.footer-button-text-info {
-  font-size: 10px;
-  padding: 0;
-}
+  .footer-copy {
+    font-size: 10px;
+  }
+  .footer-address {
+    font-size: 12px;
+  }
+  .footer-mail {
+    font-size: 12px;
+  }
+  .footer-phone {
+    font-size: 12px;
+  }
+  .mid-head {
+    font-size: 12px;
+  }
+  .ul-link {
+    font-size: 12px;
+  }
+  .last-head {
+    font-size: 12px;
+  }
+  .last-body-first {
+    font-size: 12px;
+  }
+  .last-body-mid {
+    font-size: 10px;
+  }
+  .veya {
+    margin-top: 20px;
+  }
+  .footer-logo {
+    width: 100.78px;
+    height: 35.8px;
+  }
+  .footer-body-button {
+    padding: 7px 10px;
+  }
+  .phone-img-button-footer {
+    width: 18px;
+    height: 18px;
+  }
+  .footer-button-text-info {
+    font-size: 10px;
+    padding: 0;
+  }
 }
 @media screen and (max-width: 390px) {
-  .footer-copy-com{
-
+  .footer-copy-com {
     padding: 24px 22px;
   }
-  .footer{
+  .footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .footer-first{
+  .footer-first {
     align-items: center;
     text-align: center;
   }
-  .ul-link{
+  .ul-link {
     text-align: center;
   }
-  .footer-logo{
+  .footer-logo {
     width: 206.78px;
     height: 48.8px;
   }
-  .footer-last{
+  .footer-last {
     align-items: center;
   }
-  .last-body-mid{
+  .last-body-mid {
     text-align: center;
   }
-  .veya{
+  .veya {
     text-align: center;
   }
-  .footer-body-button{
+  .footer-body-button {
     padding: 9px 20px;
   }
-  .phone-img-button-footer{
+  .phone-img-button-footer {
     width: 18px;
     height: 18px;
   }
   .footer-button-text-info {
     font-size: 10.5px;
   }
-  .footer-copy{
+  .footer-copy {
     margin-top: 20px;
     text-align: center;
   }

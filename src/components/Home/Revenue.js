@@ -18,11 +18,26 @@ const Revenue = () => {
   return (
     <>
       <div className="revenue" id="Faydalar">
-        <div className="head">Neden OpenRoof?</div>
+        <div className="head" data-aos="fade-down" data-aos-delay="300">
+          Neden OpenRoof?
+        </div>
         <div className="home-item-wrapper">
-          <img className="homeOwner" src={homeOwner} alt="homeOwner" />
+          <img
+            className="homeOwner"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-once="true"
+            src={homeOwner}
+            alt="homeOwner"
+          />
           <div className="item-wrapper">
-            <div className="item" id="first">
+            <div
+              className="item"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-once="true"
+              id="first"
+            >
               <img className="item-icon" src={itemIcon} alt="itemIcon" />
               <div className="item-title">
                 Panel kurulum maliyetini üstleniyoruz
@@ -33,7 +48,13 @@ const Revenue = () => {
                 tercih yapabilirsiniz.
               </div>
             </div>
-            <div className="item" id="second">
+            <div
+              className="item"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-once="true"
+              id="second"
+            >
               <img className="item-icon" src={itemIcontwo} alt="itemIcon" />
               <div className="item-title">Evin satış değerini artırıyoruz</div>
               <div className="item-desc">
@@ -41,7 +62,13 @@ const Revenue = () => {
                 bir ev satışına imkan sağlıyoruz.
               </div>
             </div>
-            <div className="item" id="third">
+            <div
+              className="item"
+              data-aos="fade-down"
+              data-aos-once="true"
+              data-aos-delay="300"
+              id="third"
+            >
               <img className="item-icon" src={itemIconthree} alt="itemIcon" />
               <div className="item-title">Panelleri devrediyoruz</div>
               <div className="item-desc">
@@ -55,9 +82,22 @@ const Revenue = () => {
 
       <div className="guy">
         <div className="guy-item-wrapper">
-          <img className="guy-mobile" src={guy} alt="guy" />
+          <img
+            className="guy-mobile"
+            data-aos-once="true"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            src={guy}
+            alt="guy"
+          />
           <div className="item-wrapper-two">
-            <div className="itemtwo" id="four">
+            <div
+              className="itemtwo"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-once="true"
+              id="four"
+            >
               <img className="item-icon-two" src={iconfour} alt="iconfour" />
               <div className="item-title">Hızlı amorti süresi</div>
               <div className="item-desc">
@@ -66,7 +106,13 @@ const Revenue = () => {
                 alabilirsiniz.
               </div>
             </div>
-            <div className="itemtwo" id="five">
+            <div
+              className="itemtwo"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-once="true"
+              id="five"
+            >
               <img className="item-icon-two" src={iconfive} alt="iconfive" />
               <div className="item-title">Gerçek üretim temelli</div>
               <div className="item-desc">
@@ -75,7 +121,13 @@ const Revenue = () => {
                 risklerden uzak, sağlam bir temele oturtuyoruz.
               </div>
             </div>
-            <div className="itemtwo" id="six">
+            <div
+              className="itemtwo"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-once="true"
+              id="six"
+            >
               <img className="item-icon-two" src={iconsix} alt="iconsix" />
               <div className="item-title">Minimal risk</div>
               <div className="item-desc">
@@ -84,7 +136,13 @@ const Revenue = () => {
                 almanızı garanti ediyoruz!
               </div>
             </div>
-            <div className="itemtwo" id="seven">
+            <div
+              className="itemtwo"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-once="true"
+              id="seven"
+            >
               <img className="item-icon-two" src={iconseven} alt="iconseven" />
               <div className="item-title">
                 Yatırım anından itibaren şeffaflık
@@ -104,7 +162,13 @@ const Revenue = () => {
         <div className="home-item-wrapper">
           <img className="homeOwner" src={shakehand} alt="homeOwner" />
           <div className="item-wrapper">
-            <div className="item" id="first">
+            <div
+              className="item"
+              data-aos="fade-down"
+              data-aos-once="true"
+              data-aos-delay="300"
+              id="first"
+            >
               <img className="item-icon" src={itemIconeight} alt="itemIcon" />
               <div className="item-title">Gerçek üretim temelli</div>
               <div className="item-desc">
@@ -112,7 +176,13 @@ const Revenue = () => {
                 risklerden uzak, sağlam bir temele oturtuyoruz.
               </div>
             </div>
-            <div className="item" id="second">
+            <div
+              className="item"
+              data-aos="fade-down"
+              data-aos-once="true"
+              data-aos-delay="300"
+              id="second"
+            >
               <img className="item-icon" src={itemIconnine} alt="itemIcon" />
               <div className="item-title">Minimal risk</div>
               <div className="item-desc">
@@ -120,7 +190,13 @@ const Revenue = () => {
                 almanızı garanti ediyoruz!
               </div>
             </div>
-            <div className="item" id="third">
+            <div
+              className="item"
+              data-aos-once="true"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              id="third"
+            >
               <img className="item-icon" src={itemIconten} alt="itemIcon" />
               <div className="item-title">
                 Yatırım anından itibaren şeffaflık
