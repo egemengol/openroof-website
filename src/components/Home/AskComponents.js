@@ -163,14 +163,14 @@ const AskComponents = () => {
             ) : null}
           </div>
         </div>
-        <a href="/faq">
+        <a href="/sss">
           <button
             onClick={() => {
-              browserHistory.push("/faq");
+              browserHistory.push("/sss");
             }}
             className="learn-more-button"
           >
-            Learn more!
+            Daha Fazla S.S.S
           </button>
         </a>
       </div>

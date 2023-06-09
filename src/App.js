@@ -17,7 +17,7 @@ const App = () => {
       <CustomRouter history={browserHistory}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/faq" element={<FAQ />} />
+          <Route path="/sss" element={<FAQ />} />
         </Routes>
       </CustomRouter>
       <Footer />
