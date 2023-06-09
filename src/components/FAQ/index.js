@@ -3,51 +3,49 @@ import { AccordionsWrapper, Desc, Input, Title, Wrapper } from "./styles";
 import { InputAdornment } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import { Accordions } from "./components/accordions";
+import  mulk_sahibi  from "../../assets/FAQs/mulk_sahibi.json";
+import  yatirimci  from "../../assets/FAQs/yatirimci.json";
+import Minisearch from "minisearch";
+
 export const FAQ = () => {
-  const items = [
-    {
-      title: "How do I get started?",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam id tincidunt dapibus, nibh nibh ultricies nunc, quis ultricies nunc elit nec lorem.",
-    },
-    {
-      title: "Why should I use Open Roof?",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam id tincidunt dapibus, nibh nibh ultricies nunc, quis ultricies nunc elit nec lorem.",
-    },
-    {
-      title: "How to restore your chat history?",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam id tincidunt dapibus, nibh nibh ultricies nunc, quis ultricies nunc elit nec lorem.",
-    },
-    {
-      title: "Verifying your number",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam id tincidunt dapibus, nibh nibh ultricies nunc, quis ultricies nunc elit nec lorem.",
-    },
-    {
-      title: "How to manage your notifications?",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam id tincidunt dapibus, nibh nibh ultricies nunc, quis ultricies nunc elit nec lorem.",
-    },
-    {
-      title: "How to change privacy settings?",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam id tincidunt dapibus, nibh nibh ultricies nunc, quis ultricies nunc elit nec lorem.",
-    },
-  ];
-  const [filteredList, setFilteredList] = new useState(items);
-  const filterBySearch = (event) => {
-    const query = event.target.value;
-    let updatedList = [...items];
-    updatedList = updatedList.filter(
-      (item) => item.title.toLowerCase().indexOf(query.toLowerCase()) !== -1
-    );
-    setFilteredList(updatedList);
-  };
+  const minisearch = new Minisearch({
+    fields: ['question', "answer"],
+    storeFields: ['question', 'answer', 'category', 'id'],
+    searchOptions: {
+      boost: { question: 2, answer: 1 },
+      fuzzy: 0.2,
+      prefix: true,
+    }
+  })
+
+  let qa = mulk_sahibi.map((item, i) => ({...item, category: 'mulk', id: i}))
+  const offset = qa.length
+  qa.push(...yatirimci.map((item, i) => ({...item, category: 'yatirim', id: i + offset})))
+
+  minisearch.addAll(qa)
+
+  const [results, setResults] = useState(qa)
+
+  const search = (event) => {
+    const query = event.target.value.trim();
+    if (query === '') {
+      setResults(qa)
+    } else {
+      const res = minisearch.search(query)
+      console.log(res)
+      setResults(res)
+    }
+  }
+
   return (
     <Wrapper>
-      <Title>How can we help you?</Title>
-      <Desc>
+      <Title>Aklınızda soru kalmasın</Title>
+      {/* <Desc>
         Here are a few of the questions we get the most. If you don't see what's
         on your mind, reach out to us anytime on phone, chat, or email.
-      </Desc>
+      </Desc> */}
       <Input
-        onChange={filterBySearch}
+        onChange={search}
         InputProps={{
           startAdornment: (
             <InputAdornment position="start">
@@ -55,11 +53,11 @@ export const FAQ = () => {
             </InputAdornment>
           ),
         }}
-        placeholder="Search your question"
+        // placeholder="Sorunuz"
       ></Input>
       <AccordionsWrapper>
-        <Accordions items={filteredList} title="Asked By Users" />
-        <Accordions items={filteredList} title="Asked By Home owners" />
+        <Accordions items={results.filter(result => result.category === "mulk")} title="Mülk Sahibi" />
+        <Accordions items={results.filter(result => result.category === "yatirim")} title="Yatırımcı" />
       </AccordionsWrapper>
     </Wrapper>
   );
