@@ -3,36 +3,51 @@ import React from "react";
 import "./DrawerNav.css";
 import hamburgerIcon from "../../assets/Header/Hamburger.svg";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 
 const DrawerNav = () => {
   const [state, setState] = React.useState(false);
   return (
     <>
       <Button onClick={() => setState(true)}>
-        <img className="hamburgericon" src={hamburgerIcon} alt="hamburgerIcon"></img>
+        <img
+          className="hamburgericon"
+          src={hamburgerIcon}
+          alt="hamburgerIcon"
+        ></img>
       </Button>
-      <Drawer anchor="right" open={state} onClose={() => setState(false)}
-      PaperProps={{
-        sx: {
-          backgroundColor: "#ce6d29",
-          color: "white",
-        }
-      }}
-  >
-        <div className="navbar-sm">
+      <Drawer
+        anchor="right"
+        open={state}
+        onClose={() => setState(false)}
+        PaperProps={{
+          sx: {
+            backgroundColor: "#ce6d29",
+            color: "white",
+          },
+        }}
+      >
+        <div className="navbar-sm" onClick={() => setState(false)}>
           <ul className="ul-navbar-sm">
-            <Link to="/">
+            <HashLink smooth to="/#nasil">
               <li className="nav-link-sm">Nasıl Çalışır?</li>
-            </Link>
-            <Link to="/">
+            </HashLink>
+            <HashLink smooth to="/#Faydalar">
               <li className="nav-link-sm">Faydalar</li>
-            </Link>
-            <Link to="/">
+            </HashLink>
+            <HashLink to="/">
               <li className="nav-link-sm">Gelir Paylaşımı</li>
-            </Link>
-            <Link to="/">
-              <li className="nav-link-sm">S.S.S.</li>
-            </Link>
+            </HashLink>
+            <HashLink smooth to="/sss">
+              <li
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                className="nav-link-sm"
+              >
+                S.S.S.
+              </li>
+            </HashLink>
           </ul>
         </div>
       </Drawer>

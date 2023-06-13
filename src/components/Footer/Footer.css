@@ -6,14 +6,21 @@
   justify-content: center;
   align-items: center;
 }
-.footer {
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: start;
+  max-width: 1720px;
+}
+.footer-content {
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
   background: #ce6d29;
-  max-width: 1720px;
 }
 .footer-first {
   display: flex;
@@ -76,7 +83,7 @@
   font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 150%;
   text-align: left;
   letter-spacing: 0.1em;
@@ -88,27 +95,29 @@
   font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 150%;
+  color: #ffffff;
   text-align: left;
   letter-spacing: 0.06em;
-  color: #ffffff;
   cursor: pointer;
 }
 .footer-last {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 .last-head {
   font-family: "Proxima Nova";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 150%;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0.06em;
-  text-decoration-line: underline;
-  color: #fff5e9;
+
+  color: #ffffff;
   padding-top: 1.4rem;
 }
 .last-body {
@@ -121,7 +130,7 @@
   font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 150%;
   text-align: left;
   letter-spacing: 0.06em;
@@ -137,11 +146,12 @@
   font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 150%;
   text-align: left;
   letter-spacing: 0.06em;
   color: #fff5e9;
+  align-self: center;
 }
 .veya {
   margin-top: 32px;
@@ -227,9 +237,7 @@
   .footer-phone {
     font-size: 16px;
   }
-  .mid-head {
-    font-size: 20px;
-  }
+
   .ul-link {
     font-size: 16px;
   }
@@ -269,15 +277,10 @@
   .footer-phone {
     font-size: 14px;
   }
-  .mid-head {
-    font-size: 16px;
-  }
   .ul-link {
     font-size: 14px;
   }
-  .last-head {
-    font-size: 14px;
-  }
+
   .last-body-first {
     font-size: 14px;
   }
@@ -303,6 +306,10 @@
   .footer-copy-com {
     padding: 30px 15px 30px 15px;
   }
+
+  .last-body {
+    margin-top: 30px;
+  }
   .footer-copy {
     font-size: 10px;
   }
@@ -315,15 +322,10 @@
   .footer-phone {
     font-size: 12px;
   }
-  .mid-head {
-    font-size: 12px;
-  }
   .ul-link {
     font-size: 12px;
   }
-  .last-head {
-    font-size: 12px;
-  }
+
   .last-body-first {
     font-size: 12px;
   }
@@ -353,7 +355,16 @@
   .footer-copy-com {
     padding: 24px 22px;
   }
-  .footer {
+  .footer-wrapper {
+    align-items: center;
+  }
+  .footer-number {
+    margin-bottom: 0px;
+  }
+  .footer-mid {
+    display: none;
+  }
+  .footer-content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -369,9 +380,7 @@
     width: 206.78px;
     height: 48.8px;
   }
-  .footer-last {
-    align-items: center;
-  }
+
   .last-body-mid {
     text-align: center;
   }

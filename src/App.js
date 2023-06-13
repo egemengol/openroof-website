@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import CustomRouter, { browserHistory } from "./router";
 import { FAQ } from "./components/FAQ";
+import { NotFound } from "./components/NotFound";
 const App = () => {
   useEffect(() => {
     AOS.init();
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sss" element={<FAQ />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </CustomRouter>
       <Footer />

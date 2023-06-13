@@ -79,10 +79,10 @@
 }
 .question:hover {
   .elipse {
-    background-color: #5d5fef;
+    background-color: #ff8000;
   }
   .arrow-right-svg path {
-    stroke: #5d5fef;
+    stroke: #ff8000;
   }
 }
 .question-init {
@@ -104,12 +104,12 @@
   min-width: 28.8px;
   min-height: 28.8px;
   border-radius: 100%;
-  background-color: #a5a6f6;
+  background-color: #edb37a;
   margin-right: 19.2px;
   transition: all 0.2s;
 }
 .arrow-right-svg path {
-  stroke: #a5a6f6;
+  stroke: #edb37a;
   transition: all 0.2s;
   width: 29px;
 }

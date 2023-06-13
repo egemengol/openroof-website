@@ -26,17 +26,24 @@ const Header = () => {
         </div>
         <div className="navbar">
           <ul className="ul-navbar">
-            <HashLink smooth to="#nasil">
+            <HashLink smooth to="/#nasil">
               <li className="nav-link">Nasıl Çalışır?</li>
             </HashLink>
-            <HashLink smooth to="#Faydalar">
+            <HashLink smooth to="/#Faydalar">
               <li className="nav-link">Faydalar</li>
             </HashLink>
-            <HashLink smooth to="#Faydalar">
+            <HashLink smooth to="/#Faydalar">
               <li className="nav-link">Gelir Paylaşımı</li>
             </HashLink>
             <Link to="/sss">
-              <li className="nav-link sss">S.S.S.</li>
+              <li
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                className="nav-link sss"
+              >
+                S.S.S.
+              </li>
             </Link>
           </ul>
         </div>
