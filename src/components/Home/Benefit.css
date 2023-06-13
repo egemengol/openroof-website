@@ -1,6 +1,7 @@
 .benefit {
   width: 100%;
   margin-bottom: 107px;
+  padding-top: 150px;
 }
 .tophead {
   text-align: center;
@@ -35,7 +36,7 @@
   justify-content: center;
   align-items: center;
 }
-.headcartframe-size{
+.headcartframe-size {
   width: 68.65px;
   height: 68.65px;
 }
@@ -78,6 +79,7 @@
 @media screen and (max-width: 1440px) {
   .benefit {
     margin-bottom: 97.33px;
+    padding-top: 108px;
   }
   .tophead {
     margin-bottom: 101px;
@@ -94,7 +96,7 @@
     height: 62.4px;
     margin: -31.2px 0;
   }
-  .headcartframe-size{
+  .headcartframe-size {
     width: 62.4px;
     height: 62.4px;
   }
@@ -115,8 +117,9 @@
 }
 
 @media screen and (max-width: 1277px) {
-  .benefit{
+  .benefit {
     margin-bottom: 96.79px;
+    padding-top: 137px;
   }
   .tophead {
     margin-bottom: 89px;
@@ -125,7 +128,7 @@
     gap: 25px;
     padding: 0px 80px;
   }
-  .cartbody{
+  .cartbody {
     width: 357.71px;
     height: 454.16px;
   }
@@ -133,7 +136,7 @@
     height: 58.28px;
     margin: -29.14px 0;
   }
-  .headcartframe-size{
+  .headcartframe-size {
     width: 58.28px;
     height: 58.28px;
   }
@@ -144,20 +147,23 @@
   .cartdetailhead {
     font-size: 36.42px;
   }
-  .cartdetailimg{
+  .cartdetailimg {
     width: 301.82px;
     height: 240.61px;
   }
-  .cartdetailfooter{
+  .cartdetailfooter {
     font-size: 21.8537px;
   }
 }
 @media screen and (max-width: 1020px) {
+  .benefit {
+    padding-top: 120px;
+  }
   .cartmain {
     gap: 20px;
     padding: 0px 20px;
   }
-  .cartbody{
+  .cartbody {
     width: 300px;
     height: 400px;
   }
@@ -165,7 +171,7 @@
     height: 58.28px;
     margin: -29.14px 0;
   }
-  .headcartframe-size{
+  .headcartframe-size {
     width: 50px;
     height: 50px;
   }
@@ -176,11 +182,11 @@
   .cartdetailhead {
     font-size: 30px;
   }
-  .cartdetailimg{
+  .cartdetailimg {
     width: 260px;
-    height: 190px; 
+    height: 190px;
   }
-  .cartdetailfooter{
+  .cartdetailfooter {
     font-size: 18px;
   }
 }
@@ -188,8 +194,9 @@
   .benefit {
     width: 100%;
     margin-bottom: 82px;
+    padding-top: 101px;
   }
-  .tophead{
+  .tophead {
     font-size: 40px;
     margin-bottom: 58px;
   }
@@ -198,55 +205,54 @@
     flex-direction: column;
     gap: 40px;
   }
-  .cartbody{
+  .cartbody {
     width: 360px;
     height: 391.57px;
-    
   }
-  .headcartframe{
+  .headcartframe {
     height: 51.06px;
     margin: -25.53px 0;
   }
-  .headcartframe-size{
+  .headcartframe-size {
     width: 51.06px;
     height: 51.06px;
   }
-  .cartdetail{
+  .cartdetail {
     gap: 1px;
     padding: 29px 13px;
   }
-  .cartdetailhead{
+  .cartdetailhead {
     font-size: 31.9149px;
   }
-  .cartdetailimg{
+  .cartdetailimg {
     width: 264.46px;
     height: 210.83px;
   }
-  .cartdetailfooter{
+  .cartdetailfooter {
     font-size: 19.149px;
   }
 }
 
 @media screen and (max-width: 390px) {
   .benefit {
-   
     margin-bottom: 56.84px;
+    padding-top: 101px;
   }
-  .cartmain{
+  .cartmain {
     padding: 0px 45px;
   }
-  .cartbody{
+  .cartbody {
     width: 300px;
   }
-  .tophead{
+  .tophead {
     font-size: 32px;
     margin-bottom: 50px;
   }
-  .headcartframe{
+  .headcartframe {
     height: 51.06px;
     margin: -25.53px 0;
   }
-  .headcartframe-size{
+  .headcartframe-size {
     width: 49.1px;
     height: 49.1px;
   }
@@ -255,35 +261,35 @@
   .benefit {
     margin-bottom: 51.87px;
   }
-  .tophead{
+  .tophead {
     margin-bottom: 31px;
   }
-  .cartmain{
+  .cartmain {
     padding: 0px 40px;
   }
-  .cartbody{
+  .cartbody {
     width: 200.43px;
     height: 313.26px;
   }
-  .headcartframe{
+  .headcartframe {
     height: 40.85px;
     margin: -20.42px 0;
   }
-  .headcartframe-size{
+  .headcartframe-size {
     width: 39.28px;
     height: 39.28px;
   }
-  .cartdetail{
+  .cartdetail {
     padding: 22px 10px;
   }
-  .cartdetailhead{
+  .cartdetailhead {
     font-size: 25.5319px;
   }
-  .cartdetailimg{
+  .cartdetailimg {
     width: 211.57px;
     height: 168.66px;
   }
-  .cartdetailfooter{
+  .cartdetailfooter {
     font-size: 15.3192px;
   }
 }

@@ -164,17 +164,19 @@
 }
 .footer-button:hover {
   .footer-body-button {
-    background-color: #fbc98c;
+    background-color: darkgreen;
     transition: all 200ms;
     /* border: 2.78px solid transparent; */
   }
-  /* .footer-button-text-info{
-    color: #ffffff;
-
+  .footer-button-text-info {
+    color: beige;
   }
   .phone-img-button-footer {
-    fill: #ffffff;
-  } */
+    fill: beige;
+  }
+  .footer-body-button {
+    border-color: beige;
+  }
 }
 .phone-img-button-footer {
   fill: #252422;
@@ -184,8 +186,12 @@
 
 .footer-button-text-info {
   padding: 0 11px;
-  font-size: 19.46px;
+  font-family: "Nunito";
+  font-style: normal;
   font-weight: 700;
+  font-size: 19.4595px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
   color: #252422;
 }
 

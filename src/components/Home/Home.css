@@ -1,5 +1,9 @@
 .home-metin {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .curve {
   width: 100%;
@@ -13,7 +17,6 @@
   justify-content: start;
   background: linear-gradient(180deg, #e7dac9 0%, #ce6d29 42.19%);
   box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 172px;
 }
 .app-wrapper {
   display: flex;
@@ -55,11 +58,37 @@
 .arrimg {
   animation: bounce 1s 7;
 }
+.curve-desktop {
+  display: none;
+}
 
+@media screen and (min-width: 1728px) {
+  .curve-desktop {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1728px;
+    width: 100%;
+    box-shadow: 12px 12px 4px rgba(0, 0, 0, 0.25);
+  }
+  #house-img {
+    display: none;
+  }
+  #metin {
+    display: none;
+  }
+  #arrow-img {
+    display: none;
+  }
+  #metin-desktop {
+    top: -653px;
+  }
+}
 @media screen and (max-width: 1440px) {
   .curve {
     height: 710px;
-    margin-bottom: 108px;
   }
   .imagehome {
     width: 394.97px;
@@ -85,7 +114,6 @@
   }
   .curve {
     height: 644px;
-    margin-bottom: 137px;
   }
   .arrimg {
     width: 55px;
@@ -95,7 +123,6 @@
 @media screen and (max-width: 1020px) {
   .curve {
     height: 540px;
-    margin-bottom: 120px;
   }
   .imagehome {
     width: 290px;
@@ -115,7 +142,6 @@
 @media screen and (max-width: 744px) {
   .curve {
     height: 430px;
-    margin-bottom: 101px;
   }
   .imagehome {
     width: 236.56px;
@@ -135,7 +161,6 @@
 @media screen and (max-width: 650px) {
   .curve {
     height: 426px;
-    margin-bottom: 101px;
   }
   .imagehome {
     width: 210.56px;
@@ -154,7 +179,6 @@
 @media screen and (max-width: 590px) {
   .curve {
     height: 340px;
-    margin-bottom: 101px;
   }
   .imagehome {
     width: 165px;
@@ -173,7 +197,6 @@
 @media screen and (max-width: 475px) {
   .curve {
     height: 320px;
-    margin-bottom: 101px;
   }
   .imagehome {
     width: 145px;

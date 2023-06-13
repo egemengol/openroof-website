@@ -13,6 +13,27 @@ const Home = () => {
       <div className="home-metin">
         <div className="curve">
           <img
+            id="house-img"
+            className="imagehome"
+            src={home}
+            alt="home"
+            data-aos-once="true"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          />
+          <div
+            id="metin"
+            className="metin-componenet"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-once="true"
+          >
+            <Metin />
+          </div>
+          <img id="arrow-img" className="arrimg" src={ko} alt="arrow" />
+        </div>
+        <div className="curve-desktop">
+          <img
             className="imagehome"
             src={home}
             alt="home"
@@ -22,6 +43,7 @@ const Home = () => {
           />
           <div
             className="metin-componenet"
+            id="metin-desktop"
             data-aos="fade-down"
             data-aos-delay="300"
             data-aos-once="true"
@@ -31,7 +53,6 @@ const Home = () => {
           <img className="arrimg" src={ko} alt="arrow" />
         </div>
       </div>
-
       <Benefit />
       <Revenue />
       {/* <WildLife /> */}

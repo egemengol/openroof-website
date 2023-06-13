@@ -10,9 +10,12 @@
   font-family: "Reem Kufi Fun";
   font-size: 72px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.1em;
   line-height: 150%;
+}
+.metin-head strong {
+  font-weight: 700;
 }
 
 .metin-body {
@@ -32,16 +35,16 @@
 }
 .metin-button:hover {
   .metin-body-button {
-    background-color: #fbc98c;
+    background-color: darkgreen;
     transition: all 200ms;
-    /* border: none; */
+    border-color: beige;
   }
-  /* .metin-button-text-info {
-    color: #ffffff;
+  .metin-button-text-info {
+    color: beige;
   }
   .phone-img-button {
-    fill: #ffffff;
-  } */
+    fill: beige;
+  }
 }
 .phone-img-button {
   fill: #252422;
@@ -67,9 +70,12 @@
 }
 
 .metin-button-text-info {
-  font-size: 19.46px;
+  font-family: "Nunito";
+  font-style: normal;
   font-weight: 700;
-  line-height: 29.19px;
+  font-size: 19.4595px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
   color: #252422;
 }
 
@@ -115,7 +121,7 @@
     width: 25.27px;
     height: 25.27px;
   }
- 
+
   .metin-body-button {
     height: 42.12px;
     padding: 8px 19px;
@@ -186,7 +192,7 @@
   }
 }
 @media screen and (max-width: 590px) {
-  .metin-page{
+  .metin-page {
     gap: 3px;
   }
   .metin-head {
@@ -196,7 +202,7 @@
     font-size: 11px;
   }
   .metin-button-text-info {
-    font-size:10px;
+    font-size: 10px;
   }
   .phone-img-button {
     width: 17px;
@@ -215,7 +221,7 @@
     font-size: 9px;
   }
   .metin-button-text-info {
-    font-size:9px;
+    font-size: 9px;
   }
   .phone-img-button {
     width: 15px;
