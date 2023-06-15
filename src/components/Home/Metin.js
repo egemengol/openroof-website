@@ -3,6 +3,7 @@ import phonecell from "../../assets/Header/phone-call 1.svg";
 import { Link } from "react-router-dom";
 import "./Metin.css";
 import { PhoneButton } from "./Ask/svg/phone";
+import { tallyHref } from "../../commons";
 const Metin = () => {
   return (
     <div className="metin-page">
@@ -20,7 +21,7 @@ const Metin = () => {
 
       <div className="metin-body">Yatırımlarınızı Güneşin Gücüyle Büyütün!</div>
       <div className="metin-button">
-        <a href="https://tally.so#tally-open=mKeeAg&tally-layout=modal&tally-overlay=1&tally-width=500&tally-emoji-text=☀️&tally-emoji-animation=wave&tally-auto-close=2000">
+        <a href={tallyHref}>
           <button className="metin-body-button">
             <div className="metin-img-button ">
               <PhoneButton className="phone-img-button "></PhoneButton>

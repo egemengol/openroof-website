@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import phonecell from "../../assets/Header/phone-call 1.svg";
 import { PhoneButton } from "../Home/Ask/svg/phone";
 import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
+import { tallyHref } from "../../commons";
 
 const Footer = () => {
   return (
@@ -69,8 +70,8 @@ const Footer = () => {
               </div>
               <p className="last-body-mid veya">veya</p>
             </div>
-            <div className=" footer-button">
-              <a href="https://tally.so#tally-open=mKeeAg&tally-layout=modal&tally-overlay=1&tally-width=500&tally-emoji-text=☀️&tally-emoji-animation=wave&tally-auto-close=2000">
+            <div className="footer-button">
+              <a href={tallyHref}>
                 <button className="footer-body-button">
                   {/* <div className="footer-img-button">
                     <img src={phonecell} alt="phone-cell" />
