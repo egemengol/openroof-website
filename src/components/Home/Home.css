@@ -40,7 +40,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 100px;
+  bottom: 80px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,7 +56,7 @@
   }
 }
 .arrimg {
-  animation: bounce 1s 7;
+  animation: bounce 1s infinite;
 }
 .curve-desktop {
   display: none;
@@ -95,9 +95,7 @@
     height: 456.47px;
   }
   .arrimg {
-    bottom: 85px;
-  }
-  .metin-componenet {
+    bottom: 40px;
   }
 }
 
