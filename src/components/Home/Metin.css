@@ -55,6 +55,47 @@
   height: 33.36px;
 }
 
+.phone-img-button:hover {
+  animation: shake 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-5deg);
+  }
+  3% {
+    transform: rotate(5deg);
+  }
+  6% {
+    transform: rotate(-5deg);
+  }
+  9% {
+    transform: rotate(5deg);
+  }
+  12% {
+    transform: rotate(-5deg);
+  }
+  15% {
+    transform: rotate(5deg);
+  }
+  18% {
+    transform: rotate(-5deg);
+  }
+  21% {
+    transform: rotate(5deg);
+  }
+  24% {
+    transform: rotate(-5deg);
+  }
+  27% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .metin-body-button {
   display: flex;
   flex-direction: row;
