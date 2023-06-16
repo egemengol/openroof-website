@@ -46,9 +46,9 @@ const Footer = () => {
               <HashLink smooth to="/#Faydalar">
                 <li className="li-link">Faydalar</li>
               </HashLink>
-              <HashLink smooth to="/#Faydalar">
+              {/* <HashLink smooth to="/#Faydalar">
                 <li className="li-link">Gelir Paylaşımı</li>
-              </HashLink>
+              </HashLink> */}
               <HashLink smooth to="/sss">
                 <li
                   onClick={() => {
@@ -56,7 +56,7 @@ const Footer = () => {
                   }}
                   className="li-link"
                 >
-                  S.S.S.
+                  Sıkça Sorulan Sorular
                 </li>
               </HashLink>
             </ul>
@@ -65,7 +65,9 @@ const Footer = () => {
             <p className="last-head">Sorularınız mı var?</p>
             <div className="last-body">
               <div className="last-body-one">
-                <p className="last-body-first">Sıkça Sorulan Sorular</p>
+                <p className="last-body-first">
+                  <a href="/sss">Sıkça Sorulan Sorular</a>
+                </p>
                 <p className="last-body-mid">sayfamızı ziyaret edin</p>
               </div>
               <p className="last-body-mid veya">veya</p>

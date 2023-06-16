@@ -39,9 +39,9 @@ nav {
   font-weight: 350;
   font-size: 22px;
   line-height: 150%;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   color: #151916;
-  margin-right: 26.4px;
+  margin-right: 36px;
   cursor: pointer;
 }
 .sss {
@@ -102,7 +102,7 @@ nav {
   font-weight: 700;
   font-size: 19.4595px;
   line-height: 150%;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   color: #252422;
 }
 .scrolled {

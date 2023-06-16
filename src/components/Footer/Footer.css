@@ -1,5 +1,5 @@
 .footer-copy-com {
-  background: #ce6d29;
+  background: #38433a;
   padding: 100px 100px 90px 100px;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
-  background: #ce6d29;
+  background: #38433a;
 }
 .footer-first {
   display: flex;
@@ -174,7 +174,7 @@
 }
 .footer-button:hover {
   .footer-body-button {
-    background-color: #CE6D29;
+    background-color: #38433a;
     transition: all 200ms;
     border-color: beige;
     border-width: 2px;
@@ -203,7 +203,7 @@
   font-weight: 700;
   font-size: 19.4595px;
   line-height: 150%;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   color: #252422;
 }
 
