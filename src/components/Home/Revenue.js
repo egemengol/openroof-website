@@ -18,7 +18,12 @@ const Revenue = () => {
   return (
     <>
       <div className="revenue" id="Faydalar">
-        <div className="head" data-aos="fade-right" data-aos-delay="300">
+        <div
+          className="head"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-once="true"
+        >
           Neden OpenRoof?
         </div>
         <div className="home-item-wrapper">
