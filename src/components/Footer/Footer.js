@@ -15,9 +15,13 @@ const Footer = () => {
           <div className="footer-first">
             <img className="footer-logo" src={logo} alt="logo" />
             <div className="footer-number">
-              <p className="footer-address">Etiler, REMEL PLAZA, Evliya Çelebi Cd.</p>
-              <p className="footer-address">No: 23/106</p>
-              <p className="footer-address">07010 Muratpaşa/Antalya</p>
+              <p className="footer-address">
+                Etiler, REMEL PLAZA, Evliya Çelebi Cd.
+              </p>
+              <p className="footer-address">
+                No:23/106, 07010, Muratpaşa/Antalya
+              </p>
+              {/* <p className="footer-address">07010 Muratpaşa/Antalya</p> */}
               <a href="tel:+90 (242) 475 07 01">
                 {" "}
                 <p className="footer-phone">+90 (242) 475 07 01</p>
@@ -57,7 +61,9 @@ const Footer = () => {
                   Sıkça Sorulan Sorular
                 </li>
               </HashLink>
-              <a href={tallyHref}><li>İletişim Formu</li></a>
+              <a href={tallyHref}>
+                <li>İletişim Formu</li>
+              </a>
             </ul>
           </div>
           <div className="footer-last">
