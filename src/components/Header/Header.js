@@ -33,9 +33,9 @@ const Header = () => {
             <HashLink smooth to="/#Faydalar">
               <li className="nav-link">Faydalar</li>
             </HashLink>
-            <HashLink smooth to="/#Faydalar">
+            {/* <HashLink smooth to="/#Faydalar">
               <li className="nav-link">Gelir Paylaşımı</li>
-            </HashLink>
+            </HashLink> */}
             <Link to="/sss">
               <li
                 onClick={() => {
@@ -43,7 +43,8 @@ const Header = () => {
                 }}
                 className="nav-link sss"
               >
-                S.S.S.
+                {/* S.S.S. */}
+                Sıkça Sorulan Sorular
               </li>
             </Link>
           </ul>

@@ -36,11 +36,11 @@ nav {
 .nav-link {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 22px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: black;
+  color: #151916;
   margin-right: 26.4px;
   cursor: pointer;
 }

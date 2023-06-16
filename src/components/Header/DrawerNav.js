@@ -35,9 +35,9 @@ const DrawerNav = () => {
             <HashLink smooth to="/#Faydalar">
               <li className="nav-link-sm">Faydalar</li>
             </HashLink>
-            <HashLink to="/">
+            {/* <HashLink to="/">
               <li className="nav-link-sm">Gelir Paylaşımı</li>
-            </HashLink>
+            </HashLink> */}
             <HashLink smooth to="/sss">
               <li
                 onClick={() => {
@@ -45,7 +45,8 @@ const DrawerNav = () => {
                 }}
                 className="nav-link-sm"
               >
-                S.S.S.
+                {/* S.S.S. */}
+                Sıkça Sorulan Sorular
               </li>
             </HashLink>
           </ul>
