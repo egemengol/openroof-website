@@ -28,7 +28,7 @@ nav {
   position: relative;
   top: 0;
   display: flex;
-  width: 293px;
+  width: 264px;
   align-items: center;
   box-shadow: inset 0 4.64272px 4.64272px rgb(0, 0, 0 /0.25);
   padding: 25px 30px;
@@ -62,7 +62,7 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 4.17px;
-  height: 55.6px;
+  height: 48px;
   border-radius: 5.55987px;
   padding: 11px 25px;
   border: 2.78px solid #4a584e;
@@ -70,7 +70,7 @@ nav {
 }
 .header-button:hover {
   .header-body-button {
-    background-color: #CE6D29;
+    background-color: #ce6d29;
     transition: all 200ms;
     border-color: beige;
     border-width: 2px;
@@ -120,8 +120,9 @@ nav {
   }
 
   .nav-link {
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 24px;
+    margin-top: 12px;
   }
   .sss {
     margin-right: 0px;
