@@ -102,7 +102,7 @@
   }
   .cartdetail {
     gap: 23px;
-    padding: 39px 23px;
+    padding: 23px 23px;
   }
   .cartdetailhead {
     font-size: 38.9977px;
@@ -176,8 +176,8 @@
     height: 50px;
   }
   .cartdetail {
-    gap: 10px;
-    padding: 30px 18px;
+    gap: 20px;
+    padding: 40px 18px;
   }
   .cartdetailhead {
     font-size: 30px;

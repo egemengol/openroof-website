@@ -14,7 +14,7 @@ const Benefit = () => {
         className="tophead"
         data-aos-once="true"
         data-aos="fade-down"
-        data-aos-delay="300"
+        data-aos-delay="200"
       >
         Nasıl Çalışır?
       </p>
@@ -23,7 +23,7 @@ const Benefit = () => {
           className="cartbody"
           data-aos-once="true"
           data-aos="fade-down"
-          data-aos-delay="300"
+          data-aos-delay="200"
         >
           <div className="headcartframe">
             <img className="headcartframe-size" src={frame309} alt="frame309" />
@@ -41,7 +41,7 @@ const Benefit = () => {
           className="cartbody"
           data-aos-once="true"
           data-aos="fade-down"
-          data-aos-delay="300"
+          data-aos-delay="400"
         >
           <div className="headcartframe">
             <img className="headcartframe-size" src={frame2} alt="..." />
@@ -59,7 +59,7 @@ const Benefit = () => {
           className="cartbody"
           data-aos-once="true"
           data-aos="fade-down"
-          data-aos-delay="300"
+          data-aos-delay="600"
         >
           <div className="headcartframe">
             <img className="headcartframe-size" src={frame3} alt="..." />
