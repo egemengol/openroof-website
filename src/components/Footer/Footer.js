@@ -14,15 +14,13 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-first">
             <img className="footer-logo" src={logo} alt="logo" />
-
             <div className="footer-number">
-              <p className="footer-address">Adres Mah. Adres Sk.</p>
-              <p className="footer-address">No: 123/123</p>
-              <p className="footer-address">Muratpaşa/Antalya</p>
-
-              <a href="tel:0 (242) 323 32 32">
+              <p className="footer-address">Etiler, REMEL PLAZA, Evliya Çelebi Cd.</p>
+              <p className="footer-address">No: 23/106</p>
+              <p className="footer-address">07010 Muratpaşa/Antalya</p>
+              <a href="tel:+90 (242) 475 07 01">
                 {" "}
-                <p className="footer-phone">0 (242) 323 32 32</p>
+                <p className="footer-phone">+90 (242) 475 07 01</p>
               </a>
               <a href="mailto:info@openroof.com.tr">
                 {" "}
@@ -59,6 +57,7 @@ const Footer = () => {
                   Sıkça Sorulan Sorular
                 </li>
               </HashLink>
+              <a href={tallyHref}><li>İletişim Formu</li></a>
             </ul>
           </div>
           <div className="footer-last">
