@@ -87,15 +87,14 @@ nav {
     border-color: #4a584e;
   }
 }
+.header-button:hover .phone-img-button-header {
+  animation: shake 2.5s;
+  animation-iteration-count: infinite;
+}
 .phone-img-button-header {
   fill: #252422;
   width: 33.36px;
   height: 33.36px;
-}
-
-.phone-img-button-header:hover {
-  animation: shake 2.5s;
-  animation-iteration-count: infinite;
 }
 
 @keyframes shake {
@@ -127,6 +126,9 @@ nav {
     transform: rotate(-5deg);
   }
   27% {
+    transform: rotate(5deg);
+  }
+  30% {
     transform: rotate(0deg);
   }
   100% {

@@ -55,7 +55,7 @@
   height: 33.36px;
 }
 
-.phone-img-button:hover {
+.metin-button:hover .phone-img-button {
   animation: shake 2.5s;
   animation-iteration-count: infinite;
 }
@@ -89,13 +89,15 @@
     transform: rotate(-5deg);
   }
   27% {
+    transform: rotate(5deg);
+  }
+  30% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(0deg);
   }
 }
-
 .metin-body-button {
   display: flex;
   flex-direction: row;
