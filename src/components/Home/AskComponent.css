@@ -60,12 +60,13 @@
 .ask-body {
   margin-top: 38.47px;
   border-radius: 15px;
-  border: #fafbff solid 1px;
+  /* border: #fafbff solid 1px; */
 }
 .question-box {
   background-color: #ffffff;
   cursor: pointer;
   transition: all 0.2s;
+  border-radius: 8px;
 }
 .question-box:hover {
   background-color: #fafbff;

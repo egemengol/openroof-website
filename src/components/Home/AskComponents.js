@@ -170,7 +170,7 @@ const AskComponents = () => {
             }}
             className="learn-more-button"
           >
-            Daha Fazla S.S.S
+            Tüm Soruları Gör
           </button>
         </a>
       </div>
