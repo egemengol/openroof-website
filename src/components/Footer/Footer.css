@@ -1,6 +1,6 @@
 .footer-copy-com {
   background: #38433a;
-  padding: 100px 100px 90px 100px;
+  padding: 40px 100px 40px 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,9 +168,10 @@
   justify-content: center;
   align-items: center;
   gap: 4.17px;
+  height: 48px;
   width: 100%;
   border-radius: 5.55987px;
-  padding: 11px 25px;
+  padding: 24px 25px;
   border: 2.78px solid #4a584e;
   background-color: #fff5e9;
 }
@@ -179,7 +180,7 @@
     background-color: #38433a;
     transition: all 200ms;
     border-color: beige;
-    border-width: 2px;
+    /* border-width: 2px; */
     /* border: 2.78px solid transparent; */
   }
   .footer-button-text-info {
@@ -200,7 +201,7 @@
 
 .footer-button-text-info {
   padding: 0 11px;
-  font-family: "Proxima Nova";
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
   font-size: 19.4595px;
@@ -211,7 +212,7 @@
 
 @media screen and (max-width: 1440px) {
   .footer-copy-com {
-    padding: 60px 80px 60px 80px;
+    padding: 40px 80px 40px 80px;
   }
   .phone-img-button-footer {
     width: 30.33px;
@@ -295,8 +296,8 @@
     margin-top: 20px;
   }
   .footer-logo {
-    width: 100.78px;
-    height: 35.8px;
+    width: 164px;
+    /* height: 35.8px; */
   }
   .phone-img-button-footer {
     width: 19.44px;
@@ -304,6 +305,14 @@
   }
   .footer-button-text-info {
     font-size: 11.3401px;
+  }
+  .mid-head {
+    font-size: 16px;
+    padding-top: 0;
+  }
+  .last-head {
+    font-size: 16px;
+    padding-top: 0;
   }
 }
 @media screen and (max-width: 545px) {
@@ -340,8 +349,7 @@
     margin-top: 20px;
   }
   .footer-logo {
-    width: 100.78px;
-    height: 35.8px;
+    width: 148px;
   }
   .footer-body-button {
     padding: 7px 10px;
