@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { AccordionsWrapper, Desc, Input, Title, Wrapper } from "./styles";
+import { AccordionsWrapper, Input, Title, Wrapper } from "./styles";
 import { InputAdornment } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import { Accordions } from "./components/accordions";
-import  mulk_sahibi  from "../../assets/FAQs/mulk_sahibi.json";
-import  yatirimci  from "../../assets/FAQs/yatirimci.json";
+import mulk_sahibi from "../../assets/FAQs/mulk_sahibi.json";
+import yatirimci from "../../assets/FAQs/yatirimci.json";
 import Minisearch from "minisearch";
 
 export const FAQ = () => {
@@ -18,9 +18,9 @@ export const FAQ = () => {
     }
   })
 
-  let qa = mulk_sahibi.map((item, i) => ({...item, category: 'mulk', id: i}))
+  let qa = mulk_sahibi.map((item, i) => ({ ...item, category: 'mulk', id: i }))
   const offset = qa.length
-  qa.push(...yatirimci.map((item, i) => ({...item, category: 'yatirim', id: i + offset})))
+  qa.push(...yatirimci.map((item, i) => ({ ...item, category: 'yatirim', id: i + offset })))
 
   minisearch.addAll(qa)
 
@@ -35,6 +35,13 @@ export const FAQ = () => {
       console.log(res)
       setResults(res)
     }
+    setExpanded(false)
+  }
+
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
   }
 
   return (
@@ -53,11 +60,11 @@ export const FAQ = () => {
             </InputAdornment>
           ),
         }}
-        // placeholder="Sorunuz"
+      // placeholder="Sorunuz"
       ></Input>
       <AccordionsWrapper>
-        <Accordions items={results.filter(result => result.category === "mulk")} title="Mülk Sahibi" />
-        <Accordions items={results.filter(result => result.category === "yatirim")} title="Yatırımcı" />
+        <Accordions expanded={expanded} handleChange={handleChange} items={results.filter(result => result.category === "mulk")} title="Mülk Sahibi" />
+        <Accordions expanded={expanded} handleChange={handleChange} items={results.filter(result => result.category === "yatirim")} title="Yatırımcı" />
       </AccordionsWrapper>
     </Wrapper>
   );

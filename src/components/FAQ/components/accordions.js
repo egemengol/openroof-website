@@ -17,6 +17,9 @@ export const Accordions = (props) => {
           question={item.question}
           answer={item.answer}
           terms={item.terms}
+          expanded={item.id === props.expanded} 
+          onChange={props.handleChange(item.id)}
+          key={item.id}
           // length={props.items?.length}
         />
       ))}
@@ -27,7 +30,10 @@ const AccordionItem = (props) => {
   // const { index, length } = props;
   // we want the border radius to be 18px for the first and last accordion
   return (
-    <StyledAccordion>
+    <StyledAccordion
+      expanded={props.expanded}
+      onChange={props.onChange}
+    >
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel1a-content"
