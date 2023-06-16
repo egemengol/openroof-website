@@ -93,6 +93,50 @@ nav {
   height: 33.36px;
 }
 
+.phone-img-button-header:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 2.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-5deg);
+  }
+  3% {
+    transform: rotate(5deg);
+  }
+  6% {
+    transform: rotate(-5deg);
+  }
+  9% {
+    transform: rotate(5deg);
+  }
+  12% {
+    transform: rotate(-5deg);
+  }
+  15% {
+    transform: rotate(5deg);
+  }
+  18% {
+    transform: rotate(-5deg);
+  }
+  21% {
+    transform: rotate(5deg);
+  }
+  24% {
+    transform: rotate(-5deg);
+  }
+  27% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .header-button-text {
   padding: 0 11px;
 }
