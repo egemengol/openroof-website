@@ -174,8 +174,10 @@
 }
 .footer-button:hover {
   .footer-body-button {
-    background-color: darkgreen;
+    background-color: #CE6D29;
     transition: all 200ms;
+    border-color: beige;
+    border-width: 2px;
     /* border: 2.78px solid transparent; */
   }
   .footer-button-text-info {
