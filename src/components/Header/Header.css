@@ -1,5 +1,5 @@
 nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -70,11 +70,12 @@ nav {
 }
 .header-button:hover {
   .header-body-button {
-    background-color: #ce6d29;
+    /* background-color: #ce6d29; */
+    background-color: #4a584e;
     transition: all 200ms;
-    border-color: beige;
+    /* border-color: beige; */
     border-width: 2px;
-    /* border: 2.78px solid transparent; */
+    border: 2.78px solid transparent;
   }
   .header-button-text-info {
     color: beige;
@@ -83,7 +84,7 @@ nav {
     fill: beige;
   }
   .header-body-button {
-    border-color: beige;
+    border-color: #4a584e;
   }
 }
 .phone-img-button-header {
@@ -106,8 +107,18 @@ nav {
   color: #252422;
 }
 .scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
   transition: all 0.3;
-  background: linear-gradient(267.89deg, #ce6d29 -0.03%, #fff5e9 100.02%);
+  background: linear-gradient(
+    180deg,
+    rgba(206, 109, 41, 1) 0%,
+    rgba(255, 245, 233, 0.97) 65% 100%
+  );
 }
 
 @media screen and (max-width: 1440px) {
@@ -155,7 +166,7 @@ nav {
   .logo-header {
     width: 243.23px;
     height: 84.24px;
-    padding: 0;
+    padding: 12px 0 12px 24px;
   }
 
   .nav-link {
@@ -192,7 +203,7 @@ nav {
     padding: 0px 24px;
   }
   .logo-header {
-    width: 152.54px;
+    width: 212px;
     min-height: 36px;
     padding: 14px 17px;
   }
@@ -223,9 +234,11 @@ nav {
     padding: 0px;
   }
   .logo-header {
-    min-width: 127.12px;
+    width: 164px;
+    height: auto;
+    min-width: 120px;
     min-height: 30px;
-    padding: 12px 14px;
+    padding: 32px 14px;
   }
 
   .header-body-button {

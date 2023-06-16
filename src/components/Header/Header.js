@@ -12,7 +12,7 @@ const Header = () => {
 
   useEffect(() => {
     const scrollHandler = () => {
-      window.pageYOffset > 10 ? setScrolled(true) : setScrolled(false);
+      window.pageYOffset > 680 ? setScrolled(true) : setScrolled(false);
     };
     window.addEventListener("scroll", scrollHandler);
     return () => window.removeEventListener("scroll", scrollHandler);
