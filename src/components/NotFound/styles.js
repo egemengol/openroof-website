@@ -14,7 +14,8 @@ export const Title = styled("div")`
   font-size: 80px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #ce6d29;
+  // color: #ce6d29;
+  color: #4a584e
 `;
 export const Desc = styled("div")`
   font-family: "Readex Pro";
@@ -22,7 +23,8 @@ export const Desc = styled("div")`
   font-weight: 400;
   font-size: 21px;
   letter-spacing: 0.04em;
-  color: #ce6d29;
+  // color: #ce6d29;
+  color: #4a584e
 `;
 export const Button = styled("button")`
   margin-top: 30px;

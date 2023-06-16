@@ -5,16 +5,16 @@ import { browserHistory } from "../../router";
 export const NotFound = () => {
   return (
     <Wrapper>
-      <Title>4ø4</Title>
-      <Desc>Oops, No page found!</Desc>
-      <a href="/">
+      <Title>404</Title>
+      <Desc>Aradığınız içeriği malesef bulamadık</Desc>
+      {/* <a href="/">
         <Button
-          onClick={() => browserHistory.push("/sss")}
+          onClick={() => browserHistory.push("/")}
           className="learn-more-button"
         >
-          Back to home
+          Anasayfa
         </Button>
-      </a>
+      </a> */}
     </Wrapper>
   );
 };
