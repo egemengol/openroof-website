@@ -20,49 +20,69 @@ const Home = () => {
           { property: "title", content: "OpenRoof" },
           //DENIZ: description
           {
+            // NO CHANGE
             name: "description",
+            //DENIZ: description of the website
             content: "Hasılat Paylaşımı",
           },
           {
+            // NO CHANGE
             name: "keywords",
             //DENIZ: keywords searched in google to find the website
             content: "solar power, OpenRoof",
           },
           //DENIZ: language of the website
-          { name: "language", content: "Turkish" },
+          {
+            // NO CHANGE
+            name: "language",
+            content: "Turkish",
+          },
           //DENIZ: URL of the website
           { property: "og:url", content: "PASTE_URL_HERE" },
-          { property: "og:type", content: "website" },
           {
+            // NO CHANGE
+            property: "og:type",
+            // NO CHANGE
+            content: "website",
+          },
+          {
+            // NO CHANGE
             property: "og:description",
             //DENIZ: description of the website
             content: "solar power",
           },
           {
+            // NO CHANGE
             property: "og:image",
             //DENIZ: image of the website when it is shared
             content: "https://www.linkpicture.com/q/Devin.svg",
           },
           {
+            // NO CHANGE
             property: "twitter:card",
+            // NO CHANGE
             content: "summary",
           },
           {
+            // NO CHANGE
             property: "twitter:url",
             //DENIZ: URL of the website when it is shared in twitter
             content: "https://devin.energy/",
           },
           {
+            //NO CHANGE
             property: "twitter:title",
             //DENIZ: Title of the website when it is shared in twitter
             content: "OpenRoof -openroof is the best",
           },
           {
+            //NO CHANGE
             property: "twitter:description",
             //DENIZ: description of the website when it is shared in twitter
             content: "solar power",
           },
           {
+            //NO CHANGE
             property: "twitter:image",
             //DENIZ: image of the website when it is shared in twitter
             content: "https://www.linkpicture.com/q/Devin.svg",
