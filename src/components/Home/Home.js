@@ -6,6 +6,7 @@ import Metin from "./Metin";
 import Benefit from "./Benefit";
 import Revenue from "./Revenue";
 import AskComponents from "./AskComponents";
+import RevenueSharing from "../RevenueSharing/RevenueSharing";
 
 const Home = () => {
   return (
@@ -56,6 +57,7 @@ const Home = () => {
       <Benefit />
       <Revenue />
       {/* <WildLife /> */}
+      <RevenueSharing />
       <AskComponents />
     </div>
   );
