@@ -27,15 +27,15 @@ const Header = () => {
         </div>
         <div className="navbar">
           <ul className="ul-navbar">
-            <HashLink smooth to="/#nasil">
+            <HashLink smooth to="/#NasilCalisir">
               <li className="nav-link">Nasıl Çalışır?</li>
             </HashLink>
             <HashLink smooth to="/#Faydalar">
               <li className="nav-link">Faydalar</li>
             </HashLink>
-            {/* <HashLink smooth to="/#Faydalar">
+            <HashLink smooth to="/#GelirPaylasimi">
               <li className="nav-link">Gelir Paylaşımı</li>
-            </HashLink> */}
+            </HashLink>
             <Link to="/sss">
               <li
                 onClick={() => {
