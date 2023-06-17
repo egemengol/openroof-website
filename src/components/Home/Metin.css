@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 14px;
+  gap: 16px;
 }
 
 .metin-head {
@@ -10,7 +10,7 @@
   font-family: "Nunito";
   font-size: 72px;
   font-style: regular;
-  /* font-weight: 100; */
+  font-weight: 250;
   letter-spacing: 0.06em;
   line-height: 150%;
 }
@@ -25,7 +25,7 @@
   font-family: "Nunito";
   font-size: 32px;
   font-style: italic;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 0.07em;
   line-height: 150%;
 }
@@ -128,6 +128,7 @@
 @media screen and (max-width: 1440px) {
   .metin-page {
     gap: 17px;
+    margin-top: -24px;
   }
   .metin-head {
     font-size: 64px;
@@ -153,6 +154,8 @@
 @media screen and (max-width: 1277px) {
   .metin-page {
     gap: 16px;
+    margin-left: 60px;
+    margin-top: 12px;
   }
   .metin-head {
     font-size: 60px;
@@ -197,6 +200,7 @@
 @media screen and (max-width: 744px) {
   .metin-page {
     gap: 12px;
+    margin-left: 40px;
   }
   .metin-head {
     font-size: 38px;

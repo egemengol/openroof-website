@@ -274,7 +274,7 @@
     padding: 6px 8px;
   }
   .text-button {
-    font-size: 8.26667px;
+    font-size: 10px;
     line-height: 12px;
   }
   .elipse {
@@ -321,7 +321,7 @@
   }
   .ask {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   .ask-all {
@@ -353,7 +353,7 @@
     height: 10.51px;
   }
   .text-button {
-    font-size: 7.00337px;
+    font-size: 10px;
     line-height: 11px;
   }
   .arrow-right-img {
@@ -397,7 +397,7 @@
     height: 8.62px;
   }
   .text-button {
-    font-size: 5.74635px;
+    font-size: 10px;
     line-height: 9px;
   }
   .arrow-right-img {
