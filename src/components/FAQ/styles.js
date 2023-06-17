@@ -17,7 +17,7 @@ export const Wrapper = styled("div")`
 export const Title = styled("h1")`
   font-family: "Readex Pro";
   font-style: normal;
-  margin-top: 248px;
+  margin-top: 148px;
   font-weight: 600;
   font-size: 56px;
   line-height: 150%;
