@@ -5,7 +5,7 @@
 }
 
 .image {
-  width: 70%;
+  width: 50%;
   height: auto;
   margin-bottom: 40px;
 }
@@ -25,4 +25,10 @@
 .text strong {
   font-family: "Reem Kufi Fun";
   font-weight: 700;
+}
+
+@media screen and (max-width: 580px) {
+  .image {
+    width: 80%;
+  }
 }
