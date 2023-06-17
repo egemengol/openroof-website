@@ -10,6 +10,7 @@ const RevenueSharing = () => {
         data-aos="fade-bottom"
         data-aos-delay="300"
         data-aos-once="true"
+        style={{ margin: "64px 0px 48px 0px" }}
       >
         Hasılat Paylaşımı
       </div>
