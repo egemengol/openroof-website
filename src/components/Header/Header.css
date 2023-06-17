@@ -271,6 +271,18 @@ nav {
     padding: 0 5px;
   }
 }
+@media screen and (max-width: 444px) {
+  .header-button-text-info {
+    display: none;
+  }
+  .header-body-button {
+    display: block;
+    min-width: 36px;
+    padding: 6px 3px;
+  }
+  
+}
+
 @media screen and (max-width: 390px) {
   .header {
     height: 56px;
@@ -284,14 +296,7 @@ nav {
     padding: 32px 14px;
   }
 
-  .header-body-button {
-    display: block;
-    min-width: 36px;
-    padding: 6px 3px;
-  }
-  .header-button-text-info {
-    display: none;
-  }
+ 
   .phone-img-button-header {
     width: 20.68px;
     height: 17px;
