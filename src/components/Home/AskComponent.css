@@ -49,6 +49,7 @@
   line-height: 77px;
   display: block;
   padding-top: 133px;
+  margin: 0 auto;
 }
 .ask-all {
   z-index: 1;
@@ -156,7 +157,8 @@
   .ask-head {
     font-size: 48px;
     line-height: 64px;
-    margin-left: 120px;
+    /* margin-left: 120px; */
+    /* margin: 0 auto; */
     padding-top: 104px;
   }
 
@@ -212,7 +214,9 @@
   .ask-head {
     font-size: 42.66px;
     line-height: 57px;
-    margin-left: 106.66px;
+    /* margin-left: 106.66px; */
+    /* margin: 0 auto; */
+
     padding-top: 80px;
   }
   .ask-body {
@@ -262,7 +266,7 @@
   }
   .ask-head {
     text-align: center;
-    margin-left: 35px;
+    /* margin-left: 35px; */
     font-size: 24.8px;
     line-height: 33px;
     padding-top: 40px;
@@ -314,7 +318,7 @@
     align-items: center;
   }
   .ask-head {
-    margin-left: 0px;
+    /* margin-left: 0px; */
     margin: 24px auto;
     font-size: 21.0101px;
     line-height: 28px;
