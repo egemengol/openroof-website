@@ -308,7 +308,14 @@
     line-height: 12px;
   }
 }
-
+@media screen and (max-width: 580px) {
+.ask{
+  flex-direction: column;
+}
+.answer{
+  margin-left: 0;
+}
+}
 @media screen and (max-width: 390px) {
   .margin {
     padding: 0 55px;
