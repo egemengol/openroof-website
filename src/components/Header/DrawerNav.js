@@ -29,7 +29,7 @@ const DrawerNav = () => {
       >
         <div className="navbar-sm" onClick={() => setState(false)}>
           <ul className="ul-navbar-sm">
-            <HashLink smooth to="/#nasil">
+            <HashLink smooth to="/#NasilCalisir">
               <li className="nav-link-sm">Nasıl Çalışır?</li>
             </HashLink>
             <HashLink smooth to="/#Faydalar">

@@ -45,18 +45,14 @@
   margin-right: auto;
 }
 @keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
+  0% {
+    transform: translateY(-6px);
+  }
+  50% {
+    transform: translateY(6px);
+  }
   100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
+    transform: translateY(-6px);
   }
 }
 .arrimg {
@@ -214,7 +210,7 @@
     bottom: 20px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .imagehome {
     width: 145px;
     height: 167.58px;

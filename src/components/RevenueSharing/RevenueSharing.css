@@ -27,8 +27,21 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1020px) {
   .image {
     width: 80%;
+  }
+  .text {
+    font-size: 16px;
+  }
+}
+/* @media screen and (max-width: 480px) {
+  .text {
+    font-size: 16px;
+  }
+} */
+@media screen and (max-width: 390px) {
+  .text {
+    font-size: 12px;
   }
 }

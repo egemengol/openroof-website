@@ -1,46 +1,43 @@
-
-.navbar-sm{
-    margin: 40px 20px;
+.navbar-sm {
+  margin: 40px 20px;
 }
 .ul-navbar-sm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 .nav-link-sm {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 320;
-    font-size: 22px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: white;
-    margin: 0 13.2px;
-    cursor: pointer;
-  }
-  .hamburgerIcon{
-    margin: 14.82px 15.6px 14.82px 26px;
-  }
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 320;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: white;
+  margin: 0 13.2px;
+  cursor: pointer;
+}
+.hamburgerIcon {
+  margin: 14.82px 15.6px 14.82px 26px;
+}
 
-  @media screen and (max-width: 1277px) {
-    .hamburgerIcon{
-      min-width: 41px;
-      min-height: 32px;
-    }
+@media screen and (max-width: 1277px) {
+  .hamburgerIcon {
+    min-width: 41px;
+    min-height: 32px;
   }
-  @media screen and (max-width: 744px) {
-    .hamburgerIcon{
-        margin: 11.4px 12px 11.4px 20px;
-        width: 32px;
-        height: 25.6px;
-      }
-    
+}
+@media screen and (max-width: 744px) {
+  .hamburgerIcon {
+    margin: 11.4px 12px 11.4px 20px;
+    width: 32px;
+    height: 25.6px;
   }
-  @media screen and (max-width: 390px) {
-    .hamburgerIcon{
-        margin: 12.8px 12px 12.8px 20px;
-      }
-    
+}
+@media screen and (max-width: 389px) {
+  .hamburgerIcon {
+    margin: 12.8px 12px 12.8px 20px;
   }
+}
