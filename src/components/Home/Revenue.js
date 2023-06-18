@@ -175,10 +175,10 @@ const Revenue = () => {
               id="first"
             >
               <img className="item-icon" src={itemIconeight} alt="itemIcon" />
-              <div className="item-title">Gerçek üretim temelli</div>
+              <div className="item-title">Yeşil bir gelecek yaratma imkanı</div>
               <div className="item-desc">
-                Yatırımınız gerçek üretimden beslendiği için spekülatif
-                risklerden uzak, sağlam bir temele oturtuyoruz.
+                Sürdürülebilir enerjiye geçerek doğaya verilen zararı minimize
+                etmeyi hedefliyoruz.{" "}
               </div>
             </div>
             <div
@@ -189,10 +189,11 @@ const Revenue = () => {
               id="second"
             >
               <img className="item-icon" src={itemIconnine} alt="itemIcon" />
-              <div className="item-title">Minimal risk</div>
+              <div className="item-title">Tüm detaylarla biz ilgileniyoruz</div>
               <div className="item-desc">
-                Yatırımcıyı koruyan sözleşmemiz sayesinde ana paranızı geri
-                almanızı garanti ediyoruz!
+                Kurulum firması, kurulum gücü, kullanılacak ekipmanlar, başvuru
+                süreçleri, kar dağıtımı, ve benzeri tüm bürokratik, teknik ve
+                operasyonel konuları biz üstleniyoruz.{" "}
               </div>
             </div>
             <div
@@ -203,12 +204,12 @@ const Revenue = () => {
               id="third"
             >
               <img className="item-icon" src={itemIconten} alt="itemIcon" />
-              <div className="item-title">
-                Yatırım anından itibaren şeffaflık
-              </div>
+              <div className="item-title">Eşsiz Yatırım Fırsatı </div>
               <div className="item-desc">
-                GES projesinin akıbeti ve aylık geri ödemelerin raporlanması
-                gibi tüm süreçlerde para akışlarını şeffaflıkla paylaşıyoruz.
+                Yatırımcı ve mülk sahibini buluşturarak, yenilenebilir enerji
+                sektöründe benzersiz bir yatırım imkanı sağlıyoruz; yenilebilir
+                enerjiye erişim ve katılımı kapsamlı sözleşmemizle
+                kolaylaştırıyoruz.{" "}
               </div>
             </div>
           </div>
