@@ -259,8 +259,7 @@ nav {
     padding: 6px 15px;
   }
   .phone-img-button-header {
-    width: 19.44px;
-    height: 19.44px;
+    width: 22px;
   }
   .header-button-text-info {
     font-size: 11px;
@@ -277,8 +276,8 @@ nav {
   }
   .header-body-button {
     display: block;
-    min-width: 36px;
-    padding: 6px 3px;
+    min-width: 32px;
+    padding: 0px 3px;
   }
 }
 
@@ -296,7 +295,6 @@ nav {
   }
 
   .phone-img-button-header {
-    width: 20.68px;
     height: 17px;
   }
   .header-button-text-info {
