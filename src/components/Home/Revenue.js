@@ -20,7 +20,7 @@ const Revenue = () => {
       <div className="revenue" id="Faydalar">
         <div
           className="head"
-          data-aos="fade-right"
+          data-aos="fade-down"
           data-aos-delay="300"
           data-aos-once="true"
         >
@@ -29,7 +29,7 @@ const Revenue = () => {
         <div className="home-item-wrapper">
           <img
             className="homeOwner"
-            data-aos="fade-right"
+            data-aos="fade-down"
             data-aos-delay="150"
             data-aos-once="true"
             src={homeOwner}
@@ -38,7 +38,7 @@ const Revenue = () => {
           <div className="item-wrapper">
             <div
               className="item"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
               id="first"
@@ -55,7 +55,7 @@ const Revenue = () => {
             </div>
             <div
               className="item"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
               id="second"
@@ -69,7 +69,7 @@ const Revenue = () => {
             </div>
             <div
               className="item"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-once="true"
               data-aos-delay="300"
               id="third"
@@ -90,7 +90,7 @@ const Revenue = () => {
           <img
             className="guy-mobile"
             data-aos-once="true"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-delay="150"
             src={guy}
             alt="guy"
@@ -98,7 +98,7 @@ const Revenue = () => {
           <div className="item-wrapper-two">
             <div
               className="itemtwo"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
               id="four"
@@ -113,7 +113,7 @@ const Revenue = () => {
             </div>
             <div
               className="itemtwo"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
               id="five"
@@ -128,7 +128,7 @@ const Revenue = () => {
             </div>
             <div
               className="itemtwo"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
               id="six"
@@ -143,7 +143,7 @@ const Revenue = () => {
             </div>
             <div
               className="itemtwo"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
               id="seven"
@@ -159,17 +159,31 @@ const Revenue = () => {
               </div>
             </div>
           </div>
-          <img className="guy-img" src={guy} alt="guy" />
+          <img
+            className="guy-img"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-once="true"
+            src={guy}
+            alt="guy"
+          />
         </div>
       </div>
 
       <div className="shake">
         <div className="home-item-wrapper">
-          <img className="homeOwner" src={shakehand} alt="homeOwner" />
+          <img
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-once="true"
+            className="homeOwner"
+            src={shakehand}
+            alt="homeOwner"
+          />
           <div className="item-wrapper">
             <div
               className="item"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-once="true"
               data-aos-delay="150"
               id="first"
@@ -183,7 +197,7 @@ const Revenue = () => {
             </div>
             <div
               className="item"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-once="true"
               data-aos-delay="300"
               id="second"
@@ -199,7 +213,7 @@ const Revenue = () => {
             <div
               className="item"
               data-aos-once="true"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-delay="300"
               id="third"
             >
