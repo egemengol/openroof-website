@@ -9,7 +9,7 @@ import frame3 from "../../assets/Home/Frame 3.svg";
 
 const Benefit = () => {
   return (
-    <div className="benefit" id="nasil">
+    <div className="benefit" id="NasilCalisir">
       <p
         className="tophead"
         data-aos-once="true"

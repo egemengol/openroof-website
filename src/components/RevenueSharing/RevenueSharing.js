@@ -4,14 +4,15 @@ import revenueSharingImage from "../../assets/Home/revenueSharing.svg";
 
 const RevenueSharing = () => {
   return (
-    <div className="revenueSharing">
+    <div className="revenueSharing" id="GelirPaylasimi">
       <div
         className="head"
         data-aos="fade-bottom"
         data-aos-delay="300"
         data-aos-once="true"
+        style={{ margin: "64px 0px 48px 0px" }}
       >
-        Hasılat Paylaşımı
+        Gelir Paylaşımı
       </div>
       <img src={revenueSharingImage} alt="Example" className="image" />
       <div>

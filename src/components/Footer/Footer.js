@@ -42,15 +42,15 @@ const Footer = () => {
             <p className="mid-head">Site Haritası</p>
 
             <ul className="ul-link">
-              <HashLink smooth to="/#nasil">
+              <HashLink smooth to="/#NasilCalisir">
                 <li className="li-link">Nasıl Çalışır?</li>
               </HashLink>
               <HashLink smooth to="/#Faydalar">
                 <li className="li-link">Faydalar</li>
               </HashLink>
-              {/* <HashLink smooth to="/#Faydalar">
+              <HashLink smooth to="/#GelirPaylasimi">
                 <li className="li-link">Gelir Paylaşımı</li>
-              </HashLink> */}
+              </HashLink>
               <HashLink smooth to="/sss">
                 <li
                   onClick={() => {

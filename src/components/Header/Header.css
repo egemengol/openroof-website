@@ -159,8 +159,8 @@ nav {
   transition: all 0.3;
   background: linear-gradient(
     180deg,
-    rgba(206, 109, 41, 1) 0%,
-    rgba(255, 245, 233, 0.97) 65% 100%
+    rgb(217, 149, 101, 1) 0%,
+    rgba(255, 245, 233, 0.97) 90% 100%
   );
 }
 
@@ -232,7 +232,7 @@ nav {
     font-size: 14.74px;
   }
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1060px) {
   .navbar {
     display: none;
   }
