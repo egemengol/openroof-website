@@ -21,12 +21,14 @@ const Home = () => {
             data-aos-once="true"
             data-aos="fade-down"
             data-aos-delay="300"
+            data-aos-offset="-100"
           />
           <div
             id="metin"
             className="metin-componenet"
             data-aos="fade-down"
             data-aos-delay="300"
+            data-aos-offset="-100"
             data-aos-once="true"
           >
             <Metin />
@@ -41,12 +43,14 @@ const Home = () => {
             data-aos-once="true"
             data-aos="fade-down"
             data-aos-delay="300"
+            data-aos-offset="-100"
           />
           <div
             className="metin-componenet"
             id="metin-desktop"
             data-aos="fade-down"
             data-aos-delay="300"
+            data-aos-offset="-100"
             data-aos-once="true"
           >
             <Metin />
