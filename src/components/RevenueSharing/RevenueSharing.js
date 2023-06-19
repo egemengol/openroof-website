@@ -14,7 +14,15 @@ const RevenueSharing = () => {
       >
         Gelir Paylaşımı
       </div>
-      <img src={revenueSharingImage} alt="Example" className="image" />
+      <img
+        src={revenueSharingImage}
+        alt="Example"
+        className="image"
+        data-aos-once="true"
+        data-aos="fade-down"
+        data-aos-delay="300"
+        data-aos-offset="-100"
+      />
       <div>
         <p className="text">
           Üretilen değer
