@@ -23,6 +23,7 @@ const Revenue = () => {
           data-aos="fade-down"
           data-aos-delay="300"
           data-aos-once="true"
+          data-aos-offset="-100"
         >
           Neden OpenRoof?
         </div>
@@ -32,6 +33,7 @@ const Revenue = () => {
             data-aos="fade-down"
             data-aos-delay="150"
             data-aos-once="true"
+            data-aos-offset="-100"
             src={homeOwner}
             alt="homeOwner"
           />
@@ -41,6 +43,7 @@ const Revenue = () => {
               data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
+              data-aos-offset="-100"
               id="first"
             >
               <img className="item-icon" src={itemIcon} alt="itemIcon" />
@@ -58,6 +61,7 @@ const Revenue = () => {
               data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
+              data-aos-offset="-100"
               id="second"
             >
               <img className="item-icon" src={itemIcontwo} alt="itemIcon" />
@@ -71,6 +75,7 @@ const Revenue = () => {
               className="item"
               data-aos="fade-down"
               data-aos-once="true"
+              data-aos-offset="-100"
               data-aos-delay="300"
               id="third"
             >
@@ -90,6 +95,7 @@ const Revenue = () => {
           <img
             className="guy-mobile"
             data-aos-once="true"
+            data-aos-offset="-100"
             data-aos="fade-down"
             data-aos-delay="150"
             src={guy}
@@ -101,6 +107,7 @@ const Revenue = () => {
               data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
+              data-aos-offset="-100"
               id="four"
             >
               <img className="item-icon-two" src={iconfour} alt="iconfour" />
@@ -116,6 +123,7 @@ const Revenue = () => {
               data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
+              data-aos-offset="-100"
               id="five"
             >
               <img className="item-icon-two" src={iconfive} alt="iconfive" />
@@ -131,6 +139,7 @@ const Revenue = () => {
               data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
+              data-aos-offset="-100"
               id="six"
             >
               <img className="item-icon-two" src={iconsix} alt="iconsix" />
@@ -146,6 +155,7 @@ const Revenue = () => {
               data-aos="fade-down"
               data-aos-delay="300"
               data-aos-once="true"
+              data-aos-offset="-100"
               id="seven"
             >
               <img className="item-icon-two" src={iconseven} alt="iconseven" />
@@ -164,6 +174,7 @@ const Revenue = () => {
             data-aos="fade-down"
             data-aos-delay="300"
             data-aos-once="true"
+            data-aos-offset="-100"
             src={guy}
             alt="guy"
           />
@@ -176,6 +187,7 @@ const Revenue = () => {
             data-aos="fade-down"
             data-aos-delay="300"
             data-aos-once="true"
+            data-aos-offset="-100"
             className="homeOwner"
             src={shakehand}
             alt="homeOwner"
@@ -185,6 +197,7 @@ const Revenue = () => {
               className="item"
               data-aos="fade-down"
               data-aos-once="true"
+              data-aos-offset="-100"
               data-aos-delay="150"
               id="first"
             >
@@ -199,6 +212,7 @@ const Revenue = () => {
               className="item"
               data-aos="fade-down"
               data-aos-once="true"
+              data-aos-offset="-100"
               data-aos-delay="300"
               id="second"
             >
@@ -213,6 +227,7 @@ const Revenue = () => {
             <div
               className="item"
               data-aos-once="true"
+              data-aos-offset="-100"
               data-aos="fade-down"
               data-aos-delay="300"
               id="third"
