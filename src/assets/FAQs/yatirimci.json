@@ -4,23 +4,23 @@
         "answer": "OpenRoof yatırımı, genellikle ortalama 5-7 yıl geri dönüş süresiyle birlikte size 15 yıl boyunca sürekli bir getiri sağlayan güneş enerjisi sistemleriyle ilgili bir yatırımdır. Getiri potansiyeli, güneşlenme süresi ve üretilen elektriğin maliyeti gibi faktörlere bağlıdır."
     },
     {
-        "question": "Risksiz yatırımın garantisi nedir ve nasıl sağlanır?",
+        "question": "OpenRoof yatırımını düşük riskli yapan özellikler nelerdir?",
         "answer": "Hiçbir yatırım tamamen risksiz değildir, ancak OpenRoof yatırımı, yatırım riskini sıfıra yaklaştırmak için çeşitli önlemler almıştır. Teknolojik riskler, panel üreticilerinin garantisi ve all-risk sigortasıyla minimize edilir. Finansal riskler ise yatırımın geri dönüş süresi ve getirisiyle ilgilidir. Ana paranız yatırımcı sözleşmesiyle korunur ve yatırımınızın karlı olmasını sağlamak için dikkatli bir analiz yapılır."
     },
     {
-        "question": "Yatırımımın geri ödeme süreci nasıl işler?",
+        "question": "Yatırımımın geri ödeme ve getiri süreci nasıl işler?",
         "answer": "Yatırımınızın geri ödeme süreci, üretilen elektrik satışından elde edilen gelirlerin belirli bir oranının size ödenmesiyle gerçekleşir. Ödemeler, her 3 ayda bir düzenli olarak yapılır ve mülk sahibinden kaynaklanabilecek aksamaları önlemek için titizlikle takip edilir."
     },
     {
-        "question": "Yatırımımın şeffaflığı nasıl sağlanır?",
+        "question": "Yatırımımın raporlaması ve şeffaflığı nasıl sağlanır?",
         "answer": "Yatırımınızın şeffaflığı önemli bir konudur. Üretim verileri doğru ve güvenilir kaynaklardan elde edilir ve geri ödeme dönemi sonunda size detaylı bir rapor olarak sunulur. Bu raporda hesaplamaların nasıl yapıldığı ve hasılat paylaşım oranlarının nasıl uygulandığı gibi detaylar yer alır, böylece size ödenen miktarın doğrulanabilir olduğundan emin olabilirsiniz."
     },
     {
-        "question": "Yatırım sürecinde hangi belgeleri imzalamam gerekiyor?",
+        "question": "Yatırım yapmaya karar verdikten sonra beni nasıl bir süreç bekliyor?",
         "answer": "Yatırım sürecinde imzalamanız gereken belgeler arasında OpenRoof yatırımcı sözleşmesi yer almaktadır. Bu sözleşme, yatırımınızın koşullarını ve geri ödeme sürecini detaylı olarak belirtir ve her iki tarafın haklarını ve yükümlülüklerini korur. Yatırımcı onboarding sürecini mümkün olan en basit hale getirmek için elimizden geleni yapıyoruz."
     },
     {
-        "question": "Yatırıma minimum ve maksimum ne kadar para yatırabilirim?",
+        "question": "Yatırım miktarının alt ve üst sınırları nelerdir?",
         "answer": "OpenRoof yatırım aracının en öne çıkan özelliklerinden biri düşük yatırım miktarıdır. Minimum yatırım miktarı yaklaşık $20,000'dir ve maksimum yatırım miktarı o anki bekleme listemizdeki tüm mülklerin toplam yatırım bedeli kadardır. Bekleme listemiz boşaldığında ise 3 ay içinde yatırımınızı değerlendirmemiz için sözleşme imzalayabilirsiniz."
     },
     {
@@ -32,15 +32,15 @@
         "answer": "OpenRoof, sadece yatırımcıya ve mülk sahibine para kazandırdıkça kazanır. Yatırım sürecinde herhangi bir komisyon talep etmez ve herkese aynı anda kazandırma (win-win) misyonuyla kurulmuştur."
     },
     {
-        "question": "Yatırımı devretmek, yatırımımdan vazgeçmek veya çıkış yapmak istediğimde ne yapmalıyım?",
+        "question": "Yatırımımı devretmek veya yatırımımdan çıkış yapmak istediğimde ne yapmalıyım?",
         "answer": "OpenRoof yatırımları yasal düzenlemeler sebebiyle devredilemeyen bir yapıda kurgulanmıştır. Ancak, yatırımdan çıkış hakkınız bulunmaktadır. Eğer ilk 3 ay içinde yatırımınızı değerlendiremezsek, otomatik olarak çıkış yapabilirsiniz. Yatırımınızı değerlendirdikten sonra çıkış yapmak isterseniz, sözleşmedeki fesih koşullarını yerine getirerek çıkış yapabilirsiniz."
     },
     {
-        "question": "Yatırım projelerini nasıl seçiyor ve değerlendiriyorsunuz?",
+        "question": "Yatırım yapılacak mülkleri nasıl seçiyor ve değerlendiriyorsunuz?",
         "answer": "Mülk seçimi konusunda çok titiziz ve yatırımımızı yapacağımız mülkleri seçerken çeşitli kriterleri göz önünde bulunduruyoruz. Mülkler, iki şekilde bekleme listesine alınır: (1) Mülk sahibinin direkt başvurusu üzerine fizibilite çalışması ve uygunluğuna karar verilmesi. (2) Anlaşmalı GES kurulum firmalarımız tarafından değerlendirilerek uygun bulunan mülklere teklif yapılarak, mülk sahibinin kabulü sonrası bekleme listemize eklenir. Her mülk, teknik ve finansal kriterlerimizin yanı sıra, güneş ışınlarının verimliliği, çatı veya cephenin yönelimi ve fizibilite analizleri gibi faktörler göz önünde bulundurularak değerlendirilir. Bu nedenle, üretimi maksimize etmek amacıyla sadece güneşlenme süresinin en yüksek olduğu bölgelerde mülkler seçiyoruz. Bu, yatırımcılarımız için daha yüksek getiri potansiyeli sağlamak ve sistemin daha verimli çalışmasını sağlamak için önemlidir."
     },
     {
-        "question": "OpenRoof'un diğer yenilenebilir enerji projelerine yatırım imkanları var mı?",
+        "question": "OpenRoof'un diğer yenilenebilir enerji projelerine de yatırım imkanları var mı?",
         "answer": "OpenRoof şu anda sadece güneş paneli alanında faaliyet göstermektedir. Ancak yakın ve orta vadede yurt dışında ve diğer yenilenebilir enerji kaynakları alanında da faaliyet göstermeyi planlamaktayız. Bu yeni fırsatlarla ilgili bilgileri web sitemizde ve sosyal medya hesaplarımızda paylaşacağız."
     },
     {
