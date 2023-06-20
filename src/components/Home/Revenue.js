@@ -114,8 +114,9 @@ const Revenue = () => {
               <div className="item-title">Hızlı amorti süresi</div>
               <div className="item-desc">
                 {" "}
-                Güneş doğmaya devam ettikçe 5-6 yıl içinde yatırımınızı geri
-                alabilirsiniz.
+                Ev alıp 20 yıl beklemek yerine, güneş doğduğu sürece 5-6 yıl
+                içinde yatırımınızı geri alabilir ve kazanç elde etmeye devam
+                edebilirsiniz.
               </div>
             </div>
             <div
@@ -146,8 +147,9 @@ const Revenue = () => {
               <div className="item-title">Minimal risk</div>
               <div className="item-desc">
                 {" "}
-                Yatırımcıyı koruyan sözleşmemiz sayesinde ana paranızı geri
-                almanızı garanti ediyoruz!
+                Yatırımcıyı koruyan sözleşmemiz sayesinde, yatırımınızın
+                belirlenen süre zarfında amorti olmaması durumunda, yatırdığınız
+                miktarı faiziyle birlikte geri ödeme garantisi veriyoruz!
               </div>
             </div>
             <div
@@ -159,13 +161,11 @@ const Revenue = () => {
               id="seven"
             >
               <img className="item-icon-two" src={iconseven} alt="iconseven" />
-              <div className="item-title">
-                Yatırım anından itibaren şeffaflık
-              </div>
+              <div className="item-title">Düşük yatırım olanağı</div>
               <div className="item-desc">
                 {" "}
-                GES projesinin akıbeti ve aylık geri ödemelerin raporlanması
-                gibi tüm süreçlerde para akışlarını şeffaflıkla paylaşıyoruz.
+                Küçük yatırımların birleşik gücü ile, bireysel olarak ulaşılması
+                güç olan büyük projelere OpenRoof ile erişebilirsiniz.
               </div>
             </div>
           </div>

@@ -68,8 +68,10 @@ const Benefit = () => {
             <p className="cartdetailhead">Kazanç</p>
             <img className="cartdetailimg" src={kazan} alt="kazan" />
             <p className="cartdetailfooter ">
-              Üretilen <strong>elektrik</strong> satılsın ve{" "}
-              <strong>gelir</strong> elde edin.
+              Üretilen elektrikten
+              <br />
+              <strong>devlet garantili</strong> satışlarla
+              <strong> gelir </strong>elde edin.
             </p>
           </div>
         </div>
