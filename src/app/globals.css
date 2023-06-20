@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff5e9;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  box-sizing: border-box !important ;
+  font-size: sans-serif;
+}
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Readex Pro', sans-serif;
+font-family: 'Reem Kufi Fun', sans-serif; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
