@@ -46,6 +46,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
+        <script async src="https://tally.so/widgets/embed.js"></script>
         <Script id="analytics" type="text/javascript">
           {`(function(c,l,a,r,i,t,y){
           c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};

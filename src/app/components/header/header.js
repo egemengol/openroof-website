@@ -2,14 +2,12 @@
 import React, { useEffect, useState } from "react";
 import logo from "../../../../public/assets/Header/Frame 318.svg";
 import "./header.css";
-//import { HashLink } from "react-router-hash-link";
 import { tallyHref } from "@/app/config/constants";
 import Image from "next/image";
 import Link from "next/link";
 import DrawerNav from "./DrawerNav";
 import { PhoneButton } from "../Ask/svg/phone";
-//const poppins = Poppins({ subsets: ["latin"],weight:["300","400","100","200"],style:["normal"] });
-//import { Poppins } from "next/font/google";
+
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -20,26 +18,7 @@ const Header = () => {
     window.addEventListener("scroll", scrollHandler);
     return () => window.removeEventListener("scroll", scrollHandler);
   }, [scrolled]);
-  //   <HashLink smooth to="/#NasilCalisir">
-  //   <li className="nav-link">Nasıl Çalışır?</li>
-  // </HashLink>
-  // <HashLink smooth to="/#Faydalar">
-  //   <li className="nav-link">Faydalar</li>
-  // </HashLink>
-  // <HashLink smooth to="/#GelirPaylasimi">
-  //   <li className="nav-link">Gelir Paylaşımı</li>
-  // </HashLink>
-  // <Link to="/sss">
-  //   <li
-  //     onClick={() => {
-  //       window.scrollTo(0, 0);
-  //     }}
-  //     className="nav-link sss"
-  //   >
-  //     {/* S.S.S. */}
-  //     Sıkça Sorulan Sorular
-  //   </li>
-  // </Link>
+ 
   return (
     <nav>
       <div className={`header ${scrolled && "scrolled"}`}>

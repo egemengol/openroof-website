@@ -201,7 +201,7 @@
 }
 
 .footer-button:hover .phone-img-button-footer {
-  animation: shake 2.5s;
+  animation: tada 1.5s;
   animation-iteration-count: infinite;
 }
 

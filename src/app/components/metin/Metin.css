@@ -56,7 +56,7 @@
 }
 
 .metin-button:hover .phone-img-button {
-  animation: shake 2.5s;
+  animation: tada 1.5s;
   animation-iteration-count: infinite;
 }
 

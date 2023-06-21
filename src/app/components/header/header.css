@@ -88,7 +88,7 @@ nav {
     }
   }
   .header-button:hover .phone-img-button-header {
-    animation: shake 2.5s;
+    animation: tada 1.5s;
     animation-iteration-count: infinite;
   }
   .phone-img-button-header {
