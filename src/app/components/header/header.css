@@ -1,317 +1,311 @@
 nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  box-shadow: (0 4px 4px) rgba(0, 0, 0, 0.25);
+  transition: all 0.3;
+}
+.nav-sm-act {
+  display: none;
+}
+.ul-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo-header {
+  position: relative;
+  top: 0;
+  display: flex;
+  width: 264px;
+  align-items: center;
+  box-shadow: inset 0 4.64272px 4.64272px rgb(0, 0, 0 /0.25);
+  padding: 25px 30px;
+}
+.nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #151916;
+  margin-right: 36px;
+  cursor: pointer;
+}
+.sss {
+  margin-right: 0px;
+}
+.header-right-action-wrapper {
+  margin: 18.85px 0px;
+  padding: 14px 21px;
+}
+.header-button {
+  height: 55.6px;
+  cursor: pointer;
+}
+.header-body-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4.17px;
+  height: 48px;
+  border-radius: 5.55987px;
+  padding: 11px 25px;
+  border: 2.78px solid #4a584e;
+  background-color: #fff5e9;
+}
+.header-button:hover {
+  .header-body-button {
+    /* background-color: #ce6d29; */
+    background-color: #4a584e;
+    transition: all 200ms;
+    /* border-color: beige; */
+    border-width: 2px;
+    border: 2.78px solid transparent;
   }
-  .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 32px;
-    box-shadow: (0 4px 4px) rgba(0, 0, 0, 0.25);
-    transition: all 0.3;
+  .header-button-text-info {
+    color: beige;
   }
-  .nav-sm-act {
-    display: none;
+  .phone-img-button-header {
+    fill: beige;
   }
-  .ul-navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  .header-body-button {
+    border-color: #4a584e;
   }
+}
+.header-button:hover .phone-img-button-header {
+  animation: shake 2.5s;
+  animation-iteration-count: infinite;
+}
+.phone-img-button-header {
+  fill: #252422;
+  width: 33.36px;
+  height: 33.36px;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-5deg);
+  }
+  3% {
+    transform: rotate(5deg);
+  }
+  6% {
+    transform: rotate(-5deg);
+  }
+  9% {
+    transform: rotate(5deg);
+  }
+  12% {
+    transform: rotate(-5deg);
+  }
+  15% {
+    transform: rotate(5deg);
+  }
+  18% {
+    transform: rotate(-5deg);
+  }
+  21% {
+    transform: rotate(5deg);
+  }
+  24% {
+    transform: rotate(-5deg);
+  }
+  27% {
+    transform: rotate(5deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.header-button-text {
+  padding: 0 11px;
+}
+
+.header-button-text-info {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.4595px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #252422;
+}
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  transition: all 0.3;
+  background: linear-gradient(
+    180deg,
+    rgba(206, 109, 41, 1) 0%,
+    rgba(255, 245, 233, 0.97) 65% 100%
+  );
+}
+
+@media screen and (max-width: 1440px) {
   .logo-header {
-    position: relative;
-    top: 0;
-    display: flex;
-    width: 264px;
-    align-items: center;
-    box-shadow: inset 0 4.64272px 4.64272px rgb(0, 0, 0 /0.25);
-    padding: 25px 30px;
+    padding: 24px 0 24px 48px;
   }
+  .header-right-action-wrapper {
+    margin: 0px;
+    padding: 11.74px 0px 0px 0px;
+  }
+
   .nav-link {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 350;
-    font-size: 22px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #151916;
-    margin-right: 36px;
-    cursor: pointer;
+    font-size: 18px;
+    margin-right: 24px;
+    margin-top: 12px;
   }
   .sss {
     margin-right: 0px;
   }
-  .header-right-action-wrapper {
-    margin: 18.85px 0px;
-    padding: 14px 21px;
-  }
-  .header-button {
-    height: 55.6px;
-    cursor: pointer;
-  }
-  
   .header-body-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 4.17px;
-    height: 48px;
-    border-radius: 5.55987px;
-    padding: 11px 25px;
-    border: 2.78px solid #4a584e;
-    background-color: #fff5e9;
+    padding: 10px 23px;
   }
-  .header-button:hover {
-    .header-body-button {
-      /* background-color: #ce6d29; */
-      background-color: #4a584e;
-      transition: all 200ms;
-      /* border-color: beige; */
-      border-width: 2px;
-      border: 2.78px solid transparent;
-    }
-    .header-button-text-info {
-      color: beige;
-    }
-    .phone-img-button-header {
-      fill: beige;
-    }
-    .header-body-button {
-      border-color: #4a584e;
-    }
-  }
-  .header-button:hover .phone-img-button-header {
-    animation: tada 1.5s;
-    animation-iteration-count: infinite;
+  .header-button-text-info {
+    font-size: 17.69px;
   }
   .phone-img-button-header {
-    fill: #252422;
-    width: 33.36px;
-    height: 33.36px;
+    width: 30.33px;
+    height: 30.33px;
   }
-  
-  @keyframes shake {
-    0% {
-      transform: rotate(-5deg);
-    }
-    3% {
-      transform: rotate(5deg);
-    }
-    6% {
-      transform: rotate(-5deg);
-    }
-    9% {
-      transform: rotate(5deg);
-    }
-    12% {
-      transform: rotate(-5deg);
-    }
-    15% {
-      transform: rotate(5deg);
-    }
-    18% {
-      transform: rotate(-5deg);
-    }
-    21% {
-      transform: rotate(5deg);
-    }
-    24% {
-      transform: rotate(-5deg);
-    }
-    27% {
-      transform: rotate(5deg);
-    }
-    30% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
+}
+
+@media screen and (max-width: 1277px) {
+  .nav-sm {
+    display: flex;
+    flex-direction: row;
   }
-  
-  .header-button-text {
-    padding: 0 11px;
+  .header-right-action-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0px;
+    justify-content: center;
   }
-  
+
+  .logo-header {
+    width: 243.23px;
+    height: 84.24px;
+    padding: 12px 0 12px 24px;
+  }
+
+  .nav-link {
+    font-size: 17px;
+    margin-right: 15px;
+  }
+  .header-button {
+    height: 42.12px;
+  }
+  .phone-img-button-header {
+    width: 25.27px;
+    height: 25.27px;
+  }
+  .header-body-button {
+    gap: 3.16px;
+    height: 42.12px;
+    padding: 8px 19px;
+  }
   .header-button-text-info {
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 19.4595px;
-    line-height: 150%;
-    letter-spacing: 0.05em;
-    color: #252422;
+    font-size: 14.74px;
   }
-  .scrolled {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    width: 100%;
-    transition: all 0.3;
-    background: linear-gradient(
-      180deg,
-      rgba(206, 109, 41, 1) 0%,
-      rgba(255, 245, 233, 0.97) 65% 100%
-    );
+}
+@media screen and (max-width: 940px) {
+  .navbar {
+    display: none;
   }
-  
-  @media screen and (max-width: 1440px) {
-    .logo-header {
-      padding: 24px 0 24px 48px;
-    }
-    .header-right-action-wrapper {
-      margin: 0px;
-      padding: 11.74px 0px 0px 0px;
-    }
-  
-    .nav-link {
-      font-size: 18px;
-      margin-right: 24px;
-      margin-top: 12px;
-    }
-    .sss {
-      margin-right: 0px;
-    }
-    .header-body-button {
-      padding: 10px 23px;
-    }
-    .header-button-text-info {
-      font-size: 17.69px;
-    }
-    .phone-img-button-header {
-      width: 30.33px;
-      height: 30.33px;
-    }
+  .nav-sm-act {
+    display: inline-block;
   }
-  
-  @media screen and (max-width: 1277px) {
-    .nav-sm {
-      display: flex;
-      flex-direction: row;
-    }
-    .header-right-action-wrapper {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding-top: 0px;
-      justify-content: center;
-    }
-  
-    .logo-header {
-      width: 243.23px;
-      height: 84.24px;
-      padding: 12px 0 12px 24px;
-    }
-  
-    .nav-link {
-      font-size: 17px;
-      margin-right: 15px;
-    }
-    .header-button {
-      height: 42.12px;
-    }
-    .phone-img-button-header {
-      width: 25.27px;
-      height: 25.27px;
-    }
-    .header-body-button {
-      gap: 3.16px;
-      height: 42.12px;
-      padding: 8px 19px;
-    }
-    .header-button-text-info {
-      font-size: 14.74px;
-    }
+}
+@media screen and (max-width: 744px) {
+  .header {
+    height: 64.4px;
+    padding: 0px 24px;
   }
-  @media screen and (max-width: 940px) {
-    .navbar {
-      display: none;
-    }
-    .nav-sm-act {
-      display: inline-block;
-    }
+  .logo-header {
+    width: 212px;
+    min-height: 36px;
+    padding: 14px 17px;
   }
-  @media screen and (max-width: 744px) {
-    .header {
-      height: 64.4px;
-      padding: 0px 24px;
-    }
-    .logo-header {
-      width: 212px;
-      min-height: 36px;
-      padding: 14px 17px;
-    }
-    .header-button {
-      height: 32.4px;
-    }
-    .header-body-button {
-      min-width: 150.99px;
-      height: 32.4px;
-      padding: 6px 15px;
-    }
-    .phone-img-button-header {
-      width: 19.44px;
-      height: 19.44px;
-    }
-    .header-button-text-info {
-      font-size: 11px;
-    }
+  .header-button {
+    height: 32.4px;
   }
-  @media screen and (max-width: 744px) {
-    .header {
-      padding: 0 5px;
-    }
+  .header-body-button {
+    min-width: 150.99px;
+    height: 32.4px;
+    padding: 6px 15px;
   }
-  @media screen and (max-width: 444px) {
-    .header-button-text-info {
-      display: none;
-    }
-    .header-body-button {
-      display: block;
-      min-width: 36px;
-      padding: 6px 3px;
-    }
-    
+  .phone-img-button-header {
+    width: 22px;
   }
-  
-  @media screen and (max-width: 390px) {
-    .header {
-      height: 56px;
-      padding: 0px;
-    }
-    .logo-header {
-      width: 164px;
-      height: auto;
-      min-width: 120px;
-      min-height: 30px;
-      padding: 32px 14px;
-    }
-  
-   
-    .phone-img-button-header {
-      width: 20.68px;
-      height: 17px;
-    }
-    .header-button-text-info {
-      font-size: 10.5px;
-    }
+  .header-button-text-info {
+    font-size: 11px;
   }
-  @media screen and (max-width: 320px) {
-    .header {
-      height: 56px;
-    }
-    .logo-header {
-      min-width: 127.12px;
-      padding: 12px 14px;
-    }
+}
+@media screen and (max-width: 744px) {
+  .header {
+    padding: 0 5px;
   }
-  
+}
+@media screen and (max-width: 444px) {
+  .header-button-text-info {
+    display: none;
+  }
+  .header-body-button {
+    display: block;
+    min-width: 32px;
+    padding: 0px 3px;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  .header {
+    height: 56px;
+    padding: 0px;
+  }
+  .logo-header {
+    width: 164px;
+    height: auto;
+    min-width: 120px;
+    min-height: 30px;
+    padding: 32px 14px;
+  }
+
+  .phone-img-button-header {
+    height: 17px;
+  }
+  .header-button-text-info {
+    font-size: 10.5px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header {
+    height: 56px;
+  }
+  .logo-header {
+    min-width: 127.12px;
+    padding: 12px 14px;
+  }
+}

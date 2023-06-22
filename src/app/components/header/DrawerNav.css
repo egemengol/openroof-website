@@ -10,7 +10,7 @@
 }
 .button {
   margin-left: 8px !important;
-  mergin-right: 8px !important;
+  margin-right: 8px !important;
 }
 .nav-link-sm {
   font-family: "Poppins";
@@ -22,7 +22,6 @@
   color: white;
   margin: 0 13.2px;
   cursor: pointer;
-  
 }
 .hamburgerIcon {
   margin: 14.82px 15.6px 14.82px 26px;
@@ -41,7 +40,7 @@
     height: 25.6px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   .hamburgerIcon {
     margin: 12.8px 12px 12.8px 20px;
   }

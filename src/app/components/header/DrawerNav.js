@@ -2,7 +2,6 @@
 import { Button, Drawer } from "@mui/material";
 import React from "react";
 import hamburgerIcon from "../../../../public/assets/Header/Hamburger.svg";
-//import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 import Image from "next/image";
 import Link from "next/link";
 import "./DrawerNav.css";
@@ -31,16 +30,16 @@ const DrawerNav = () => {
       >
         <div className="navbar-sm" onClick={() => setState(false)}>
           <ul className="ul-navbar-sm">
-            <Link href="/#nasil">
+            <Link smooth href="/#NasilCalisir">
               <li className="nav-link-sm">Nasıl Çalışır?</li>
             </Link>
-            <Link href="/#Faydalar">
+            <Link smooth href="/#Faydalar">
               <li className="nav-link-sm">Faydalar</li>
             </Link>
-            {/* <HashLink to="/">
+            {/* <Link href="/">
               <li className="nav-link-sm">Gelir Paylaşımı</li>
-            </HashLink> */}
-            <Link href="/sss">
+            </Link> */}
+            <Link smooth href="/sss">
               <li
                 onClick={() => {
                   window.scrollTo(0, 0);

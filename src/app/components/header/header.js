@@ -7,7 +7,6 @@ import Image from "next/image";
 import Link from "next/link";
 import DrawerNav from "./DrawerNav";
 import { PhoneButton } from "../Ask/svg/phone";
-
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -18,7 +17,6 @@ const Header = () => {
     window.addEventListener("scroll", scrollHandler);
     return () => window.removeEventListener("scroll", scrollHandler);
   }, [scrolled]);
- 
   return (
     <nav>
       <div className={`header ${scrolled && "scrolled"}`}>
@@ -29,15 +27,15 @@ const Header = () => {
         </div>
         <div className="navbar">
           <ul className="ul-navbar">
-            <Link smooth href="/#nasil">
+            <Link smooth href="/#NasilCalisir">
               <li className="nav-link">Nasıl Çalışır?</li>
             </Link>
             <Link smooth href="/#Faydalar">
               <li className="nav-link">Faydalar</li>
             </Link>
-            {/* <Link smooth href="/#GelirPaylasimi">
-               <li  className="nav-link">Gelir Paylaşımı</li>
-             </Link> */}
+            <Link smooth href="/#GelirPaylasimi">
+              <li className="nav-link">Gelir Paylaşımı</li>
+            </Link>
             <Link href="/sss">
               <li
                 onClick={() => {

@@ -1,4 +1,3 @@
-
 import { Button, Desc, Title, Wrapper } from "./styles";
 import { browserHistory } from "../router/index";
 
@@ -6,7 +5,7 @@ export const NotFound = () => {
   return (
     <Wrapper>
       <Title>404</Title>
-      <Desc>Aradığınız içeriği malesef bulamadık</Desc>
+      <Desc>Aradığınız içeriği maalesef bulamadık</Desc>
       {/* <a href="/">
         <Button
           onClick={() => browserHistory.push("/")}
