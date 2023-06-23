@@ -44,7 +44,7 @@ const RevenueSharing = () => {
         <p className="text">
           Mülk sahipleri, kurulum maliyetinin
           <strong className="text"> %10 </strong>ila
-          <strong className="text"> %50</strong>'sine katılarak hasılat
+          <strong className="text"> %50</strong>&apos;sine katılarak hasılat
           paylaşımındaki oranlarını belirleyebilirler. Yatırımcılar ise yatırmak
           istedikleri tutara göre bir mülk ile eşleştirilir.{" "}
         </p>
