@@ -88,7 +88,7 @@ nav {
     }
   }
   .header-button:hover .phone-img-button-header {
-    animation: tada 1.5s;
+    animation: tilt-shaking 2.5s;
     animation-iteration-count: infinite;
   }
   .phone-img-button-header {
@@ -97,7 +97,7 @@ nav {
     height: 33.36px;
   }
   
-  @keyframes shake {
+  @keyframes tilt-shaking {
     0% {
       transform: rotate(-5deg);
     }
