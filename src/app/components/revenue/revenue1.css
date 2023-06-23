@@ -251,6 +251,7 @@
   }
   .home-item-wrapper {
     flex-direction: column;
+    margin-bottom: 0px;
   }
   .guy-item-wrapper {
     flex-direction: column;
@@ -262,7 +263,20 @@
     margin-left: 0;
   }
   #third {
+    margin-top: 12px;
     margin-left: 0;
+  }
+  /* #four {
+    margin-top: 32px;
+  } */
+  #five {
+    margin-top: 24px;
+  }
+  #six {
+    margin-top: 24px;
+  }
+  #seven {
+    margin-top: 24px;
   }
   .item {
     margin-top: 61px;

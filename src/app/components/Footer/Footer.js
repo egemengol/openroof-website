@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import "./Footer.css";
 import logo from "../../../../public/assets/Home/footer_logo.svg";
 import { PhoneButton } from "../Ask/svg/phone";
@@ -41,15 +41,15 @@ const Footer = () => {
             <p className="mid-head">Site Haritası</p>
 
             <ul className="ul-link">
-              <Link smooth href="/#nasil">
+              <Link smooth href="/#NasilCalisir">
                 <li className="li-link">Nasıl Çalışır?</li>
               </Link>
               <Link smooth href="/#Faydalar">
                 <li className="li-link">Faydalar</li>
               </Link>
-              {/* <HashLink smooth to="/#Faydalar">
+              <Link smooth href="/#GelirPaylasimi">
                 <li className="li-link">Gelir Paylaşımı</li>
-              </HashLink> */}
+              </Link>
               <Link smooth href="/sss">
                 <li
                   onClick={() => {

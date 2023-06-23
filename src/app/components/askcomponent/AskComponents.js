@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import "./AskComponent.css";
-import { ArrowRight } from "../Ask/svg/srrow";
-//import { browserHistory } from "../../router/index";
+import { ArrowRight } from "../Ask/svg/arrow";
+// import { browserHistory } from "../../router";
 const AskComponents = () => {
   const [answer, setAnswer] = useState("one");
   const handleOne = () => {
@@ -26,6 +26,7 @@ const AskComponents = () => {
         className="ask-head"
         data-aos-once="true"
         data-aos="fade-down"
+        data-aos-delay="300"
       >
         <p>Sıkça Sorulan Sorular</p>
       </div>
@@ -33,6 +34,7 @@ const AskComponents = () => {
         className="askcomponent"
         data-aos-once="true"
         data-aos="fade-down"
+        data-aos-delay="300"
       >
         <div className="ask">
           <div className="ask-all">

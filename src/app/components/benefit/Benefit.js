@@ -1,4 +1,3 @@
-
 import "./Benefit.css";
 import frame309 from "../../../../public/assets/Home/Frame 309.svg";
 import Yatrim from "../../../../public/assets/Home/Yatırım görsel.svg";
@@ -10,7 +9,7 @@ import Image from "next/image";
 
 const Benefit = () => {
   return (
-    <div className="benefit" id="nasil">
+    <div className="benefit" id="NasilCalisir">
       <p
         className="tophead"
         data-aos-once="true"
@@ -27,7 +26,11 @@ const Benefit = () => {
           data-aos-delay="200"
         >
           <div className="headcartframe">
-            <Image className="headcartframe-size" src={frame309} alt="frame309" />
+            <Image
+              className="headcartframe-size"
+              src={frame309}
+              alt="frame309"
+            />
           </div>
           <div className="cartdetail">
             <p className="cartdetailhead">Yatırım</p>
@@ -69,8 +72,10 @@ const Benefit = () => {
             <p className="cartdetailhead">Kazanç</p>
             <Image className="cartdetailimg" src={kazan} alt="kazan" />
             <p className="cartdetailfooter ">
-              Üretilen <strong>elektrik</strong> satılsın ve{" "}
-              <strong>gelir</strong> elde edin.
+              Üretilen elektrikten
+              <br />
+              <strong>devlet garantili</strong> satışlarla
+              <strong> gelir </strong>elde edin.
             </p>
           </div>
         </div>

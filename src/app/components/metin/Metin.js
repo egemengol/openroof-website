@@ -1,4 +1,3 @@
-
 import "./Metin.css";
 import { PhoneButton } from "../Ask/svg/phone";
 import { tallyHref } from "../../commons/commons";
@@ -7,13 +6,13 @@ const Metin = () => {
     <div className="metin-page">
       <div>
         <p className="metin-head">
-          <strong className="metin-head">DÜŞÜK</strong>  Yatırım
+          <strong className="metin-head">DÜŞÜK</strong> Yatırım
         </p>
         <p className="metin-head">
-          <strong className="metin-head">YÜKSEK</strong>  Getiri
+          <strong className="metin-head">YÜKSEK</strong> Getiri
         </p>
         <p className="metin-head">
-          <strong className="metin-head">MİNİMAL</strong>  Risk
+          <strong className="metin-head">MİNİMAL</strong> Risk
         </p>
       </div>
 

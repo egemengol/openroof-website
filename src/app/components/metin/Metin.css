@@ -201,6 +201,7 @@
   .metin-page {
     gap: 12px;
     margin-left: 40px;
+    margin-top: 0px;
   }
   .metin-head {
     font-size: 38px;
@@ -264,6 +265,9 @@
   }
 }
 @media screen and (max-width: 475px) {
+  .metin-page {
+    margin-left: 24px;
+  }
   .metin-head {
     font-size: 25px;
   }
@@ -282,9 +286,15 @@
     padding: 6px 13px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
+  .metin-page {
+    margin-left: 12px;
+  }
+}
+@media screen and (max-width: 389px) {
   .metin-page {
     gap: 12px;
+    margin-left: 0px;
   }
   .metin-head {
     font-size: 28px;
