@@ -43,6 +43,10 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
         
+        <title>OpenRoof</title>
+        <meta property="title" content="OpenRoof" />
+        <meta property="description"
+          content="Yatırımınızı Güneşin Gücüyle Büyütün!" />
         <meta property="og:title" content="OpenRoof" />
         <meta property="og:description"
           content="Yatırımınızı Güneşin Gücüyle Büyütün!" />
