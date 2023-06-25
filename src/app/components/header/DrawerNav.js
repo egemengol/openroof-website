@@ -47,7 +47,7 @@ const DrawerNav = () => {
                 className="nav-link-sm"
               >
                 {/* S.S.S. */}
-                Sıkça Sorulan Sorular
+                Merak Edilenler
               </li>
             </Link>
           </ul>

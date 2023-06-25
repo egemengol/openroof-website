@@ -44,7 +44,7 @@ const Header = () => {
                 className="nav-link sss"
               >
                 {/* S.S.S. */}
-                Sıkça Sorulan Sorular
+                Merak Edilenler
               </li>
             </Link>
           </ul>

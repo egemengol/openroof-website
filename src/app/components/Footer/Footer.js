@@ -57,7 +57,7 @@ const Footer = () => {
                   }}
                   className="li-link"
                 >
-                  Sıkça Sorulan Sorular
+                  Merak Edilenler
                 </li>
               </Link>
               <a href={tallyHref}>
@@ -70,7 +70,7 @@ const Footer = () => {
             <div className="last-body">
               <div className="last-body-one">
                 <p className="last-body-first">
-                  <a href="/sss">Sıkça Sorulan Sorular</a>
+                  <a href="/sss">Merak Edilenler</a>
                 </p>
                 <p className="last-body-mid">sayfamızı ziyaret edin</p>
               </div>
