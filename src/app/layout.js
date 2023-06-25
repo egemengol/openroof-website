@@ -58,7 +58,10 @@ export default function RootLayout({ children }) {
         <meta property="og:twitter:title" content="OpenRoof" />
         <meta property="og:twitter:description"
           content="Yatırımınızı Güneşin Gücüyle Büyütün!" />
-        <meta property="og:twitter:image" content="https://openroof.com.tr/logo_slogan_green.png" />
+        {/* 
+        <meta property="og:twitter:image" content="https://openroof.com.tr/logo_slogan_green.png" /> 
+        Calistiramadim
+        */}
         
 
         <script async src="https://tally.so/widgets/embed.js"></script>
