@@ -90,7 +90,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="footer-copy">©2023 OpenRoof A.Ş. Tüm Hakları Saklıdır.</p>
+        <p className="footer-copy">
+          ©2023 OpenRoof Enerji A.Ş. Tüm Hakları Saklıdır.
+        </p>
       </div>
     </div>
   );
