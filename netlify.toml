@@ -1,0 +1,4 @@
+ [[redirects]]
+    from = "/"
+    to = "https://openroof.com.tr"
+    status = 301
