@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
         <meta property="og:locale" content="tr_TR" />
         <meta property="og:language" content="Turkish" />
         <meta property="og:site_name" content="OpenRoof" />
-        <meta property="og:image" content="/logo_slogan_green.png" />
+        <meta property="og:image" content="https://www.openroof.com.tr/logo_slogan_green.png" />
         <meta property="og:keywords" content="güneş enerjisi, yatırım, katılım, sürdürülebilir, " />
         <meta property="og:url" content="https://www.openroof.com.tr" />
         <meta property="og:type" content="website" />
@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
         <meta property="og:twitter:title" content="OpenRoof" />
         <meta property="og:twitter:description"
           content="Yatırımınızı Güneşin Gücüyle Büyütün!" />
-        <meta property="og:twitter:image" content="/logo_slogan_green.png" />
+        <meta property="og:twitter:image" content="https://www.openroof.com.tr/logo_slogan_green.png" />
         
 
         <script async src="https://tally.so/widgets/embed.js"></script>
