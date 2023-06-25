@@ -11,7 +11,7 @@ const logos = ["/open.png", "/next.svg", "/open.png", "/next.svg", "/open.png"];
 SwiperCore.use([Autoplay]);
 
 const swiperProps = {
-  slidesPerView: 2,
+  slidesPerView: 2.3,
   spaceBetween: 0,
   // breakpoints: {
   //   768: {
@@ -23,7 +23,7 @@ const swiperProps = {
   // },
   loop: true,
   autoplay: {
-    delay: 0,
+    delay: 1000,
   },
   loopAdditionalSlides: 2,
   // modules={[Autoplay]}

@@ -33,8 +33,7 @@ export default function Carousel2() {
           slot="container-start"
           className="parallax-bg"
           style={{
-            "background-image":
-              "url(https://swiperjs.com/demos/images/nature-1.jpg)",
+            backgroundImage: "url(/assets/Home/carouselPhoto.jpg)",
           }}
           data-swiper-parallax="-23%"
         ></div>
