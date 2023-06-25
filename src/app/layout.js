@@ -43,17 +43,23 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
         
-        <meta property="og:audio" content="https://example.com/bond/theme.mp3" />
+        <meta property="og:title" content="OpenRoof" />
         <meta property="og:description"
-          content="Sean Connery found fame and fortune as the
-                  suave, sophisticated British agent, James Bond." />
-        <meta property="og:determiner" content="the" />
-        <meta property="og:locale" content="en_GB" />
-        <meta property="og:locale:alternate" content="fr_FR" />
-        <meta property="og:locale:alternate" content="es_ES" />
-        <meta property="og:site_name" content="IMDb" />
-        <meta property="og:video" content="https://example.com/bond/trailer.swf" />
-        <meta property="og:image" content="https://openroof.co/_next/static/media/Frame%20318.39648a38.svg" />
+          content="Yatırımınızı Güneşin Gücüyle Büyütün!" />
+        <meta property="og:locale" content="tr_TR" />
+        <meta property="og:language" content="Turkish" />
+        <meta property="og:site_name" content="OpenRoof" />
+        <meta property="og:image" content="/_next/static/media/Frame%20318.39648a38.svg" />
+        <meta property="og:keywords" content="güneş enerjisi, yatırım, katılım, sürdürülebilir, " />
+        <meta property="og:url" content="https://www.openroof.com.tr" />
+        <meta property="og:type" content="website" />
+        <meta property="og:twitter:card" content="summary" />
+        <meta property="og:twitter:url" content="https://www.openroof.com.tr" />
+        <meta property="og:twitter:title" content="OpenRoof" />
+        <meta property="og:twitter:description"
+          content="Yatırımınızı Güneşin Gücüyle Büyütün!" />
+        <meta property="og:twitter:image" content="/_next/static/media/Frame%20318.39648a38.svg" />
+        
 
         <script async src="https://tally.so/widgets/embed.js"></script>
         <Script id="analytics" type="text/javascript">
