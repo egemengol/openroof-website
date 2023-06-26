@@ -1,6 +1,5 @@
 import "./knowMore.css";
-import LineIcon from "lineicons-react";
-
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const KnowMore = () => {
   return (
@@ -21,7 +20,7 @@ const KnowMore = () => {
             <div className="knowMore-button-text">
               <p className="knowMore-button-text-info">Merak Edilenler</p>
             </div>
-            <LineIcon name="chevron-right" id="knowMore-chevron" />
+            <ArrowForwardIosIcon className="knowMore-chevron" />
           </button>
         </a>
       </div>
