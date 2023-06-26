@@ -213,12 +213,12 @@
     height: 110px;
     width: 100%;
   }
-  .item-title {
+  /* .item-title {
     font-size: 13px;
-  }
-  .item-desc {
+  } */
+  /* .item-desc {
     font-size: 12px;
-  }
+  } */
   .homeOwner {
     width: 151.6px;
     height: 175.18px;
@@ -300,16 +300,16 @@
   }
 
   .homeOwner {
-    width: 160px;
-    height: 184.89px;
+    width: 200px;
+    height: auto;
   }
   .guy-img {
     display: none;
   }
   .guy-mobile {
     display: flex;
-    width: 160px;
-    height: 184.89px;
+    width: 200px;
+    height: auto;
   }
   .item-icon {
     left: unset;
