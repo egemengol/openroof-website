@@ -54,7 +54,7 @@ export default function Home() {
       <Benefit />
       <Revenue />
       {/* <WildLife /> */}
-      <CarouselLogo />
+      {/* <CarouselLogo /> */}
       <RevenueSharing />
       {/* <AskComponents /> */}
       <CarouselMoreInfo />
