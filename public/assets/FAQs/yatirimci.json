@@ -1,7 +1,7 @@
 [
   {
     "question": "OpenRoof yatırımımdan ne kadar gelir beklemeliyim?",
-    "answer": "OpenRoof yatırımınız, yaklaşık 5 yıl içinde kendini amorti eder ve sonrasında 15 yıl süresince düzenli bir kazanç sağlar. Getiri miktarı, güneş ışığına maruz kalma süresi ve üretilen elektriğin mevcut piyasa değeri gibi faktörlere bağlıdır.Örneğin, yaz aylarında daha fazla güneş ışığı olduğu için getirileriniz artarken, elektrik fiyatlarındaki bir artış da getirilerinizi olumlu yönde etkileyecektir."
+    "answer": "OpenRoof yatırımınız, ortalama 5 yıl içinde kendini amorti eder ve sonrasında 15 yıl süresince düzenli bir kazanç sağlar. Getiri miktarı, güneş ışığına maruz kalma süresi ve üretilen elektriğin mevcut piyasa değeri gibi faktörlere bağlıdır.Örneğin, yaz aylarında daha fazla güneş ışığı olduğu için getirileriniz artarken, elektrik fiyatlarındaki bir artış da getirilerinizi olumlu yönde etkileyecektir."
   },
   {
     "question": "OpenRoof yatırımını düşük riskli yapan özellikler nelerdir?",
@@ -53,7 +53,7 @@
   },
   {
     "question": "Yatırım projelerinin enerji üretim kapasitesi nasıl belirlenir?",
-    "answer": "Genellikle panel sayısı arttıkça verimlilik de arttığından, hem sürdürülebilirliği hem de karlılığı yükseltmek için çözüm, fiziksel ve yasal sınırlardaki en kapsamlı sistemi inşa etmektir. Yatırım miktarınız bu verimli sistemi doğrudan karşılayacak boyutta olmadığında, OpenRoof birden fazla yatırımı birleştirerek, yalnız yatırımın kendi başına ulaşamadığı karlılıklara ulaşmasını sağlar."
+    "answer": "OpenRoof olarak, yatırım projelerinin enerji üretim kapasitesini belirlerken güneş enerjisi potansiyeli, mülkün fiziksel özellikleri ve yasal limitler gibi bir dizi faktör dikkate alınır. Projelerimizin, yasal limit olan 50kWh enerji üretim kapasitesini destekleyecek nitelikte olmasına özen gösteriyoruz. Bu sayede, projelerin hem sürdürülebilirlik açısından hem de finansal açıdan verimliliğini ve dolayısıyla üretilen değeri en üst düzeye çıkarmaktayız."
   },
   {
     "question": "Yatırımcılar için enerji üretim verilerini ve performansı takip etmek için hangi araçlar ve uygulamalar kullanılabilir?",
