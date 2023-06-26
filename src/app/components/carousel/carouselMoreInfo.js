@@ -33,8 +33,8 @@ export default function CarouselMoreInfo() {
         modules={[Parallax, Pagination, Navigation]}
         autoplay={{
           delay: 8000,
-          autoplayDisableOnInteraction: false,
-          pauseOnMouseEnter: true,
+          // autoplayDisableOnInteraction: false,
+          // pauseOnMouseEnter: true,
         }}
         className="mySwiper"
         id="info"
