@@ -64,11 +64,21 @@
     gap: 20px;
   }
 }
-/* @media screen and (max-width: 480px) {
-  .text {
+
+@media screen and (max-width: 744px) {
+  /* .text {
     font-size: 16px;
+  } */
+  .image {
+    width: 100%;
   }
-} */
+  .revenueSharing-wrapper {
+    padding: 0px 40px;
+  }
+  .text-body {
+    width: 85%;
+  }
+}
 @media screen and (max-width: 390px) {
   .text {
     font-size: 12px;
