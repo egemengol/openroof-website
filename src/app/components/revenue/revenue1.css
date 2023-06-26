@@ -178,9 +178,9 @@
   .item-title {
     font-size: 18px;
   }
-  .item-desc {
-    font-size: 14px;
-  }
+  /* .item-desc {
+    font-size: 16px;
+  } */
   .homeOwner {
     width: 200px;
     height: 230px;

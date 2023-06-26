@@ -56,9 +56,9 @@
   .image {
     width: 80%;
   }
-  .text {
+  /* .text {
     font-size: 14px;
-  }
+  } */
   .revenueSharing-wrapper {
     flex-direction: column;
     gap: 20px;
