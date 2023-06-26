@@ -40,6 +40,14 @@
   .header-button-body {
     border-color: #4a584e;
   }
+  #knowMore-chevron {
+    color: beige;
+    animation: tilt-shaking 5s;
+    animation-iteration-count: infinite;
+  }
+  .knowMore-button-text-info {
+    color: beige;
+  }
 }
 
 .knowMore-button-text {
@@ -70,6 +78,12 @@
   text-align: center;
   align-items: center;
   margin: 0px 40px;
+}
+
+#knowMore-chevron {
+  font-size: 2em;
+  /* color: #38433a; */
+  color: black;
 }
 
 @media screen and (max-width: 1020px) {

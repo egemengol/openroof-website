@@ -1,5 +1,6 @@
 import "./knowMore.css";
-import Image from "next/image";
+import LineIcon from "lineicons-react";
+
 
 const KnowMore = () => {
   return (
@@ -20,13 +21,7 @@ const KnowMore = () => {
             <div className="knowMore-button-text">
               <p className="knowMore-button-text-info">Merak Edilenler</p>
             </div>
-            <Image
-              src="/assets/Home/akar-icons_chevron-right.svg"
-              alt="Image Description"
-              width={32}
-              height={32}
-              color="#FFFFFF"
-            ></Image>
+            <LineIcon name="chevron-right" id="knowMore-chevron" />
           </button>
         </a>
       </div>
