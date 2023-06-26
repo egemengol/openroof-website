@@ -113,6 +113,49 @@ export default function CarouselMoreInfo() {
             </p>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="title" data-swiper-parallax="-300">
+            Risksiz Yatırım: Sözleşmelerle Güvence Altında
+          </div>
+          <div className="subtitle" data-swiper-parallax="-200">
+            <br></br>
+          </div>
+          <div className="text" data-swiper-parallax="-100">
+            <p>
+              OpenRoof, yatırımcıların güvenini en ön planda tutar. Yatırımınızı
+              yaparken herhangi bir ekonomik belirsizlikten etkilenmemeniz için,
+              yaptığınız yatırımlarınız sözleşmelerle güvence altına alınır.
+              Anaparanızı koruma altına alan ve sabit getiri sağlayan bir
+              modelle çalışırız. Her adımı hukuki danışmanlarımızın gözetiminde
+              atılan yatırım süreciniz, sizin için belirli ve net bir şekilde
+              kurgulanmıştır. OpenRoof, yatırımcısına güven veren,
+              belirsizliklerden uzak, sağlam bir yapıya sahip bir yatırım
+              aracıdır.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="title" data-swiper-parallax="-300">
+            Küçük Yatırımlarla Büyük Adımlar{" "}
+          </div>
+          <div className="subtitle" data-swiper-parallax="-200">
+            <br></br>
+          </div>
+          <div className="text" data-swiper-parallax="-100">
+            <p>
+              OpenRoof, her bütçeye uygun yatırım imkanı sunar.
+              Yatırımcılarımızın hepsine, yatırım miktarları ne olursa olsun,
+              eşit fırsatlar ve olanaklar sunmayı hedefleriz. Küçük yatırımlarla
+              bile büyük adımlar atabilir, gelir elde ederken aynı zamanda çevre
+              dostu bir enerji kaynağını destekleyebilirsiniz. Sizin için en
+              uygun yatırım miktarı ne olursa olsun, OpenRoof size yatırım yapma
+              fırsatı sunar ve sizin için en uygun çatıyı bulur. Yatırımınızın
+              miktarı ne olursa olsun, güneş enerjisi projelerine yaptığınız her
+              yatırım, hem sizin hem de gezegenimizin geleceğine yatırım
+              yapmanızı sağlar.
+            </p>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );
