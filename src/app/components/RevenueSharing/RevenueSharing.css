@@ -79,8 +79,3 @@
     width: 85%;
   }
 }
-@media screen and (max-width: 390px) {
-  .text {
-    font-size: 12px;
-  }
-}
