@@ -51,7 +51,7 @@ nav {
 .header-right-action-wrapper {
   /* margin: 18.85px 0px; */
   padding: 0px 21px;
-  margin-right: 40px;
+  margin-top: 10px;
 }
 .header-button {
   height: 46.6px;
@@ -173,7 +173,6 @@ nav {
   }
   .header-right-action-wrapper {
     margin: 0px;
-    margin-right: 44px;
     padding: 11.74px 0px 0px 0px;
   }
 
@@ -232,7 +231,6 @@ nav {
     height: 42.12px;
     padding: 8px 19px;
     margin-top: 8px;
-    margin-right: 28px;
   }
   .header-button-text-info {
     font-size: 14.74px;
@@ -258,7 +256,7 @@ nav {
     display: inline-block;
   }
   .header-body-button {
-    margin-top: 6px;
+    margin-top: 3px;
   }
 }
 @media screen and (max-width: 744px) {
