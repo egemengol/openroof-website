@@ -8,8 +8,8 @@ import Benefit from "./components/benefit/Benefit";
 import Revenue from "./components/revenue/Revenue";
 import RevenueSharing from "./components/RevenueSharing/RevenueSharing";
 import AskComponents from "./components/askcomponent/AskComponents";
-import Carousel from "./components/carousel/Carousel";
-import Carousel2 from "./components/carousel/Carousel2";
+import CarouselLogo from "./components/carousel/carouselLogo";
+import CarouselMoreInfo from "./components/carousel/carouselMoreInfo";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -54,10 +54,10 @@ export default function Home() {
       <Benefit />
       <Revenue />
       {/* <WildLife /> */}
+      <CarouselLogo />
       <RevenueSharing />
-      <AskComponents />
-      <Carousel />
-      <Carousel2 />
+      {/* <AskComponents /> */}
+      <CarouselMoreInfo />
     </div>
   );
 }
