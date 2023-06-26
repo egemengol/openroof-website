@@ -87,16 +87,15 @@ export default function CarouselMoreInfo() {
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              OpenRoof, her bütçeye uygun yatırım imkanı sunar.
+              OpenRoof, her bütçeye uygun bir yatırım imkanı sunar.
               Yatırımcılarımızın hepsine, yatırım miktarları ne olursa olsun,
               eşit fırsatlar ve olanaklar sunmayı hedefleriz. Küçük yatırımlarla
               bile büyük adımlar atabilir, gelir elde ederken aynı zamanda çevre
-              dostu bir enerji kaynağını destekleyebilirsiniz. Sizin için en
-              uygun yatırım miktarı ne olursa olsun, OpenRoof size yatırım yapma
-              fırsatı sunar ve sizin için en uygun çatıyı bulur. Yatırımınızın
-              miktarı ne olursa olsun, güneş enerjisi projelerine yaptığınız her
-              yatırım, hem sizin hem de gezegenimizin geleceğine yatırım
-              yapmanızı sağlar.
+              dostu bir enerji kaynağını destekleyebilirsiniz. OpenRoof, küçük
+              yatırımları en uygun çatıda birleştirerek güneş enerjisi
+              projelerini hayata geçirir. Bu sayede, büyük projelerin
+              karlılığını küçük yatırımlar için de sağlayarak yatırımda fırsat
+              eşitliğini destekler.
             </p>
           </div>
         </SwiperSlide>
