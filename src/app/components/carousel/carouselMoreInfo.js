@@ -9,13 +9,15 @@ import "swiper/css/navigation";
 
 import "./Carousel.css";
 
-import { Parallax, Pagination, Navigation } from "swiper";
+import SwiperCore, { Autoplay, Parallax, Pagination, Navigation } from "swiper";
+
+SwiperCore.use([Autoplay]);
 
 export default function CarouselMoreInfo() {
   return (
     <>
       <Swiper
-        centeredSlides={true} // this doesn't work?
+        centeredSlides={true}
         grabCursor={true}
         rewind={true}
         style={{
@@ -29,6 +31,11 @@ export default function CarouselMoreInfo() {
         }}
         navigation={true}
         modules={[Parallax, Pagination, Navigation]}
+        autoplay={{
+          delay: 8000,
+          autoplayDisableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
         className="mySwiper"
         id="info"
       >
