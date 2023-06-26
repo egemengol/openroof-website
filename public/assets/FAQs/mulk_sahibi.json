@@ -49,7 +49,7 @@
   },
   {
     "question": "Sistemle ilgili teknik destek alabileceğim bir iletişim kanalı var mı?",
-    "answer": "Herhangi bir konuda desteğe ihtiyacınız olursa  0(242) 745 07 01’i arayarak, 'Sizi Arayalım!' formumuzu doldurarak veya info@openroof.com.tr adresine mail atarak bize ulaşabilirsiniz."
+    "answer": "Herhangi bir konuda desteğe ihtiyacınız olursa  0(242) 745 07 01’i arayarak, iletişim formumuzu doldurarak veya info@openroof.com.tr adresine mail atarak bize ulaşabilirsiniz."
   },
   {
     "question": "Güneş enerjisi sistemine ek ekipmanlar (ör. enerji depolama sistemleri) eklenebilir mi?",
@@ -65,7 +65,7 @@
   },
   {
     "question": "Güneş enerjisi sistemi, elektrik kesintileri sırasında enerji sağlar mı?",
-    "answer": "Güneş enerjisi sistemleri, güvenlik nedenleriyle genellikle elektrik kesintileri sırasında devre dışı bırakılır. Bu, 'anti-islanding' olarak adlandırılan bir güvenlik önlemidir ve elektrik çarpması riskini en aza indirgemek için uygulanır. Elektrik kesintisi yaşandığında, güneş enerjisi sisteminiz de devre dışı kalır."
+    "answer": "Güneş enerjisi sistemleri, güvenlik nedenleriyle genellikle elektrik kesintileri sırasında devre dışı bırakılır. Bu, 'anti-islanding' olarak adlandırılan bir güvenlik önlemidir ve elektrik çarpması riskini en aza indirgemek için uygulanır. Bu sebeple, elektrik kesintisi yaşandığında, güneş enerjisi sisteminiz de devre dışı kalır."
   },
   {
     "question": "Güneş enerjisi sistemini büyütmek veya yükseltmek istediğimde ne yapmalıyım?",
