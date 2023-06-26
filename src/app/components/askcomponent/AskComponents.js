@@ -28,7 +28,7 @@ const AskComponents = () => {
         data-aos="fade-down"
         data-aos-delay="300"
       >
-        <p>Sıkça Sorulan Sorular</p>
+        <p>Merak Edilenler</p>
       </div>
       <div
         className="askcomponent"

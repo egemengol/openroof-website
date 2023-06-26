@@ -57,7 +57,7 @@ const Footer = () => {
                   }}
                   className="li-link"
                 >
-                  Sıkça Sorulan Sorular
+                  Merak Edilenler
                 </li>
               </Link>
               <a href={tallyHref}>
@@ -70,7 +70,7 @@ const Footer = () => {
             <div className="last-body">
               <div className="last-body-one">
                 <p className="last-body-first">
-                  <a href="/sss">Sıkça Sorulan Sorular</a>
+                  <a href="/sss">Merak Edilenler</a>
                 </p>
                 <p className="last-body-mid">sayfamızı ziyaret edin</p>
               </div>
@@ -90,7 +90,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="footer-copy">©2023 OpenRoof A.Ş. Tüm Hakları Saklıdır.</p>
+        <p className="footer-copy">
+          ©2023 OpenRoof Enerji A.Ş. Tüm Hakları Saklıdır.
+        </p>
       </div>
     </div>
   );

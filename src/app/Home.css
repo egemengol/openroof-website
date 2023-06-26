@@ -45,22 +45,15 @@
   margin-right: auto;
 }
 @keyframes bounce {
-  /* 0%,
-  20%,
-  50%,
-  80%, */
-  0% {
+  40% {
     transform: translateY(-6px);
   }
-  50% {
-    transform: translateY(6px);
-  }
-  100% {
-    transform: translateY(-6px);
+  60% {
+    transform: translateY(-3px);
   }
 }
 .arrimg {
-  animation: bounce 1s infinite;
+  animation: bounce 1.5s infinite;
 }
 .curve-desktop {
   display: none;

@@ -16,6 +16,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <link
+          href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+          rel="stylesheet"
+        />
+        <link
           href="https://fonts.cdnfonts.com/css/proxima-nova-2"
           rel="stylesheet"
         />

@@ -1,25 +1,44 @@
+.revenueSharing-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  padding: 0px 80px;
+  gap: 80px;
+  margin-bottom: 40px;
+}
+
 .revenueSharing {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: fit-content;
 }
 
 .image {
-  width: 50%;
+  width: 150%;
   height: auto;
   margin-bottom: 40px;
+  max-width: 800px;
+}
+
+.text-body {
+  width: 70%;
 }
 
 .text {
   color: #23372f;
   font-family: "Nunito";
-  font-size: 20px;
+  font-size: 18px;
   font-style: regular;
   font-weight: 400;
   letter-spacing: 0.04em;
   line-height: 150%;
-  width: 70%;
-  margin: 0 auto;
+  /* width: 70%; */
+  /* width: 40%; */
+  /* margin: 0 auto; */
 }
 
 .text strong {
@@ -27,12 +46,22 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 1277px) {
+  .text {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 1020px) {
   .image {
     width: 80%;
   }
   .text {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  .revenueSharing-wrapper {
+    flex-direction: column;
+    gap: 20px;
   }
 }
 /* @media screen and (max-width: 480px) {

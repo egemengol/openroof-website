@@ -1,5 +1,5 @@
 .revenue {
-  padding: 40px 132px;
+  padding: 0px 132px;
   display: flex;
   margin-top: 40px;
   background-color: #fff;
@@ -36,6 +36,7 @@
   justify-content: center;
   align-items: center;
   margin-left: 62px;
+  gap: 12px;
 }
 .item-icon {
   position: absolute;
@@ -147,8 +148,15 @@
   width: 100%;
 }
 #second {
-  margin-top: 38px;
-  margin-bottom: 38px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#third {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#fourth {
+  margin-left: -109px;
 }
 @media screen and (max-width: 1277px) {
   .revenue {
@@ -229,7 +237,7 @@
 
 @media screen and (max-width: 660px) {
   .revenue {
-    padding: 40px 40px;
+    padding: 0px 40px;
   }
   .head {
     margin-top: 50px;
@@ -240,7 +248,7 @@
     padding: 40px 40px;
   }
   .guy {
-    padding: 40px 40px;
+    padding: 40px 40px 0px 40px;
   }
 }
 @media screen and (max-width: 580px) {
@@ -258,17 +266,19 @@
   }
   .item-wrapper {
     margin-left: 0px;
+    gap: 32px;
   }
   #first {
+    margin-top: 60px;
     margin-left: 0;
   }
   #third {
     margin-top: 12px;
     margin-left: 0;
   }
-  /* #four {
-    margin-top: 32px;
-  } */
+  #fourth {
+    margin-left: 0px;
+  }
   #five {
     margin-top: 24px;
   }
@@ -279,7 +289,7 @@
     margin-top: 24px;
   }
   .item {
-    margin-top: 61px;
+    margin-top: 15px;
     padding: 40px 12px 24px 12px;
     height: auto;
   }
@@ -310,6 +320,7 @@
     top: -40px;
   }
   .item-wrapper-two {
+    gap: 12px;
     margin-right: 0;
   }
   #four {
