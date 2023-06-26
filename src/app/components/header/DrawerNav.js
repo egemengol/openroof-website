@@ -36,9 +36,9 @@ const DrawerNav = () => {
             <Link smooth href="/#Faydalar">
               <li className="nav-link-sm">Faydalar</li>
             </Link>
-            {/* <Link href="/">
+            <Link href="/#GelirPaylasimi">
               <li className="nav-link-sm">Gelir Paylaşımı</li>
-            </Link> */}
+            </Link>
             <Link smooth href="/sss">
               <li
                 onClick={() => {
