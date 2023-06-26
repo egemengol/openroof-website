@@ -37,12 +37,7 @@ const Header = () => {
               <li className="nav-link">Gelir Paylaşımı</li>
             </Link>
             <Link href="/sss">
-              <li
-                onClick={() => {
-                  window.scrollTo(0, 0);
-                }}
-                className="nav-link sss"
-              >
+              <li className="nav-link sss">
                 {/* S.S.S. */}
                 Merak Edilenler
               </li>
