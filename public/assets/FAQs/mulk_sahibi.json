@@ -24,10 +24,6 @@
     "answer": "Güneş enerjisi sisteminin mülkiyet devri, 15 yıllık sözleşmenin bitişiyle otomatik olarak gerçekleşir. Mülkiyet devri ile birlikte, OpenRoof ve yatırımcıya olan yükümlülükleriniz de kendiliğinden sona erer. Bu süreç tamamen otomatiktir ve herhangi bir işlem yapmanız gerekmez."
   },
   {
-    "question": "!!!!!!!!!!!!!!!ÇIKARABİLİRİZ Güneş panelleri evimin değerini ne kadar artırır?",
-    "answer": "Sözleşme sonrası paneller tamamıyla size devredilir. Sistem aktif kaldığı sürece evinizin tüketiminden çok daha fazla üretim yapacağı için, evde oturan hane halkına ciddi bir gelir sağlamaya devam edecektir. Elektrik faturası ödemek yerine para kazandıran bir eve sahip olursunuz."
-  },
-  {
     "question": "Sistem, olası risklere karşı nasıl korunuyor?",
     "answer": "GES sisteminiz, olası doğal afet, çalınma gibi durumlar için tarafımızca sigortalanmıştır. Panellerin üretime devam etmesi için, sözleşmede belirtilen hususlara özen göstermeniz yeterlidir. Sizden kaynaklanmayan tüm durumlarda, tüm rizikolar (all-risk) sigortamız geçerliliğini sürdürür ve herhangi bir ödeme yapmanız gerekmez."
   },
@@ -37,7 +33,7 @@
   },
   {
     "question": "Güneş enerjisi sisteminin ömrü nedir?",
-    "answer": "Güneş panelleri 40 yıl veya daha uzun bir süre enerji üretmeye devam etseler de, teknolojideki hızlı gelişmeler nedeniyle daha verimli panellerin ortaya çıkması mümkündür. Kurulumunu yaptığımız paneller son teknoloji ile üretilmiştir ve yüksek verimlilik oranına sahiptir. Ancak, eski panellerin ömrünü doldurmasını beklemek yerine, daha verimli panellere yatırım yapmak ekonomik olarak daha avantajlı olabilir. Bunun yanı sıra inverterların ömrü paneller kadar uzun olmayabiliyor, ve her 15-20 senede bir değiştirilmesi tavsiye ediliyor. Her halükarda, sistemi yenilemek tamamen şahsi bir karardır. Yenilenmediği takdirde de sözleşme bittikten sonra bile çok uzun yıllar elektrik üretmeye devam edecektir."
+    "answer": "Panellerin kendilerinin ömürleri yaklaşık 30 yıl civarındayken, inverter ve diğer ekipmanların ömürleri 15-20 yıl arasında değişmektedir. Inverter bakımı veya yenilenmesinin ardından sistem aynı şekilde elektrik üretmeye devam eder."
   },
   {
     "question": "Aylık raporlama nasıl yapılır?",
@@ -53,7 +49,7 @@
   },
   {
     "question": "Sistemle ilgili teknik destek alabileceğim bir iletişim kanalı var mı?",
-    "answer": "Herhangi bir konuda desteğe ihtiyacınız olursa 0 (242) 745 07 01’i arayarak veya info@openroof.com.tr adresine mail atarak bize ulaşabilirsiniz."
+    "answer": "Herhangi bir konuda desteğe ihtiyacınız olursa  0(242) 745 07 01’i arayarak, iletişim formumuzu doldurarak veya info@openroof.com.tr adresine mail atarak bize ulaşabilirsiniz."
   },
   {
     "question": "Güneş enerjisi sistemine ek ekipmanlar (ör. enerji depolama sistemleri) eklenebilir mi?",
@@ -69,7 +65,7 @@
   },
   {
     "question": "Güneş enerjisi sistemi, elektrik kesintileri sırasında enerji sağlar mı?",
-    "answer": "Güneş enerjisi sistemleri, güvenlik nedenleriyle genellikle elektrik kesintileri sırasında devre dışı bırakılır. Bu, 'anti-islanding' olarak adlandırılan bir güvenlik önlemidir ve elektrik çarpması riskini en aza indirgemek için uygulanır."
+    "answer": "Güneş enerjisi sistemleri, güvenlik nedenleriyle genellikle elektrik kesintileri sırasında devre dışı bırakılır. Bu, 'anti-islanding' olarak adlandırılan bir güvenlik önlemidir ve elektrik çarpması riskini en aza indirgemek için uygulanır. Bu sebeple, elektrik kesintisi yaşandığında, güneş enerjisi sisteminiz de devre dışı kalır."
   },
   {
     "question": "Güneş enerjisi sistemini büyütmek veya yükseltmek istediğimde ne yapmalıyım?",

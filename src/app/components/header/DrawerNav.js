@@ -36,16 +36,11 @@ const DrawerNav = () => {
             <Link smooth href="/#Faydalar">
               <li className="nav-link-sm">Faydalar</li>
             </Link>
-            {/* <Link href="/">
+            <Link href="/#GelirPaylasimi">
               <li className="nav-link-sm">Gelir Paylaşımı</li>
-            </Link> */}
+            </Link>
             <Link smooth href="/sss">
-              <li
-                onClick={() => {
-                  window.scrollTo(0, 0);
-                }}
-                className="nav-link-sm"
-              >
+              <li className="nav-link-sm">
                 {/* S.S.S. */}
                 Merak Edilenler
               </li>
