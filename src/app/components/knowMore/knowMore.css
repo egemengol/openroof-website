@@ -1,0 +1,89 @@
+.knowMore-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 24px;
+}
+
+.knowMore-button {
+  height: 46.6px;
+  cursor: pointer;
+}
+
+.knowMore-button-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4.17px;
+  height: 48px;
+  border-radius: 5.55987px;
+  padding: 11px 25px;
+  border: 2.78px solid #4a584e;
+  background-color: #fff5e9;
+}
+
+.knowMore-button:hover {
+  .knowMore-button-body {
+    /* background-color: #ce6d29; */
+    background-color: #4a584e;
+    transition: all 200ms;
+    /* border-color: beige; */
+    border-width: 2px;
+    border: 2.78px solid transparent;
+  }
+  .knowMore-button-text {
+    color: beige;
+  }
+  .header-button-body {
+    border-color: #4a584e;
+  }
+}
+
+.knowMore-button-text {
+  padding: 0 12px;
+}
+
+.knowMore-button-text-info {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #252422;
+}
+
+.knowMore-title {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #252422;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0px 40px;
+}
+
+@media screen and (max-width: 1020px) {
+  .knowMore-title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 744px) {
+  .knowMore-title {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .knowMore-title {
+    font-size: 14px;
+  }
+}
