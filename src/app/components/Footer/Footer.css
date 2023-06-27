@@ -78,7 +78,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 .mid-head {
   font-family: "Proxima Nova";
@@ -108,7 +108,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 .last-head {
   font-family: "Proxima Nova";
@@ -150,7 +150,7 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 150%;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0.06em;
   color: #fff5e9;
   align-self: center;
@@ -168,10 +168,11 @@
   justify-content: center;
   align-items: center;
   gap: 4.17px;
-  height: 48px;
+  /* height: 48px; */
+  height: auto;
   width: 100%;
   border-radius: 5.55987px;
-  padding: 24px 25px;
+  padding: 10px 23px;
   border: 2.78px solid #4a584e;
   background-color: #fff5e9;
 }
@@ -299,14 +300,20 @@
     margin-top: 32px;
   }
   .footer-body-button {
-    padding: 9px 20px;
+    padding: 8px 19px;
   }
   .phone-img-button-footer {
     width: 25.27px;
     height: 25.27px;
   }
   .footer-button-text-info {
-    font-size: 14.74px;
+    font-size: 13px;
+  }
+  .footer-mid {
+    padding-top: 20px;
+  }
+  .footer-last {
+    padding-top: 20px;
   }
 }
 @media screen and (max-width: 744px) {
@@ -348,6 +355,7 @@
   }
   .footer-button-text-info {
     font-size: 11.3401px;
+    padding: 0px 8px;
   }
   .mid-head {
     font-size: 16px;
@@ -356,6 +364,9 @@
   .last-head {
     font-size: 16px;
     padding-top: 0;
+  }
+  .footer-body-button {
+    padding: 6px 15px;
   }
 }
 @media screen and (max-width: 545px) {
@@ -395,7 +406,8 @@
     width: 148px;
   }
   .footer-body-button {
-    padding: 7px 10px;
+    height: auto;
+    padding: 4px 10px;
   }
   .phone-img-button-footer {
     width: 18px;
@@ -443,7 +455,8 @@
     text-align: center;
   }
   .footer-body-button {
-    padding: 9px 20px;
+    padding: 0px 12px;
+    height: 36px;
   }
   .phone-img-button-footer {
     width: 18px;
