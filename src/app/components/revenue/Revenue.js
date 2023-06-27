@@ -169,7 +169,7 @@ const Revenue = () => {
               <div className="item-title">Düşük Yatırım Olanağı</div>
               <div className="item-desc">
                 {" "}
-                Küçük yatırımların birleşik gücü ile, bireysel olarak ulaşılması
+                Küçük yatırımların birleşik gücü ile bireysel olarak ulaşılması
                 güç olan büyük projelere OpenRoof ile erişebilirsiniz.
               </div>
             </div>
