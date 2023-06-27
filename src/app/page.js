@@ -29,6 +29,8 @@ export default function Home() {
             src={home}
             alt="home"
             data-aos="fade-down"
+            width="491"
+            height="582"
           />
           <div id="metin" data-aos="fade-down" className="metin-componenet">
             <Metin />
