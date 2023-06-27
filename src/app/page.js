@@ -1,8 +1,8 @@
 "use client";
 import "./Home.css";
 import Image from "next/image";
-import home from "../../public/assets/Header/Hero görsel.svg";
-import ko from "../../public/assets/Header/ok0.svg";
+import HomeIcon from "@/app/assets/img/Hero görsel.svg";
+import ko from "../../public/assets/Header/ok0.svg?url";
 import Metin from "./components/metin/Metin";
 import Benefit from "./components/benefit/Benefit";
 import Revenue from "./components/revenue/Revenue";
@@ -23,24 +23,29 @@ export default function Home() {
     <div className="app-wrapper">
       <div className="home-metin">
         <div className="curve">
-          <Image
+          <HomeIcon
             id="house-img"
             className="imagehome"
-            src={home}
-            alt="home"
             data-aos="fade-down"
           />
-          <div id="metin" data-aos="fade-down" className="metin-componenet">
+          <div
+            id="metin"
+            data-aos="fade-down"
+            className="metin-componenet"
+          >
             <Metin />
           </div>
-          <Image id="arrow-img" className="arrimg" src={ko} alt="arrow" />
+          <Image
+            id="arrow-img"
+            className="arrimg"
+            src={ko}
+            alt="arrow"
+          />
         </div>
         <div className="curve-desktop">
-          <Image
+          <HomeIcon
             className="imagehome"
             data-aos="fade-down"
-            src={home}
-            alt="home"
           />
           <div
             className="metin-componenet"
@@ -49,7 +54,11 @@ export default function Home() {
           >
             <Metin />
           </div>
-          <Image className="arrimg" src={ko} alt="arrow" />
+          <Image
+            className="arrimg"
+            src={ko}
+            alt="arrow"
+          />
         </div>
       </div>
       <Benefit />

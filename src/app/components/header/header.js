@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import logo from "../../../../public/assets/Header/Frame 318.svg";
+import Logo from "@/app/assets/img/Frame 318.svg";
 import "./header.css";
 import { tallyHref } from "@/app/config/constants";
 import Image from "next/image";
@@ -22,18 +22,27 @@ const Header = () => {
       <div className={`header ${scrolled && "scrolled"}`}>
         <div className="">
           <a href="/">
-            <Image className="logo-header" src={logo} alt="Your SVG" />
+            <Logo className="logo-header" />
           </a>
         </div>
         <div className="navbar">
           <ul className="ul-navbar">
-            <Link smooth href="/#NasilCalisir">
+            <Link
+              smooth
+              href="/#NasilCalisir"
+            >
               <li className="nav-link">Nasıl Çalışır?</li>
             </Link>
-            <Link smooth href="/#Faydalar">
+            <Link
+              smooth
+              href="/#Faydalar"
+            >
               <li className="nav-link">Faydalar</li>
             </Link>
-            <Link smooth href="/#GelirPaylasimi">
+            <Link
+              smooth
+              href="/#GelirPaylasimi"
+            >
               <li className="nav-link">Gelir Paylaşımı</li>
             </Link>
             <Link href="/sss">
