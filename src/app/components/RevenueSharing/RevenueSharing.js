@@ -27,7 +27,7 @@ const RevenueSharing = () => {
           <p className="text">
             Üretilen değer
             <strong className="text"> 10 yıl boyunca </strong>
-            yatırımcı, mülk sahibi, ve OpenRoof arasında paylaşılır.
+            yatırımcı, mülk sahibi ve OpenRoof arasında paylaşılır.
           </p>
           <br />
           <p className="text">
