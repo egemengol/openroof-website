@@ -46,11 +46,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
-
         <title>OpenRoof</title>
         <meta
           name="google-site-verification"
-          content="ztoPUQvtpoEQNVbxbma1xkABu3X6u0VtZuLhWJrntqA"
+          content="lw-nuPDa8wbzfLk84ypYfq_wQjfHXuh7S75_mUx8NEc"
         />
         <meta property="title" content="OpenRoof" />
         <meta
@@ -86,7 +85,6 @@ export default function RootLayout({ children }) {
         <meta property="og:twitter:image" content="https://openroof.com.tr/logo_slogan_green.png" /> 
         Calistiramadim
         */}
-
         <script async src="https://tally.so/widgets/embed.js"></script>
         <Script id="analytics" type="text/javascript">
           {`(function(c,l,a,r,i,t,y){
