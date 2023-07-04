@@ -46,31 +46,46 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
         />
-        
+
         <title>OpenRoof</title>
+        <meta
+          name="google-site-verification"
+          content="ztoPUQvtpoEQNVbxbma1xkABu3X6u0VtZuLhWJrntqA"
+        />
         <meta property="title" content="OpenRoof" />
-        <meta property="description"
-          content="Yatırımınızı Güneşin Gücüyle Büyütün!" />
+        <meta
+          property="description"
+          content="Yatırımınızı Güneşin Gücüyle Büyütün!"
+        />
         <meta property="og:title" content="OpenRoof" />
-        <meta property="og:description"
-          content="Yatırımınızı Güneşin Gücüyle Büyütün!" />
+        <meta
+          property="og:description"
+          content="Yatırımınızı Güneşin Gücüyle Büyütün!"
+        />
         <meta property="og:locale" content="tr_TR" />
         <meta property="og:language" content="Turkish" />
         <meta property="og:site_name" content="OpenRoof" />
-        <meta property="og:image" content="https://openroof.com.tr/logo_slogan.png" />
-        <meta property="og:keywords" content="güneş enerjisi, yatırım, katılım, sürdürülebilir, " />
+        <meta
+          property="og:image"
+          content="https://openroof.com.tr/logo_slogan.png"
+        />
+        <meta
+          property="og:keywords"
+          content="güneş enerjisi, yatırım, katılım, sürdürülebilir, "
+        />
         <meta property="og:url" content="https://openroof.com.tr" />
         <meta property="og:type" content="website" />
         <meta property="og:twitter:card" content="summary" />
         <meta property="og:twitter:url" content="https://www.openroof.com.tr" />
         <meta property="og:twitter:title" content="OpenRoof" />
-        <meta property="og:twitter:description"
-          content="Yatırımınızı Güneşin Gücüyle Büyütün!" />
+        <meta
+          property="og:twitter:description"
+          content="Yatırımınızı Güneşin Gücüyle Büyütün!"
+        />
         {/* 
         <meta property="og:twitter:image" content="https://openroof.com.tr/logo_slogan_green.png" /> 
         Calistiramadim
         */}
-        
 
         <script async src="https://tally.so/widgets/embed.js"></script>
         <Script id="analytics" type="text/javascript">
