@@ -6,13 +6,13 @@ const Metin = () => {
     <div className="metin-page">
       <div>
         <p className="metin-head">
-          <strong className="metin-head">DÜŞÜK</strong> Yatırım
+          <strong className="metin-head">GÜVENLİ</strong> Yatırım
         </p>
         <p className="metin-head">
-          <strong className="metin-head">YÜKSEK</strong> Getiri
+          <strong className="metin-head">SÜREKLİ</strong> Üretim
         </p>
         <p className="metin-head">
-          <strong className="metin-head">MİNİMAL</strong> Risk
+          <strong className="metin-head">TEMİZ</strong> Enerji
         </p>
       </div>
 
