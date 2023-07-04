@@ -6,7 +6,7 @@ import ko from "../../public/assets/Header/ok0.svg";
 import Metin from "./components/metin/Metin";
 import Benefit from "./components/benefit/Benefit";
 import Revenue from "./components/revenue/Revenue";
-import Intro from "./components/intro/Intro";
+// import Intro from "./components/intro/Intro";
 import RevenueSharing from "./components/RevenueSharing/RevenueSharing";
 import AskComponents from "./components/askcomponent/AskComponents";
 import CarouselLogo from "./components/carousel/carouselLogo";
@@ -55,7 +55,7 @@ export default function Home() {
           <Image className="arrimg" src={ko} alt="arrow" />
         </div>
       </div>
-      <Intro />
+      {/* <Intro /> */}
       <Benefit />
       <Revenue />
       {/* <WildLife /> */}

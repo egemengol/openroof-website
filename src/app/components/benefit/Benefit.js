@@ -10,14 +10,14 @@ import Image from "next/image";
 const Benefit = () => {
   return (
     <div className="benefit" id="NasilCalisir">
-      <p
+      {/* <p
         className="tophead"
         data-aos-once="true"
         data-aos="fade-down"
         data-aos-delay="200"
       >
         Nasıl Çalışır?
-      </p>
+      </p> */}
       <div className="cartmain">
         <div
           className="cartbody"
@@ -54,7 +54,7 @@ const Benefit = () => {
             <p className="cartdetailhead">Kurulum</p>
             <Image className="cartdetailimg" src={Kurulum} alt="kurulm" />
             <p className="cartdetailfooter ">
-              Uygun bir mülk ile eşleştirerek <strong>panel kurulumu</strong>{" "}
+              En uygun mülkün çatısına <strong>panel kurulumu</strong>{" "}
               yapalım.
             </p>
           </div>

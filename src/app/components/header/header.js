@@ -27,9 +27,9 @@ const Header = () => {
         </div>
         <div className="navbar">
           <ul className="ul-navbar">
-            <Link smooth href="/#NasilCalisir">
+            {/* <Link smooth href="/#NasilCalisir">
               <li className="nav-link">Nasıl Çalışır?</li>
-            </Link>
+            </Link> */}
             <Link smooth href="/#Faydalar">
               <li className="nav-link">Faydalar</li>
             </Link>
