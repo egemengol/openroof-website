@@ -1,7 +1,9 @@
 import "./RevenueSharing.css";
 import revenueSharingImage from "../../../../public/assets/Home/revenueSharing.svg";
 import Image from "next/image";
+import {useTranslations} from 'next-intl';
 const RevenueSharing = () => {
+  const t = useTranslations('sharing');
   return (
     <div className="revenueSharing" id="GelirPaylasimi">
       <div
@@ -11,7 +13,7 @@ const RevenueSharing = () => {
         data-aos-once="true"
         style={{ margin: "64px 0px 48px 0px" }}
       >
-        Gelir Paylaşımı
+        {t('Gelir')}
       </div>
       <div className="revenueSharing-wrapper">
         <Image
@@ -25,29 +27,25 @@ const RevenueSharing = () => {
         />
         <div className="text-body">
           <p className="text">
-            Üretilen değer
-            <strong className="text"> 10 yıl boyunca </strong>
-            yatırımcı, mülk sahibi, ve OpenRoof arasında paylaşılır.
+            {t('Üretilen')}
+            <strong className="text"> {t('yıl')} </strong>
+            {t('yatırımcı')}
           </p>
           <br />
           <p className="text">
-            Ardından gelen <strong className="text"> 5 yıl boyunca </strong>{" "}
-            yatırımcının payı düzenli olarak azalırken, mülk sahibinin payı aynı
-            ölçüde artar.
+            {t('Ardından')} <strong className="text"> {t('boyunca')} </strong>{" "}
+            {t('payı')}
           </p>
           <br />
           <p className="text">
-            Toplam
-            <strong className="text"> 15 yılın sonunda</strong>, sistemin
-            mülkiyeti ve gelirleri tamamen mülk sahibinin olur.
+            {t('Toplam')}
+            <strong className="text"> {t('sonunda')}</strong>, {t('sistemin')}
           </p>
           <br />
           <p className="text">
-            Mülk sahipleri, kurulum maliyetinin
-            <strong className="text"> %10 </strong>ila
-            <strong className="text"> %50</strong>&apos;sine katılarak hasılat
-            paylaşımındaki oranlarını belirleyebilirler. Yatırımcılar ise
-            yatırmak istedikleri tutara göre bir mülk ile eşleştirilir.{" "}
+            {t('Mülk')}
+            <strong className="text"> %10 </strong>{t('ila')}
+            <strong className="text"> %50</strong>&{t('apos')}{" "}
           </p>
         </div>
       </div>

@@ -1,4 +1,5 @@
-[
+{
+  "tr": [
   {
     "question": "OpenRoof sistemi benim mülküme uygun mu?",
     "answer": "Her mülkün özellikleri farklı olduğu için sistemimizin evinize uygun olup olmadığını belirlemek için bir fizibilite çalışması yapılması gerekiyor. Bu nedenle, başvurunuz üzerine anlaşmalı kurulum firmamız sizinle iletişime geçip, evinizi değerlendirmek üzere bir randevu oluşturacaklar. Fizibilite çalışmasının sonucunda evinize uygunluğu hakkında ayrıntılı bilgi sizinle paylaşılacaktır."
@@ -91,4 +92,99 @@
     "question": "Nerelerde kurulum yapıyorsunuz?",
     "answer": "Yatırımcıların ve mülk sahibinin sistemden maksimum verimi alabilmesi adına sadece güneşlenme süresinin en yüksek olduğu bölgelerde kurulum yapıyoruz. Bu bölgeler şuan için Antalya, Adana, İzmir, Adıyaman, Ardahan, Aydın, Burdur, Denizli, Gaziantep, Hakkari, Iğdır, Karaman, Konya, Mardin, Mersin, Muğla, ve Şanlıurfa’dır."
   }
+],
+"en": [
+  {
+    "question": "OpenRoof ?",
+    "answer": "Her mülkün ."
+  },
+  {
+    "question": "Kurulum ?",
+    "answer": "Kurulumun kendisi yaklaşık 3 gün sürmektedir. Fakat kurulu güç artırımı, çağrı mektubu gibi süreçler sebebiyle tüm süreç 3-6 ay arasında tamamlanır."
+  },
+  {
+    "question": "Panel kurulumu sırasında mülküm zarar görürse ne olur?",
+    "answer": "Panel kurulumu sırasında evinizdeki çatı kaplaması, izolasyon gibi yapısal unsurlara herhangi bir zarar verilmemesi için anlaşmalı kurulum ortaklarımız özenle çalışmaktadır. Ancak, herhangi bir zarar durumunda eski haline getirilmesi garanti altına alınmıştır. Bu garanti anlaşmamız kapsamında sigortalıdır ve kurulum sırasında oluşabilecek herhangi bir sorun için kesin çözüm sağlamaktayız."
+  },
+  {
+    "question": "Güneş panellerinin bakımı ve onarımı kim tarafından yapılır?",
+    "answer": "Güneş panellerinin bakımı ve onarım maliyeti, sözleşme süresince pay sahipleri arasında adil bir şekilde paylaşılmakta olup, anlaşmalı kurulum ortaklarımız tarafından yapılır. Sözleşme sonrasında ise bakım ve onarımlarınızı yine aynı firmaya indirimli fiyatlarla yaptırabilirsiniz."
+  },
+  {
+    "question": "Kurulum sonrası elektrik faturamda nasıl bir değişim bekleyebilirim?",
+    "answer": "Üretilen elektrikten mülk sahibine verilen pay, ortalama bir evin elektrik tüketiminin tamamını karşılamaya yetecek kadar büyüktür. Buna ek olarak, faturanızdaki değişim tükettiğiniz elektriğin miktarına ve güneş paneli üretiminin miktarına bağlı olarak değişim gösterir."
+  },
+  {
+    "question": "Sistemin mülkiyet devri ne zaman ve nasıl gerçekleşir?",
+    "answer": "Güneş enerjisi sisteminin mülkiyet devri, 15 yıllık sözleşmenin bitişiyle otomatik olarak gerçekleşir. Mülkiyet devri ile birlikte, OpenRoof ve yatırımcıya olan yükümlülükleriniz de kendiliğinden sona erer. Bu süreç tamamen otomatiktir ve herhangi bir işlem yapmanız gerekmez."
+  },
+  {
+    "question": "Sistem, olası risklere karşı nasıl korunuyor?",
+    "answer": "GES sisteminiz, olası doğal afet, çalınma gibi durumlar için tarafımızca sigortalanmıştır. Panellerin üretime devam etmesi için, sözleşmede belirtilen hususlara özen göstermeniz yeterlidir. Sizden kaynaklanmayan tüm durumlarda, tüm rizikolar (all-risk) sigortamız geçerliliğini sürdürür ve herhangi bir ödeme yapmanız gerekmez."
+  },
+  {
+    "question": "Sistem kapasitesi ve verimlilikle ilgili ne tür garantiler veriyorsunuz?",
+    "answer": "Sistem kapasitesi, çatınızın desteklediği kapasiteye ve yasal sınırlara göre en yüksek verimlilikle planlanır. Yani çatınızda yeterince alan bulunması durumunda 2023 yılı yönetmeliği itibariyle 50 kW/h gücünde bir sistem kurulur. Panellerin verimliliği üretici firma tarafından garanti altına alınmıştır ve 30 yıl boyunca %85 verim garantisi sunmaktadır."
+  },
+  {
+    "question": "Güneş enerjisi sisteminin ömrü nedir?",
+    "answer": "Panellerin kendilerinin ömürleri yaklaşık 30 yıl civarındayken, inverter ve diğer ekipmanların ömürleri 15-20 yıl arasında değişmektedir. Inverter bakımı veya yenilenmesinin ardından sistem aynı şekilde elektrik üretmeye devam eder."
+  },
+  {
+    "question": "Aylık raporlama nasıl yapılır?",
+    "answer": "Gelir raporlaması, her ay gelen elektrik faturasına göre yapılır. Faturada belirtilen üretilen enerji miktarına göre tarafların hakkı hesaplanır ve buna göre hasılat paylaşımı yapılır. Şeffaflık ve güvenilirlik ilkelerimiz doğrultusunda, tüm hesaplamaların ayrıntılı bir şekilde belirtildiği raporlarınız size elektronik posta aracılığıyla ulaştırılır."
+  },
+  {
+    "question": "Sürpriz maliyetlerle karşılaşacak mıyım?",
+    "answer": "OpenRoof kullanıcı hatası olmayan durumlardan kaynaklanan tüm ek maliyetleri üstlenir. Sözleşmemizde bahsedilen mücbir sebeplerin dışına çıkan bir durum olmadıkça, herhangi bir sürpriz ücretle karşılaşmazsınız."
+  },
+  {
+    "question": "Sistemde kullanılan ekipmanlar hangi marka ve modeldir?",
+    "answer": "Kurulum yapılan bölgeye göre anlaşmalı kurulum ortaklarımızın kullandığı ekipmanlar değişiklik gösterebilmektedir. Anlaşmalı kurulum ortaklarımızın dünya genelinde tanınmış markaların ekipmanlarını kullandıklarını belirtmek isteriz. Çıkarılan fizibilite raporunda, kullanılacak olan her bir ekipmanın marka ve modeli detaylı bir şekilde yer almaktadır."
+  },
+  {
+    "question": "Sistemle ilgili teknik destek alabileceğim bir iletişim kanalı var mı?",
+    "answer": "Herhangi bir konuda desteğe ihtiyacınız olursa  0(242) 745 07 01’i arayarak, iletişim formumuzu doldurarak veya info@openroof.com.tr adresine mail atarak bize ulaşabilirsiniz."
+  },
+  {
+    "question": "Güneş enerjisi sistemine ek ekipmanlar (ör. enerji depolama sistemleri) eklenebilir mi?",
+    "answer": "Güneş enerjisi sistemlerimiz on-grid, yani elektrik şebekesine bağlı olarak çalışır. Bu tasarım sayesinde, ürettiğiniz elektrik anında şebekeye satılır ve enerji kaybı yaşanmaz. Elektrik üretim ve tüketim bilgileri şebeke tarafından anlık olarak izlenir ve bu veriler temel alınarak mahsuplaşma işlemleri gerçekleştirilir. Enerji depolama sistemleri, bu sürecin dinamiklerini değiştirdiği için, işleyişimiz sebebiyle akü veya benzeri depolama cihazlarını kullanmamaktayız. Ancak, enerji verimliliğini artırmak adına farklı ekipmanların eklenmesini düşünüyorsanız, sizinle iş birliği yaparak en uygun çözümleri bulmayı hedefliyoruz."
+  },
+  {
+    "question": "Sistemle ilgili teknik eğitim ve bilgilendirme sağlıyor musunuz?",
+    "answer": "Sistemimizin kullanımıyla ilgili teknik bir eğitim sağlamıyoruz, çünkü sistemin kullanımı herhangi bir ek bilgi veya çaba gerektirmez. Ancak, kurulum ekibimiz her türlü sorunuzu memnuniyetle cevaplayacaktır."
+  },
+  {
+    "question": "Sözleşme süresi boyunca elektrik fiyat değişimlerinden etkilenecek miyim?",
+    "answer": "Sözleşme süresi boyunca, kullanım hakkı fiyat bazlı değil, güç bazlı olarak belirlenir. Her zaman üretilen elektriğin belli bir miktarı size aittir. Dolayısıyla, üretim ve tüketim aynı kaldığı sürece, fiyat değişikliklerinden etkilenmezsiniz. Bu nedenle, kullanım hakkı bedeli sabit kalır ve sizin için daha öngörülebilir bir gelir yapısı sağlanmış olur."
+  },
+  {
+    "question": "Güneş enerjisi sistemi, elektrik kesintileri sırasında enerji sağlar mı?",
+    "answer": "Güneş enerjisi sistemleri, güvenlik nedenleriyle genellikle elektrik kesintileri sırasında devre dışı bırakılır. Bu, 'anti-islanding' olarak adlandırılan bir güvenlik önlemidir ve elektrik çarpması riskini en aza indirgemek için uygulanır. Bu sebeple, elektrik kesintisi yaşandığında, güneş enerjisi sisteminiz de devre dışı kalır."
+  },
+  {
+    "question": "Güneş enerjisi sistemini büyütmek veya yükseltmek istediğimde ne yapmalıyım?",
+    "answer": "Kurulumlarımızı Lisanssız Üretim Yönetmeliği kapsamında kalacak şekilde, çatınızın alanını tamamen değerlendirerek en yüksek kapasite ile yapmaktayız. Yönetmelik üst limiti olan 50 kW/h güç sınırı devlet tarafından artırılmadıkça, sistemi büyütmek mümkün değildir."
+  },
+  {
+    "question": "Güneş enerjisi sistemi kurulumu için hangi düzenlemelere tabiyim?",
+    "answer": "Güneş enerjisi sistemi kurulumları, lisanssız elektrik üretim yönetmeliği kapsamında ve imar hukuku çerçevesinde yapılmaktadır. Bu kurulumlar imarlı binaların çatı ya da cephelerine gerçekleştirilir. Öncelikle, fizibilite ekibimiz binanın uygunluğunu detaylı bir şekilde inceler ve durum onaylandıktan sonra kurulum sürecine geçilir. Kurulum öncesinde, yerel belediye ve diğer ilgili kurumların belirlediği düzenlemelere uygunluk kontrol edilir ve gerekli izinler alınır. Bu süreçte, sizinle birlikte tüm prosedürleri adım adım tamamlayacak deneyimli bir ekibimiz bulunmaktadır. Böylece, kurulumun yasal düzenlemelere eksiksiz bir şekilde uygun olarak gerçekleşmesi sağlanır."
+  },
+  {
+    "question": "Güneş enerjisi sistemi ile şebeke enerjisi arasında otomatik geçiş sağlanır mı?",
+    "answer": "Evet, güneş enerjisi sistemi yeterli enerji üretmediği durumlarda şebekeden enerji alırken, fazla enerji ürettiği durumlarda ise şebekeye enerji verir. Modern inverterler sayesinde anlık geçişleri veya o anki enerji kaynağının ne olduğunu hiçbir şekilde fark etmezsiniz."
+  },
+  {
+    "question": "Güneş enerjisi sistemi (GES) kurulumu sırasında komşularımın rızası alınmalı mı?",
+    "answer": "GES’in şebekeye bağlanabilmesi ve Lisanssız Üretim Yönetmeliği kapsamında işleyebilmesi için kurulum yapılacak olan çatıda veya cephede söz hakkı olan herkesin onayı alınmalıdır. Örneğin müstakil evler için sadece ev sahibinin rızası yeterliyken, apartmanlarda tüm apartman sakinlerinin noter onaylı rızası gerekmektedir."
+  },
+  {
+    "question": "Güneş enerjisi sistemleri farklı çatı tiplerine (ör. düz, eğimli) monte edilebilir mi?",
+    "answer": "Güneş enerjisi sistemleri farklı çatı tiplerine (örneğin düz, eğimli) monte edilebilmektedir. Ancak, lisanssız üretim yönetmeliği kapsamında, GES'ler sadece imarlı binaların çatı ve cephelerine kurulabilmektedir. Bu sebeple depo, çardak, vs. imarsız yapıların çatısı kurulum için kullanılamamaktadır. Fizibilite raporu uygun görüldüğü takdirde, her türlü çatı ve cepheye kurulum yapılabilmektedir."
+  },
+  {
+    "question": "Nerelerde kurulum yapıyorsunuz?",
+    "answer": "Yatırımcıların ve mülk sahibinin sistemden maksimum verimi alabilmesi adına sadece güneşlenme süresinin en yüksek olduğu bölgelerde kurulum yapıyoruz. Bu bölgeler şuan için Antalya, Adana, İzmir, Adıyaman, Ardahan, Aydın, Burdur, Denizli, Gaziantep, Hakkari, Iğdır, Karaman, Konya, Mardin, Mersin, Muğla, ve Şanlıurfa’dır."
+  }
 ]
+}

@@ -5,8 +5,18 @@ import { PhoneButton } from "../Ask/svg/phone";
 import { tallyHref } from "../../commons/commons";
 import Image from "next/image";
 import Link from "next/link";
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormHelperText from '@mui/material/FormHelperText';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+import {useTranslations} from 'next-intl';
+import LocaleSwitcher from "../LanguageSwitch";
+
+//import { languages } from '../../i18n/setting'
 
 const Footer = () => {
+  const t = useTranslations('footer');
   return (
     <div className="footer-copy-com">
       <div className="footer-wrapper">
@@ -15,10 +25,10 @@ const Footer = () => {
             <Image className="footer-logo" src={logo} alt="logo" />
             <div className="footer-number">
               <p className="footer-address">
-                Etiler, REMEL PLAZA, Evliya Çelebi Cd.
+                {t('address')}
               </p>
               <p className="footer-address">
-                No:23/106, 07010, Muratpaşa/Antalya
+               {t('addressnum')}
               </p>
               {/* <p className="footer-address">07010 Muratpaşa/Antalya</p> */}
               <a href="tel:+90 (242) 475 07 01">
@@ -29,6 +39,7 @@ const Footer = () => {
                 {" "}
                 <p className="footer-mail">info@openroof.com.tr</p>
               </a>
+            <LocaleSwitcher/>
             </div>
             {/* <div className='footer-copy'>
                 <p>
@@ -38,17 +49,17 @@ const Footer = () => {
           </div>
 
           <div className="footer-mid">
-            <p className="mid-head">Site Haritası</p>
+            <p className="mid-head">{t('midhead')}</p>
 
             <ul className="ul-link">
               <Link smooth href="/#NasilCalisir">
-                <li className="li-link">Nasıl Çalışır?</li>
+                <li className="li-link">{t('navh')}</li>
               </Link>
               <Link smooth href="/#Faydalar">
-                <li className="li-link">Faydalar</li>
+                <li className="li-link">{t('navb')}</li>
               </Link>
               <Link smooth href="/#GelirPaylasimi">
-                <li className="li-link">Gelir Paylaşımı</li>
+                <li className="li-link">{t('navr')}</li>
               </Link>
               <Link smooth href="/sss">
                 <li
@@ -57,24 +68,24 @@ const Footer = () => {
                   }}
                   className="li-link"
                 >
-                  Merak Edilenler
+                  {t('navc')}
                 </li>
               </Link>
               <a href={tallyHref}>
-                <li>İletişim Formu</li>
+                <li>{t('İletişim')}</li>
               </a>
             </ul>
           </div>
           <div className="footer-last">
-            <p className="last-head">Sorularınız mı var?</p>
+            <p className="last-head">{t('last')}</p>
             <div className="last-body">
               <div className="last-body-one">
                 <p className="last-body-first">
-                  <a href="/sss">Merak Edilenler</a>
+                  <a href="/sss">{t('merak')}</a>
                 </p>
-                <p className="last-body-mid">sayfamızı ziyaret edin</p>
+                <p className="last-body-mid">{t('sayfamızı')}</p>
               </div>
-              <p className="last-body-mid veya">veya</p>
+              <p className="last-body-mid veya">{t('veya')}</p>
             </div>
             <div className="footer-button">
               <a href={tallyHref}>
@@ -83,7 +94,7 @@ const Footer = () => {
                     <PhoneButton className="phone-img-button-footer "></PhoneButton>
                   </div>
                   <div className="footer-button-text">
-                    <p className="footer-button-text-info">Sizi Arayalım!</p>
+                    <p className="footer-button-text-info">{t('Sizi')}</p>
                   </div>
                 </button>
               </a>
@@ -91,7 +102,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="footer-copy">
-          ©2023 OpenRoof Enerji A.Ş. Tüm Hakları Saklıdır.
+         {t('copy')}
         </p>
       </div>
     </div>

@@ -204,6 +204,9 @@
   animation: tilt-shaking 2.5s;
   animation-iteration-count: infinite;
 }
+.control{
+  background-color: #fff5e9;
+}
 
 @keyframes tilt-shaking {
   0% {

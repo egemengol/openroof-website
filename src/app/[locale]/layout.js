@@ -1,13 +1,26 @@
 import Script from "next/script";
-import "./globals.css";
+import "../globals.css";
 import { Inter, Nunito, Poppins } from "next/font/google";
-import Header from "./components/header/header";
-import Footer from "./components/Footer/Footer";
+import Header from "../components/header/header";
+import Footer from "../components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
+import {NextIntlClientProvider} from 'next-intl';
+import {notFound} from 'next/navigation';
 
- export default  function LocaleLayout({children}) {
+export function generateStaticParams() {
+  return [{locale: 'tr'}, {locale: 'en'}];
+}
+ 
+export default async function LocaleLayout({children, params: {locale}}) {
+  let messages;
+  try {
+    messages = (await import(`../../messages/${locale}.json`)).default;
+  } catch (error) {
+    notFound();
+  }
+ 
   return (
-    <html >
+    <html lang={locale}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
@@ -83,9 +96,11 @@ const inter = Inter({ subsets: ["latin"] });
         <Script src="bower_components/aos/dist/aos.js"></Script>
       </head>
       <body>
-
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <Header></Header>
         {children}
-
+        <Footer />
+      </NextIntlClientProvider>
       </body>
     </html>
   );

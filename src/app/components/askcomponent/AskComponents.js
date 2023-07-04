@@ -3,7 +3,9 @@ import { useState } from "react";
 import "./AskComponent.css";
 import { ArrowRight } from "../Ask/svg/arrow";
 // import { browserHistory } from "../../router";
+import {useTranslations} from 'next-intl';
 const AskComponents = () => {
+  const t = useTranslations('AskComponents');
   const [answer, setAnswer] = useState("one");
   const handleOne = () => {
     setAnswer("one");
@@ -28,7 +30,7 @@ const AskComponents = () => {
         data-aos="fade-down"
         data-aos-delay="300"
       >
-        <p>Merak Edilenler</p>
+        <p>{t('Merak')}</p>
       </div>
       <div
         className="askcomponent"
@@ -44,7 +46,7 @@ const AskComponents = () => {
                   <div className="question-init">
                     <div className="elipse" />
                     <button>
-                      <p className="text-button">What is a Payment Gateway?</p>
+                      <p className="text-button">{t('one')}</p>
                     </button>
                   </div>
 
@@ -60,8 +62,7 @@ const AskComponents = () => {
 
                     <button>
                       <p className="text-button">
-                        Do I need to pay to Instapay even when there is no
-                        transaction going on in my business?
+                       {t('two')}
                       </p>
                     </button>
                   </div>
@@ -78,7 +79,7 @@ const AskComponents = () => {
 
                     <button>
                       <p className="text-button">
-                        What platforms does ACME payment gateway support?
+                      {t('three')}
                       </p>
                     </button>
                   </div>
@@ -95,7 +96,7 @@ const AskComponents = () => {
 
                     <button>
                       <p className="text-button">
-                        Does ACME provide international payments support?
+                       {t('four')}
                       </p>
                     </button>
                   </div>
@@ -112,8 +113,7 @@ const AskComponents = () => {
 
                     <button>
                       <p className="text-button">
-                        Is there any setup fee or annual maintainance fee that I
-                        need to pay regularly?
+                      {t('five')}
                       </p>
                     </button>
                   </div>
@@ -171,7 +171,7 @@ const AskComponents = () => {
             }}
             className="learn-more-button"
           >
-            Tüm Soruları Gör
+           {t('button')}
           </button>
         </a>
       </div>

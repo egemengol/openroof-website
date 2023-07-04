@@ -1,5 +1,6 @@
-[
-  {
+{
+  "tr": [
+    {
     "question": "OpenRoof yatırımımdan ne kadar gelir beklemeliyim?",
     "answer": "OpenRoof yatırımınız, ortalama 5 yıl içinde kendini amorti eder ve sonrasında 15 yıl süresince düzenli bir kazanç sağlar. Getiri miktarı, güneş ışığına maruz kalma süresi ve üretilen elektriğin mevcut piyasa değeri gibi faktörlere bağlıdır.Örneğin, yaz aylarında daha fazla güneş ışığı olduğu için getirileriniz artarken, elektrik fiyatlarındaki bir artış da getirilerinizi olumlu yönde etkileyecektir."
   },
@@ -67,4 +68,75 @@
     "question": "OpenRoof'un sosyal ve çevresel etkisi nedir?",
     "answer": "OpenRoof'un sosyal ve çevresel etkisi, iş modelimizin temel taşlarından birini oluşturur. Misyonumuz, sadece yatırımcılar ve mülk sahipleri için değil, aynı zamanda gezegenimiz ve toplumumuz için de değer yaratmaktır. Güneş enerjisi yatırımlarımız, sosyal etkilerini yerel ekonomilere yapılan katkılar ve istihdam yaratma gibi faktörler üzerinden gerçekleştirir. Her bir güneş enerjisi kurulumu, yerel işgücünün kullanımını gerektirir ve böylelikle yerel ekonomilere canlılık ve hareketlilik getirir. Çevresel etki noktasında ise, güneş enerjisi, sürdürülebilir, yenilenebilir bir enerji kaynağıdır. Fosil yakıtlara kıyasla, güneş enerjisi kullanımı, sera gazı emisyonlarını ve hava kirliliğini önemli ölçüde azaltır. Her OpenRoof yatırımı, karbon ayak izimizi küçültmeye ve iklim değişikliğiyle mücadele etmeye yardımcı olur. Ayrıca, OpenRoof'un aracılık ettiği her bir yatırım, enerji altyapımızın sürdürülebilir bir modele doğru dönüşümüne yardımcı olur. Bu dönüşüm, enerji tüketimimizi daha çevre dostu bir yönde ilerletir ve gelecek nesillere temiz ve yeşil bir gezegen bırakma çabamızı destekler. Bu şekilde, OpenRoof, hem karlı bir yatırım modeli sunarken hem de çevremiz ve toplumumuz üzerinde pozitif bir etki yaratmayı hedefler. Her bir yatırımcımız, bu değerli çabayı destekleyen ve bu önemli değişikliğin bir parçası olan bir ortaktır."
   }
+],
+"en": [
+  {
+    "question": "OpenRoof ?",
+    "answer": "OpenRoof ."
+  },
+  {
+    "question": "OpenRoof yatırımını düşük riskli yapan özellikler nelerdir?",
+    "answer": "OpenRoof olarak, yatırımınızın değerini korumak ve riskleri minimize etmek için çeşitli stratejiler uyguluyoruz. Yatırımınızı olası teknolojik risklere karşı korumak adına, sektörün önde gelen panel üreticileri tarafından verilen geniş kapsamlı garantilere güveniyoruz. Ayrıca, beklenmedik durumları karşılamak için tüm risklere karşı (all-risk) sigorta koruması sağlıyoruz. Finansal riskler, her yatırımın ayrılmaz bir parçasıdır, ancak biz, yatırımcılarımıza daha fazla güvence vermek için özgün çözümler geliştirdik. Örneğin, yatırımınızın belirlenen süre zarfında amorti olmaması durumunda, sizlere bir güvence olarak yatırdığınız sermayeyi faiziyle birlikte geri ödeme taahhüdünde bulunuyoruz. Bu, yatırımcı sözleşmemizde net bir şekilde belirtilir ve yasal olarak güvence altına alınır. Ayrıca, enerji satışından elde edilen gelirin tahsil edilmesi konusunda da size güvence veriyoruz. Bu husus, mülk sahibi sözleşmemiz ile korunmaktadır. Bu şekilde, enerji üretiminin ve tahsilatının düzenli olarak gerçekleştirildiğini ve yatırımınızın getirisini güvence altına aldığımızı teyit edebiliriz."
+  },
+  {
+    "question": "Yatırımımın geri ödeme ve getiri süreci nasıl işler?",
+    "answer": "OpenRoof'ta yatırımınızın geri ödeme süreci, güneş enerjisi sistemlerinden elde edilen enerjinin satışından sağlanan gelirlerin, belirlenen oranlarda size aktarılmasıyla ilerler. İlk yatırımınız, bu düzenli ödemelerle belirlenen süre zarfında genellikle 5 yıl içinde amorti olur. Ödemeler, çeyrek dönemlerde düzenli olarak gerçekleştirilir ve bu süreç boyunca sizinle şeffaf bir iletişim kanalı üzerinden ilerlemekteyiz. Ayrıca, mülk sahibi ile enerji satışına ilişkin sözleşmelerimiz, bu ödemelerin belirlenen sürede ve tam olarak gerçekleştirilmesini sağlayarak. ödeme süreçlerini daha da güvenilir hale getirir. Şirketimiz, enerji üretimini ve satışını düzenli olarak izler ve tahsilatları güvence altına alır. Bu durum, yatırımınızın getirisini güven altına alan bir başka katman oluşturur. Bu süreçler sayesinde, yatırımınızın geri ödeme süreci sorunsuz bir şekilde gerçekleşir ve yatırımınızın uzun vadede size sürekli bir getiri sağlar."
+  },
+  {
+    "question": "Yatırımımın raporlaması ve şeffaflığı nasıl sağlanır?",
+    "answer": "OpenRoof olarak, yatırımınızın yönetimindeki tüm süreçlerin şeffaf ve anlaşılır olmasını en büyük önceliklerimizden biri olarak görüyoruz. Bu yaklaşımımızın bir parçası olarak, yatırımınıza dair ayrıntılı ve anlaşılır raporlamalar sunuyoruz. Sistemimizden elde edilen elektrik üretim verileri doğru ve güvenilir kaynaklardan alınır, analiz edilir ve size düzenli olarak sunulur. Üretim verilerine ek olarak, finansal performansa ilişkin bilgiler de raporlarımızda yer alır. Bu bilgiler, enerji satışlarından elde edilen gelirler, yapılan ödemeler ve bu ödemelerin hesaplanmasındaki detaylar gibi önemli bilgileri içerir. Geri ödeme dönemi boyunca, her ödemenin hesaplamalarını ayrıntılı bir şekilde sunarız. Bu hesaplamalar, hasılat paylaşım oranlarına dayalıdır ve raporlarımızda net bir şekilde belirtilmiştir. Böylece, size yapılan her ödeme için detayları görebilir, anlayabilir ve doğrulayabilirsiniz. Ayrıca, herhangi bir sorunuz veya endişeniz olması durumunda, müşteri hizmetlerimiz size hızlı ve etkili bir şekilde destek sağlar. Yatırımınızın şeffaflığı, anlaşılırlığı ve güvenilirliği bizim için kritik önem taşır ve bu değerlere sıkı sıkıya bağlıyız."
+  },
+  {
+    "question": "Yatırım yapmaya karar verdikten sonra beni nasıl bir süreç bekliyor?",
+    "answer": "OpenRoof yatırım süreci, yatırımcılarımızın rahatlıkla takip edebileceği ve anlayabileceği şekilde tasarlanmıştır. Yatırım kararı verdikten sonra, ilk adım olarak yatırım tutarınıza göre bir mülk ile eşleştirilirsiniz. Sonrasında bu mülk özelinde OpenRoof yatırımcı sözleşmesi imzalanır. Bu sözleşme, yatırımınızın koşullarını ve geri ödeme sürecini detaylı olarak belirtir. Sözleşme, her iki tarafın haklarını ve yükümlülüklerini korumak için düzenlenmiştir. Sözleşmeyi imzaladıktan sonra, eşleştiğiniz mülkte güneş enerjisi sisteminin kurulumuna hızlı bir şekilde başlanır. Bu kurulum süreci, genellikle kısa bir süre içerisinde tamamlanır ve ardından gerekli yasal prosedürler tamamlanır. Yasal süreçler tamamlandıktan sonra ise, kurulan güneş enerjisi sistemi elektrik üretmeye ve bu sayede size gelir getirmeye başlar. Bu noktada, yatırımınızın geri ödeme süreci başlamış olur."
+  },
+  {
+    "question": "Yatırım miktarının alt ve üst sınırları nelerdir?",
+    "answer": "OpenRoof'un en güçlü özelliklerinden biri, yatırımcılara esnek yatırım tutarları sunmasıdır. En düşük yatırım tutarı olarak kabul ettiğimiz miktar $5,000'dır. Bu düşük yatırım tutarı, OpenRoof'un yatırımınızı diğer yatırımlar ile birleştirerek kullanması sayesinde mümkün olur. Böylece küçük yatırımlarla da büyük projelerin getirisine ortak olabilirsiniz. Maksimum yatırım miktarı ise, o anki portföyümüzdeki mülklerin toplam yatırım değerine bağlı olarak değişkenlik gösterir. Portföyümüzde bulunan mülklerin yatırım değerinin toplamı, maksimum yatırım miktarınız olur. Eğer bekleme listemiz yatırım tutarınızı karşılamıyorsa, imzaladığınız sözleşme sonrasında 3 aylık bir süre içerisinde yatırımınızı değerlendirme sözü vererek sürecin hızla ilerlemesini sağlamaktayız."
+  },
+  {
+    "question": "OpenRoof kimler için iyi bir yatırım aracıdır?",
+    "answer": "OpenRoof, kurucular olarak bizlerin kendi birikimimizi değerlendirmek için bir yatırım aracı ararken doğdu. Gerçek bir üretim tesisine yatırım yaparak, karşılaşılan risk faktörlerini ve karmaşık süreçleri en aza indirgemek isteyen, sosyal ve sürdürülebilirlik bilinci yüksek, uzun vadeli düşünen, şeffaf ve doğrudan geliri elde etmek isteyen yatırımcılar için idealdir. Yatırımcılarımız güneş enerjisi sistemlerine yatırım yaptıklarında, karlı bir girişimde bulunmanın yanı sıra, gezegenimizin sürdürülebilirlik çabalarını da desteklemiş olurlar."
+  },
+  {
+    "question": "Yatırım sürecinde herhangi bir komisyon öder miyim?",
+    "answer": "OpenRoof, sadece yatırımcıya ve mülk sahibine para kazandırdıkça kazanır. Yatırım sürecinde herhangi bir komisyon talep etmez ve herkese aynı anda kazandırma (win-win) misyonuyla kurulmuştur."
+  },
+  {
+    "question": "Yatırımımı devretmek veya yatırımımdan çıkış yapmak istediğimde ne yapmalıyım?",
+    "answer": "OpenRoof yatırımları, yasal düzenlemeler nedeniyle devredilemez niteliktedir. Ancak, yatırımdan çıkış hakkınız bulunmaktadır. Eğer ilk 3 ay içinde yatırımınızı değerlendiremezsek, size çıkış yapma seçeneği sunulur, ve tamamen sizin kararınıza bağlıdır. Yatırımınızı değerlendirdikten sonra çıkış yapmak isterseniz, yatırımcı sözleşmesinde belirtildiği üzere fesih koşullarını yerine getirmeniz gerekmektedir. Sözleşmede çıkış sürecine dair detaylı bilgileri bulabilirsiniz."
+  },
+  {
+    "question": "Yatırım yapılacak mülkleri nasıl seçiyor ve değerlendiriyorsunuz?",
+    "answer": "Mülk seçimi konusunda çok titiziz ve yatırımımızı yapacağımız mülkleri seçerken çeşitli kriterleri göz önünde bulunduruyoruz. Mülkler, iki şekilde bekleme listesine alınır: (1) Mülk sahibinin direkt başvurusu üzerine fizibilite çalışması ve uygunluğuna karar verilmesi. (2) Anlaşmalı GES kurulum firmalarımız tarafından değerlendirilerek uygun bulunan mülklere teklif yapılarak, mülk sahibinin kabulü sonrası bekleme listemize eklenir. Her mülk, teknik ve finansal kriterlerimizin yanı sıra, güneş ışınlarının verimliliği, çatı veya cephenin yönelimi ve fizibilite analizleri gibi faktörler göz önünde bulundurularak değerlendirilir. Bu nedenle, üretimi maksimize etmek amacıyla sadece güneşlenme süresinin en yüksek olduğu bölgelerde mülkler seçiyoruz. Bu, yatırımcılarımız için daha yüksek getiri potansiyeli sağlamak ve sistemin daha verimli çalışmasını sağlamak için önemlidir."
+  },
+  {
+    "question": "OpenRoof'un diğer yenilenebilir enerji projelerine de yatırım imkanları var mı?",
+    "answer": "OpenRoof şu anda sadece güneş paneli alanında faaliyet göstermektedir. Ancak yakın ve orta vadede yurt dışında ve diğer yenilenebilir enerji kaynakları alanında da faaliyet göstermeyi planlamaktayız. Bu yeni fırsatlarla ilgili bilgileri web sitemizde ve sosyal medya hesaplarımızda paylaşacağız."
+  },
+  {
+    "question": "Yatırımların gerçek üretim temelli olması ne anlama gelir?",
+    "answer": "OpenRoof'un 'gerçek üretim temelli' yaklaşımı, yatırımlarınızın getirisinin somut ve sürekli bir değere - elektriğe - dayandığı anlamına gelir. Bu modelin temelinde güneş enerjisi yer alır; doğanın bize sunduğu en etkili ve sürdürülebilir enerji kaynaklarından biri. Güneş enerjisi sistemlerimiz, güneş ışığını alır ve bunu elektriğe dönüştürür. Bu elektrik, şebekeye satılarak gelir elde edilir. Bu durum, yatırımlarınızın getirisinin güneşin doğuşuna ve insanların elektrik kullanmaya devam etmelerine dayalı olduğu anlamına gelir. Bu, her gün tekrarlanan ve neredeyse kesintisiz olan bir süreçtir. Bu nedenle, güneşin doğduğu her yeni gün, OpenRoof yatırımcıları için yeni bir getiri potansiyeli demektir. Bu yaklaşım, yatırımlarınızın somut bir değere dayandığını ve bu değerin sürekli bir talebe sahip olduğunu gösterir. "
+  },
+  {
+    "question": "Yatırım projelerinde kullanılan ekipman ve malzemelerin kalitesi ve güvenilirliği nasıl sağlanır?",
+    "answer": "OpenRoof olarak, yatırımlarınızın kalitesini ve güvenilirliğini sağlamanın, kullanılan ekipman ve malzemelerin kalitesi ve güvenilirliği ile başladığının farkındayız. Bu yüzden işimizi titizlikle yapıyoruz ve her bir detayı önemsiyoruz. Projelerimizde kullanılan ekipman ve malzemeler, yüksek Avrupa standartlarına uygun şekilde üretim yapan, sektörün lider ve güvenilir fabrikalarının bayilerinden temin ediliyor. Söz konusu ekipman ve malzemelerin seçiminde, sadece üretim kalitesi ve güvenilirliği değil, aynı zamanda ürün garantileri ve sonrasındaki hizmet kalitesi de göz önünde bulunduruluyor. Bu yaklaşım, yatırımlarınızın performansı ve dayanıklılığını maksimize etmeyi hedefler. Kullanılan ekipmanlar, hem kaliteli ve güvenilir olması hem de ilk elden fabrika garantisi taşıması nedeniyle, olası teknik sorunların önüne geçilmiş olur. Bu konudaki hassasiyetimiz, yatırımlarınızın değerini koruma ve gelecekteki getirilerinizi maksimize etme konusundaki kararlılığımızı yansıtmakla birlikte, OpenRoof yatırımlarının sağlamlığını ve güvenilirliğini temsil eder."
+  },
+  {
+    "question": "Yatırım projelerinin enerji üretim kapasitesi nasıl belirlenir?",
+    "answer": "OpenRoof olarak, yatırım projelerinin enerji üretim kapasitesini belirlerken güneş enerjisi potansiyeli, mülkün fiziksel özellikleri ve yasal limitler gibi bir dizi faktör dikkate alınır. Projelerimizin, yasal limit olan 50kWh enerji üretim kapasitesini destekleyecek nitelikte olmasına özen gösteriyoruz. Bu sayede, projelerin hem sürdürülebilirlik açısından hem de finansal açıdan verimliliğini ve dolayısıyla üretilen değeri en üst düzeye çıkarmaktayız."
+  },
+  {
+    "question": "Yatırımcılar için enerji üretim verilerini ve performansı takip etmek için hangi araçlar ve uygulamalar kullanılabilir?",
+    "answer": "OpenRoof'un taahhüt ettiği şeffaflık prensibinin bir parçası olarak, yatırımcılarımızın enerji üretim verilerini ve yatırımlarının performansını takip etmeleri için özel bir portal ve mobil uygulama üzerinde çalışıyoruz. Bu, yatırımcılarımızın yatırımlarını günlük bazda izlemelerini ve anlık bilgilere erişim sağlamalarını mümkün kılar. Özellikle mobil uygulamamız, kullanıcı dostu bir arayüze ve bir dizi önemli özelliklere sahip olacak. Yatırımcılar, uygulama sayesinde, gerçek zamanlı üretim verilerini, anlık getirilerini ve ay sonu tahmini getirilerini rahatlıkla görebilecekler. Ayrıca, herhangi bir anda mevcut enerji üretimini ve geçmiş performans verilerini incelemek için kullanılan grafikler ve analitikler gibi araçlara da sahip olacaklar. Dönemsel detaylı raporlama sistemimizin yanı sıra, bu uygulama, yatırımcılarımıza tamamen otomatize edilmiş ve kolaylıkla erişilebilir bir platform sunmayı hedefliyoruz. Böylece, yatırımcılarımızın yatırımlarını takip etmeleri, kararlarını doğrulamaları ve potansiyel fırsatları değerlendirmeleri daha da kolay hale gelecek."
+  },
+  {
+    "question": "OpenRoof gelirden aldığı payı ne için kullanır?",
+    "answer": "OpenRoof, doğru kurulum ortaklarının bulunması ve anlaşmaların yapılmasından, hasılat paylaşımı sürecinin teklemeden devamından, uyuşmazlıkların çözümünden, ve hasılat paylaşımı sistemindeki güvenin sağlanmasından sorumlu olup, aldığı payı bu işlemleri fonlamak için kullanır. Eğer bu işlemler sonucunda fon kalırsa, OpenRoof yeni projelere yatırım yaparak yenilenebilir enerjiye verdiği desteği artırmayı hedefler. Bu şekilde, OpenRoof sürekli gelişerek, sürdürülebilir ve güvenilir bir yatırım aracı olmaya devam eder."
+  },
+  {
+    "question": "OpenRoof'un sosyal ve çevresel etkisi nedir?",
+    "answer": "OpenRoof'un sosyal ve çevresel etkisi, iş modelimizin temel taşlarından birini oluşturur. Misyonumuz, sadece yatırımcılar ve mülk sahipleri için değil, aynı zamanda gezegenimiz ve toplumumuz için de değer yaratmaktır. Güneş enerjisi yatırımlarımız, sosyal etkilerini yerel ekonomilere yapılan katkılar ve istihdam yaratma gibi faktörler üzerinden gerçekleştirir. Her bir güneş enerjisi kurulumu, yerel işgücünün kullanımını gerektirir ve böylelikle yerel ekonomilere canlılık ve hareketlilik getirir. Çevresel etki noktasında ise, güneş enerjisi, sürdürülebilir, yenilenebilir bir enerji kaynağıdır. Fosil yakıtlara kıyasla, güneş enerjisi kullanımı, sera gazı emisyonlarını ve hava kirliliğini önemli ölçüde azaltır. Her OpenRoof yatırımı, karbon ayak izimizi küçültmeye ve iklim değişikliğiyle mücadele etmeye yardımcı olur. Ayrıca, OpenRoof'un aracılık ettiği her bir yatırım, enerji altyapımızın sürdürülebilir bir modele doğru dönüşümüne yardımcı olur. Bu dönüşüm, enerji tüketimimizi daha çevre dostu bir yönde ilerletir ve gelecek nesillere temiz ve yeşil bir gezegen bırakma çabamızı destekler. Bu şekilde, OpenRoof, hem karlı bir yatırım modeli sunarken hem de çevremiz ve toplumumuz üzerinde pozitif bir etki yaratmayı hedefler. Her bir yatırımcımız, bu değerli çabayı destekleyen ve bu önemli değişikliğin bir parçası olan bir ortaktır."
+  }
 ]
+}

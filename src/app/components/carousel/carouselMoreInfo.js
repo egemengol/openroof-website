@@ -12,8 +12,9 @@ import "./Carousel.css";
 import SwiperCore, { Autoplay, Parallax, Pagination, Navigation } from "swiper";
 
 SwiperCore.use([Autoplay]);
-
+import {useTranslations} from 'next-intl';
 export default function CarouselMoreInfo() {
+  const t = useTranslations('CarouselMoreInfo');
   return (
     <>
       <Swiper
@@ -49,96 +50,67 @@ export default function CarouselMoreInfo() {
         ></div>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Birlikte Daha İyi Bir Gelecek İnşa Ediyoruz
+            {t('titleone')}
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
             <br></br>
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              Hayata geçirilen her bir OpenRoof projesi, karbondioksit
-              salınımlarını ve atmosferimize verilen zararı azaltır. Yeşil
-              enerjiye destek vererek, gezegenimizin sürdürülebilir bir geleceğe
-              sahip olmasını sağlayabilirsiniz.
+             {t('textone')}
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Risksiz Yatırım: Sözleşmelerle Güvence Altında
+           {t('titletwo')}
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
             <br></br>
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              OpenRoof, yatırımcıların güvenini en ön planda tutar. Yatırımınızı
-              yaparken herhangi bir ekonomik belirsizlikten etkilenmemeniz için,
-              yaptığınız yatırımlarınız sözleşmelerle güvence altına alınır.
-              Örneğin, yatırımınızın belirlenen süre zarfında amorti olmaması
-              durumunda, sizlere bir güvence olarak, yatırdığınız sermayeyi
-              faiziyle birlikte geri ödeme taahhüdünde bulunuyoruz. Bu,
-              yatırımcı sözleşmemizde net bir şekilde belirtilir ve yasal olarak
-              güvence altına alınır. OpenRoof, yatırımcısına güven veren,
-              belirsizliklerden uzak, sağlam bir yapıya sahip bir yatırım
-              aracıdır.
+             {t('texttwo')}
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Küçük Yatırımlarla Büyük Adımlar{" "}
+           {t('titlethree')}{" "}
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
             <br></br>
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              OpenRoof, her bütçeye uygun bir yatırım imkanı sunar.
-              Yatırımcılarımızın hepsine, yatırım miktarları ne olursa olsun,
-              eşit fırsatlar ve olanaklar sunmayı hedefleriz. Küçük yatırımlarla
-              bile büyük adımlar atabilir, gelir elde ederken aynı zamanda çevre
-              dostu bir enerji kaynağını destekleyebilirsiniz. OpenRoof, küçük
-              yatırımları en uygun çatıda birleştirerek güneş enerjisi
-              projelerini hayata geçirir. Bu sayede, büyük projelerin
-              karlılığını küçük yatırımlar için de sağlayarak yatırımda fırsat
-              eşitliğini destekler.
+            {t('textthree')}
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Gerçek Üretim, Gerçek Getiri
+           {t('titlefour')}
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
             <br></br>
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              OpenRoof yatırımlarının arkasında somut bir değer vardır:
-              elektrik. Güneş enerjisi sistemlerimiz, doğal ve yenilenebilir bir
-              kaynak olan güneşten enerji üretir ve bu enerjiyi elektrik
-              şebekesine satar. Bu sayede, yatırımlarınızın getirisi, güneşin
-              doğuşuna ve insanların elektriğe olan sürekli ihtiyacına dayanır.
+              {t('textfour')}
             </p>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Şeffaflıkla Kazanç Paylaşımı
+            {t('titlefive')}
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
             <br></br>
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              OpenRoof, şeffaf ve adil bir gelir paylaşımı modeli ile
-              yatırımcılarına güven sağlar. Herhangi bir gizli ücret olmaksızın,
-              sadece yatırımcılar kazandıkça kazanır. Düzenli raporlar ve
-              geliştirmekte olduğumuz portal ve mobil uygulama ile
-              yatırımlarınızın performansını her an takip edebilir, anlık getiri
-              ve ay sonu tahmini getirilerinizi görebilirsiniz.{" "}
+              {t('textfive')}{" "}
             </p>
           </div>
         </SwiperSlide>

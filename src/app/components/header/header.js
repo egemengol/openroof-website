@@ -7,7 +7,9 @@ import Image from "next/image";
 import Link from "next/link";
 import DrawerNav from "./DrawerNav";
 import { PhoneButton } from "../Ask/svg/phone";
+import {useTranslations} from 'next-intl';
 const Header = () => {
+  const t = useTranslations('header');
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -28,18 +30,18 @@ const Header = () => {
         <div className="navbar">
           <ul className="ul-navbar">
             <Link smooth href="/#NasilCalisir">
-              <li className="nav-link">Nasıl Çalışır?</li>
+              <li className="nav-link">{t('navh')}</li>
             </Link>
             <Link smooth href="/#Faydalar">
-              <li className="nav-link">Faydalar</li>
+              <li className="nav-link">{t('navb')}</li>
             </Link>
             <Link smooth href="/#GelirPaylasimi">
-              <li className="nav-link">Gelir Paylaşımı</li>
+              <li className="nav-link">{t('navr')}</li>
             </Link>
             <Link href="/sss">
               <li className="nav-link sss">
                 {/* S.S.S. */}
-                Merak Edilenler
+                {t('navc')}
               </li>
             </Link>
           </ul>
@@ -53,7 +55,7 @@ const Header = () => {
                     <PhoneButton className="phone-img-button-header "></PhoneButton>
                   </div>
                   <div className="header-button-text">
-                    <p className="header-button-text-info">Sizi Arayalım!</p>
+                    <p className="header-button-text-info">{t('button')}</p>
                   </div>
                 </button>
               </a>

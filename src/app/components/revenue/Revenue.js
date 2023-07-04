@@ -14,8 +14,9 @@ import itemIconnine from "../../../../public/assets/Home/ikon9.svg";
 import itemIconten from "../../../../public/assets/Home/ikon10.svg";
 import itemIconeleven from "../../../../public/assets/Home/ikon11.svg";
 import Image from "next/image";
-
+import {useTranslations} from 'next-intl';
 const Revenue = () => {
+  const t = useTranslations('revenue');
   return (
     <>
       <div className="revenue" id="Faydalar">
@@ -26,7 +27,7 @@ const Revenue = () => {
           data-aos-once="true"
           data-aos-offset="-100"
         >
-          Neden OpenRoof?
+          {t('neden')}
         </div>
         <div className="home-item-wrapper">
           <Image
@@ -49,12 +50,10 @@ const Revenue = () => {
             >
               <Image className="item-icon" src={itemIcon} alt="itemIcon" />
               <div className="item-title">
-                Panel Kurulum Maliyetini Üstleniyoruz
+                {t('titleone')}
               </div>
               <div className="item-desc">
-                Maliyetin istediğiniz kadarına ortak olarak, elektrik
-                faturasından tasarruf etmek ile para kazanmak arasında bir
-                tercih yapabilirsiniz.
+                {t('descone')}
               </div>
             </div>
             <div
@@ -66,10 +65,9 @@ const Revenue = () => {
               id="second"
             >
               <Image className="item-icon" src={itemIcontwo} alt="itemIcon" />
-              <div className="item-title">Mülkün Değerini Artırıyoruz</div>
+              <div className="item-title">{t('titletwo')}</div>
               <div className="item-desc">
-                Elektrik faturası ödemeyen, hatta kendi kendine para kazandıran
-                bir mülke sahip olmanıza imkan sağlıyoruz.
+                {t('desctwo')}
               </div>
             </div>
             <div
@@ -81,10 +79,9 @@ const Revenue = () => {
               id="third"
             >
               <Image className="item-icon" src={itemIconthree} alt="itemIcon" />
-              <div className="item-title">Panelleri Devrediyoruz</div>
+              <div className="item-title">{t('titlethree')}</div>
               <div className="item-desc">
-                Sözleşme sonunda tüm sistemi ve gelirleri mülk sahibine
-                devrediyoruz.
+                {t('descthree')}
               </div>
             </div>
           </div>
@@ -112,12 +109,10 @@ const Revenue = () => {
               id="four"
             >
               <Image className="item-icon-two" src={iconfour} alt="iconfour" />
-              <div className="item-title">Hızlı Amorti Süresi</div>
+              <div className="item-title">{t('titlefour')}</div>
               <div className="item-desc">
                 {" "}
-                Ev alıp 20 yıl beklemek yerine, güneş doğduğu sürece 5-6 yıl
-                içinde yatırımınızı geri alabilir ve kazanç elde etmeye devam
-                edebilirsiniz.
+                {t('descfour')}
               </div>
             </div>
             <div
@@ -129,11 +124,10 @@ const Revenue = () => {
               id="five"
             >
               <Image className="item-icon-two" src={iconfive} alt="iconfive" />
-              <div className="item-title">Gerçek Üretim Temelli</div>
+              <div className="item-title">{t('titlefive')}</div>
               <div className="item-desc">
                 {" "}
-                Yatırımınız gerçek üretimden beslendiği için spekülatif
-                risklerden uzak, sağlam bir temele oturtuyoruz.
+               {t('descfive')}
               </div>
             </div>
             <div
@@ -145,12 +139,10 @@ const Revenue = () => {
               id="six"
             >
               <Image className="item-icon-two" src={iconsix} alt="iconsix" />
-              <div className="item-title">Minimal Risk</div>
+              <div className="item-title">{t('titlesix')}</div>
               <div className="item-desc">
                 {" "}
-                Yatırımcıyı koruyan sözleşmemiz sayesinde, yatırımınızın
-                belirlenen süre zarfında amorti olmaması durumunda, yatırdığınız
-                miktarı faiziyle birlikte geri ödeme garantisi veriyoruz!
+                {t('descsix')}
               </div>
             </div>
             <div
@@ -166,11 +158,10 @@ const Revenue = () => {
                 src={itemIconeleven}
                 alt="itemIconeleven"
               />
-              <div className="item-title">Düşük Yatırım Olanağı</div>
+              <div className="item-title">{t('titleseven')}</div>
               <div className="item-desc">
                 {" "}
-                Küçük yatırımların birleşik gücü ile, bireysel olarak ulaşılması
-                güç olan büyük projelere OpenRoof ile erişebilirsiniz.
+                {t('descseven')}
               </div>
             </div>
           </div>
@@ -207,10 +198,9 @@ const Revenue = () => {
               id="first"
             >
               <Image className="item-icon" src={itemIconeight} alt="itemIcon" />
-              <div className="item-title">Yeşil Bir Gelecek Yaratma İmkanı</div>
+              <div className="item-title">{t('titleeight')}</div>
               <div className="item-desc">
-                Sürdürülebilir enerjiye geçerek doğaya verilen zararı minimize
-                etmeyi hedefliyoruz.{" "}
+                {t('desceight')}{" "}
               </div>
             </div>
             <div
@@ -222,11 +212,9 @@ const Revenue = () => {
               id="second"
             >
               <Image className="item-icon" src={itemIconnine} alt="itemIcon" />
-              <div className="item-title">Tüm Detaylarla Biz İlgileniyoruz</div>
+              <div className="item-title">{t('titlenine')}</div>
               <div className="item-desc">
-                Kurulum firması, kurulum gücü, kullanılacak ekipmanlar, başvuru
-                süreçleri, kar dağıtımı, ve benzeri tüm bürokratik, teknik ve
-                operasyonel konuları biz üstleniyoruz.{" "}
+                {t('descnine')}{" "}
               </div>
             </div>
             <div
@@ -238,12 +226,9 @@ const Revenue = () => {
               id="three"
             >
               <Image className="item-icon" src={itemIconten} alt="itemIcon" />
-              <div className="item-title">Eşsiz Yatırım Fırsatı </div>
+              <div className="item-title">{t('titleten')} </div>
               <div className="item-desc">
-                Yatırımcı ve mülk sahibini buluşturarak, yenilenebilir enerji
-                sektöründe benzersiz bir yatırım imkanı sağlıyoruz; yenilebilir
-                enerjiye erişim ve katılımı kapsamlı sözleşmemizle
-                kolaylaştırıyoruz.{" "}
+                {t('descten')}{" "}
               </div>
             </div>
             <div
@@ -255,10 +240,9 @@ const Revenue = () => {
               id="fourth"
             >
               <Image className="item-icon" src={iconseven} alt="iconseven" />
-              <div className="item-title">İlk Andan İtibaren Şeffaflık </div>
+              <div className="item-title">{t('titleel')} </div>
               <div className="item-desc">
-                GES projesinin akıbeti ve aylık geri ödemelerin raporlanması
-                gibi tüm süreçlerde para akışlarını şeffaflıkla paylaşıyoruz..{" "}
+                {t('descel')}{" "}
               </div>
             </div>
           </div>
