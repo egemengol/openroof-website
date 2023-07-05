@@ -30,9 +30,9 @@ const DrawerNav = () => {
       >
         <div className="navbar-sm" onClick={() => setState(false)}>
           <ul className="ul-navbar-sm">
-            <Link smooth href="/#NasilCalisir">
+            {/* <Link smooth href="/#NasilCalisir">
               <li className="nav-link-sm">Nasıl Çalışır?</li>
-            </Link>
+            </Link> */}
             <Link smooth href="/#Faydalar">
               <li className="nav-link-sm">Faydalar</li>
             </Link>
