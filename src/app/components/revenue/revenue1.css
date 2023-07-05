@@ -178,9 +178,9 @@
   .item-title {
     font-size: 18px;
   }
-  /* .item-desc {
+  .item-desc {
     font-size: 16px;
-  } */
+  }
   .homeOwner {
     width: 200px;
     height: 230px;
@@ -213,12 +213,12 @@
     height: 110px;
     width: 100%;
   }
-  /* .item-title {
+  .item-title {
     font-size: 13px;
-  } */
-  /* .item-desc {
+  }
+  .item-desc {
     font-size: 12px;
-  } */
+  }
   .homeOwner {
     width: 151.6px;
     height: 175.18px;
