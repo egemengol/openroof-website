@@ -32,10 +32,6 @@
     "answer": "Üretimin durması veya beklenmedik bir şekilde azalması durumunda, kusur olup olmadığı araştırılır. Kusur mülk sahibinde ise, sözleşme gereği aradaki farkı üstlenir. Kusur mülk sahibinde değilse, sigorta ile sorun giderilir ve üretim devam eder. Eğer sebep sistemdeki bir bozukluk değil de doğrudan güneşlenme süresi, bulutluluk ve benzeri değişkenler ise, paylaşılan hasılat normal şekilde, üretimle orantılı paylaştırılır."
   },
   {
-    "question": "Mülk'e gelebilecek haciz, rehin ve benzeri durumlarda ne olur?",
-    "answer": "Bu gibi durumlar mülk sahibinin kusuru olarak değerlendirilip, sözleşme gereği üretimi engellediği için, mülkteki donanım taşınarak başka bir mülke kurulum yapılana kadarki kayıp üretim, mülk sahibi tarafından karşılanır. Bu durum, sözleşme imzalanırken mülk sahibi tarafından kabul edilir."
-  },
-  {
     "question": "Yatırım sürecinde herhangi bir komisyon öder miyim?",
     "answer": "OpenRoof, sadece yatırımcıya ve mülk sahibine para kazandırdıkça kazanır. Yatırım sürecinde herhangi bir komisyon talep etmez ve herkese aynı anda kazandırma (win-win) misyonuyla kurulmuştur."
   },
