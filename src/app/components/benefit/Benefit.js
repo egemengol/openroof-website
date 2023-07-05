@@ -54,7 +54,7 @@ const Benefit = () => {
             <p className="cartdetailhead">Kurulum</p>
             <Image className="cartdetailimg" src={Kurulum} alt="kurulm" />
             <p className="cartdetailfooter ">
-              En uygun mülkün çatısına <strong>panel kurulumu</strong>{" "}
+              Eşleştirdiğimiz mülkün çatısına <strong>panel kurulumu</strong>{" "}
               yapalım.
             </p>
           </div>
