@@ -11,9 +11,7 @@ import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import {useTranslations} from 'next-intl';
-import LocaleSwitcher from "../LanguageSwitch";
-
-//import { languages } from '../../i18n/setting'
+import LocaleSwitcher from "../../[locale]/LanguageSwitch";
 
 const Footer = () => {
   const t = useTranslations('footer');

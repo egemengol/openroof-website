@@ -44,6 +44,20 @@ const Header = () => {
                 {t('navc')}
               </li>
             </Link>
+                {/* <Link  href={`/${localStorage.getItem('lang') === 'lang' ? localStorage.getItem('lang') : ''}/#NasilCalisir`}>
+            <li className="nav-link">{t("navh")}</li>
+          </Link>
+          <Link  href={`/${localStorage.getItem('lang') === 'lang' ?localStorage.getItem('lang') : ''}/#Faydalar`}>
+            <li className="nav-link">{t("navb")}</li>
+          </Link>
+          <Link  href={`/${localStorage.getItem('lang') === 'lang' ?localStorage.getItem('lang') : ''}/#GelirPaylasimi`}>
+            <li className="nav-link">{t("navr")}</li>
+          </Link>
+          <Link href={`/${localStorage.getItem('lang') === 'lang' ? localStorage.getItem('lang'): ''}/sss`}>
+            <li className="nav-link sss">
+              {t("navc")}
+            </li>
+          </Link> */}
           </ul>
         </div>
         <div className="nav-sm">

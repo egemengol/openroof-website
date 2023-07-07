@@ -5,6 +5,7 @@ import Header from "./components/header/header";
 import Footer from "./components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
+
  export default  function LocaleLayout({children}) {
   return (
     <html >
@@ -83,9 +84,7 @@ const inter = Inter({ subsets: ["latin"] });
         <Script src="bower_components/aos/dist/aos.js"></Script>
       </head>
       <body>
-
-        {children}
-
+        {children} 
       </body>
     </html>
   );
