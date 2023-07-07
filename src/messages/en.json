@@ -1,135 +1,135 @@
 {
-    "Index": {
-      "title": "Hello world!"
-    },
-    "header":{
-      "navh":"How does it work?",
-      "navb":"Benefits",
-      "navr":"Revenue Sharing",
-      "navc":"Curiosities",
-      "button":"call me!"
-    },
-    "metin":{
-      "low":"LOW",
-      "Invest":"Investment",
-      "hight":"HIGH",
-      "ret":"RETURN",
-      "min":"MİNİMAL",
-      "risk":"Risk",
-      "metin":"",
-      "button":"call me!"
-    },
-    "benefit":{
-      "why":"How does it work?",
-      "investment":"Investment",
-      "setup":"Setup",
-      "earning":"Earning",
-      "Yatırımınızı":"Yatırımınızı",
-      "güvenli":"",
-      "ve":"",
-      "risksiz":"",
-      "bir":"",
-      "Uygun":"",
-      "panel":"",
-      "yapalım":"",
-      "Üretilen":"",
-      "devlet":"",
-      "satışlarla":"",
-      "gelir":"",
-      "elde":""
-    },
-    "AskComponents":{
-      "Merak":"",
-      "one":"What is a Payment Gateway?",
-      "two":" Do I need to pay to Instapay even when there is no transaction going on in my business?",
-      "three":"  What platforms does ACME payment gateway support?",
-      "four":" Does ACME provide international payments support?",
-      "five":"   Is there any setup fee or annual maintainance fee that I need to pay regularly?",
-      "button":""
-    },
-    "CarouselMoreInfo":{
-      "titleone":" ",
-      "textone":"",
-      "titletwo":" ",
-      "texttwo":"",
-      "titlethree":" ",
-      "textthree":"",
-      "titlefour":" ",
-      "textfour":"",
-      "titlefive":"",
-      "textfive":""
-    },
-    "footer":{
-      "address":"",
-      "addressnum":"",
-      "midhead":"",
-      "navh":"",
-      "navb":"",
-      "navr":"",
-      "navc":"",
-      "button":"",
-      "İletişim":"İletişim Formu",
-      "last":"Sorularınız mı var?",
-      "merak":"Merak Edilenler",
-      "sayfamızı":"sayfamızı ziyaret edin",
-      "veya":"veya",
-      "Sizi":"Sizi Arayalım!",
-      "copy":" ©2023 OpenRoof Enerji A.Ş. Tüm Hakları Saklıdır."
-    },
-    "revenue":{
-      "neden":"Neden OpenRoof?",
-      "titleone":"",
-      "descone":"",
-      "titletwo":"Mülkün Değerini Artırıyoruz",
-      "desctwo":"",
-      "titlethree":"Panelleri Devrediyoruz",
-      "descthree":"Sözleşme sonunda tüm sistemi ve gelirleri mülk sahibine devrediyoruz.",
-      "titlefour":"Hızlı Amorti Süresi",
-      "descfour":"Ev alıp 20 yıl beklemek yerine, güneş doğduğu sürece 5-6 yıl içinde yatırımınızı geri alabilir ve kazanç elde etmeye devam edebilirsiniz.",
-      "titlefive":"Gerçek Üretim Temelli",
-      "descfive":"",
-      "titlesix":"Minimal Risk",
-      "descsix":"",
-      "titleseven":"Düşük Yatırım Olanağı",
-      "descseven":"",
-      "titleeight":"Yeşil Bir Gelecek Yaratma İmkanı",
-      "desceight":"",
-      "titlenine":"Tüm Detaylarla Biz İlgileniyoruz",
-      "descnine":"",
-      "titleten":"Eşsiz Yatırım Fırsatı",
-      "descten":"",
-      "titleel":"İlk Andan İtibaren Şeffaflık",
-      "descel":""
-    },
-    "sharing":{
-      "Gelir":"Gelir Paylaşımı",
-      "Üretilen":"Üretilen değer",
-      "yıl":"10 yıl boyunca",
-      "yatırımcı":"yatırımcı, mülk sahibi, ve OpenRoof arasında paylaşılır.",
-      "Ardından":"Ardından gelen",
-      "boyunca":"5 yıl boyunca",
-      "payı":"yatırımcının payı düzenli olarak azalırken, mülk sahibinin payı aynı ölçüde artar.",
-      "Toplam":"Toplam",
-      "sonunda":"15 yılın sonunda",
-      "sistemin":"sistemin mülkiyeti ve gelirleri tamamen mülk sahibinin olur.",
-      "Mülk":"Mülk sahipleri, kurulum maliyetinin",
-      "ila":"ila",
-      "apos":"apos;sine katılarak hasılat paylaşımındaki oranlarını belirleyebilirler. Yatırımcılar ise yatırmak istedikleri tutara göre bir mülk ile eşleştirilir."
-    },
-    "notfound":{
-      "Aradığınız":"Aradığınız içeriği maalesef bulamadık"
-    },
-    "KnowMore":{
-      "soru":"Aklınızda soru kalmasın! Merak ettiğiniz tüm soruları cevapladık.",
-      "Merak":"Merak Edilenler"
-    },
-    "LocaleSwitcher": {
-      "label": "Change language",
-      "locale": "{locale, select, tr {Turhish} en {English} other {Unknown}}"
-    },
-    "faq":{
-      "title":"Aklınızda soru kalmasın",
-      "titleonefaq":"Mülk Sahibi",
-      "titletwofaq":"Yatırımcı"
-    }
+  "Index": {
+    "title": "Hello world!"
+  },
+  "header": {
+    "navh": "How does it work?",
+    "navb": "Benefits",
+    "navr": "Revenue Sharing",
+    "navc": "Curiosities",
+    "button": "call me!"
+  },
+  "metin": {
+    "low": "LOW",
+    "Invest": "Investment",
+    "hight": "HIGH",
+    "ret": "RETURN",
+    "min": "MİNİMAL",
+    "risk": "Risk",
+    "metin": "",
+    "button": "call me!"
+  },
+  "benefit": {
+    "why": "How does it work?",
+    "investment": "Investment",
+    "setup": "Setup",
+    "earning": "Earning",
+    "Yatırımınızı": "Yatırımınızı",
+    "güvenli": "",
+    "ve": "",
+    "risksiz": "",
+    "bir": "",
+    "Uygun": "",
+    "panel": "",
+    "yapalım": "",
+    "Üretilen": "",
+    "devlet": "",
+    "satışlarla": "",
+    "gelir": "",
+    "elde": ""
+  },
+  "AskComponents": {
+    "Merak": "",
+    "one": "What is a Payment Gateway?",
+    "two": " Do I need to pay to Instapay even when there is no transaction going on in my business?",
+    "three": "  What platforms does ACME payment gateway support?",
+    "four": " Does ACME provide international payments support?",
+    "five": "   Is there any setup fee or annual maintainance fee that I need to pay regularly?",
+    "button": ""
+  },
+  "CarouselMoreInfo": {
+    "titleone": " ",
+    "textone": "",
+    "titletwo": " ",
+    "texttwo": "",
+    "titlethree": " ",
+    "textthree": "",
+    "titlefour": " ",
+    "textfour": "",
+    "titlefive": "",
+    "textfive": ""
+  },
+  "footer": {
+    "address": "",
+    "addressnum": "",
+    "midhead": "",
+    "navh": "",
+    "navb": "",
+    "navr": "",
+    "navc": "",
+    "button": "",
+    "İletişim": "İletişim Formu",
+    "last": "Sorularınız mı var?",
+    "merak": "Merak Edilenler",
+    "sayfamızı": "sayfamızı ziyaret edin",
+    "veya": "veya",
+    "Sizi": "Sizi Arayalım!",
+    "copy": " ©2023 OpenRoof Enerji A.Ş. Tüm Hakları Saklıdır."
+  },
+  "revenue": {
+    "neden": "Neden OpenRoof?",
+    "titleone": "",
+    "descone": "",
+    "titletwo": "Mülkün Değerini Artırıyoruz",
+    "desctwo": "",
+    "titlethree": "Panelleri Devrediyoruz",
+    "descthree": "Sözleşme sonunda tüm sistemi ve gelirleri mülk sahibine devrediyoruz.",
+    "titlefour": "Hızlı Amorti Süresi",
+    "descfour": "Ev alıp 20 yıl beklemek yerine, güneş doğduğu sürece 5-6 yıl içinde yatırımınızı geri alabilir ve kazanç elde etmeye devam edebilirsiniz.",
+    "titlefive": "Gerçek Üretim Temelli",
+    "descfive": "",
+    "titlesix": "Minimal Risk",
+    "descsix": "",
+    "titleseven": "Düşük Yatırım Olanağı",
+    "descseven": "",
+    "titleeight": "Yeşil Bir Gelecek Yaratma İmkanı",
+    "desceight": "",
+    "titlenine": "Tüm Detaylarla Biz İlgileniyoruz",
+    "descnine": "",
+    "titleten": "Eşsiz Yatırım Fırsatı",
+    "descten": "",
+    "titleel": "İlk Andan İtibaren Şeffaflık",
+    "descel": ""
+  },
+  "sharing": {
+    "Gelir": "Gelir Paylaşımı",
+    "Üretilen": "Üretilen değer",
+    "yıl": "10 yıl boyunca",
+    "yatırımcı": "yatırımcı, mülk sahibi, ve OpenRoof arasında paylaşılır.",
+    "Ardından": "Ardından gelen",
+    "boyunca": "5 yıl boyunca",
+    "payı": "yatırımcının payı düzenli olarak azalırken, mülk sahibinin payı aynı ölçüde artar.",
+    "Toplam": "Toplam",
+    "sonunda": "15 yılın sonunda",
+    "sistemin": "sistemin mülkiyeti ve gelirleri tamamen mülk sahibinin olur.",
+    "Mülk": "Mülk sahipleri, kurulum maliyetinin",
+    "ila": "ila",
+    "apos": "apos;sine katılarak hasılat paylaşımındaki oranlarını belirleyebilirler. Yatırımcılar ise yatırmak istedikleri tutara göre bir mülk ile eşleştirilir."
+  },
+  "notfound": {
+    "Aradığınız": "Aradığınız içeriği maalesef bulamadık"
+  },
+  "KnowMore": {
+    "soru": "Aklınızda soru kalmasın! Merak ettiğiniz tüm soruları cevapladık.",
+    "Merak": "Merak Edilenler"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, tr {Turkish} en {English} other {Unknown}}"
+  },
+  "faq": {
+    "title": "Aklınızda soru kalmasın",
+    "titleonefaq": "Mülk Sahibi",
+    "titletwofaq": "Yatırımcı"
   }
+}

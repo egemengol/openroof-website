@@ -1,137 +1,135 @@
 {
-    "Index": {
-      "title": "hhhhhhhhh!"
-    },
-    "header":{
-      "navh":"Nasıl Çalışır?",
-      "navb":"Faydalar",
-      "navr":"Gelir Paylaşımı",
-      "navc":"Merak Edilenler",
-      "button":"Sizi Arayalım!"
-    },
-    "metin":{
-      "low":"DÜŞÜK",
-      "Invest":"Yatırım",
-      "hight":"YÜKSEK",
-      "ret":"Getiri",
-      "min":"MİNİMAL",
-      "risk":"Risk",
-      "metin":"Yatırımlarınızı Güneşin Gücüyle Büyütün!",
-      "button":"Sizi Arayalım!"
-    },
-    "benefit":{
-      "why":"Nasıl Çalışır?",
-      "investment":"Yatırım",
-      "setup":"Kurulum",
-      "earning":"Kazanç",
-      "Yatırımınızı":"Yatırımınızı",
-      "güvenli":"güvenli",
-      "ve":"ve",
-      "risksiz":"risksiz",
-      "bir":"bir şekilde gerçekleştirin.",
-      "Uygun":"Uygun bir mülk ile eşleştirerek",
-      "panel":"panel kurulumu",
-      "yapalım":"yapalım.",
-      "Üretilen":"Üretilen elektrikten",
-      "devlet":"devlet garantili",
-      "satışlarla":"satışlarla",
-      "gelir":"gelir",
-      "elde":"elde edin."
-    },
-    "AskComponents":{
-      "Merak":"Merak Edilenler",
-      "one":"",
-      "two":"",
-      "three":"",
-      "four":"",
-      "five":"",
-      "button":" Tüm Soruları Gör"
-
-    },
-    "CarouselMoreInfo":{
-      "titleone":"Birlikte Daha İyi Bir Gelecek İnşa Ediyoruz",
-      "textone":"Hayata geçirilen her bir OpenRoof projesi, karbondioksit salınımlarını ve atmosferimize verilen zararı azaltır. Yeşil enerjiye destek vererek, gezegenimizin sürdürülebilir bir geleceğe sahip olmasını sağlayabilirsiniz.",
-      "titletwo":"Risksiz Yatırım: Sözleşmelerle Güvence Altında",
-      "texttwo":"OpenRoof, yatırımcıların güvenini en ön planda tutar. Yatırımınızı yaparken herhangi bir ekonomik belirsizlikten etkilenmemeniz için, yaptığınız yatırımlarınız sözleşmelerle güvence altına alınır. Örneğin, yatırımınızın belirlenen süre zarfında amorti olmaması durumunda, sizlere bir güvence olarak, yatırdığınız sermayeyi faiziyle birlikte geri ödeme taahhüdünde bulunuyoruz. Bu, yatırımcı sözleşmemizde net bir şekilde belirtilir ve yasal olarak güvence altına alınır. OpenRoof, yatırımcısına güven veren, belirsizliklerden uzak, sağlam bir yapıya sahip bir yatırım aracıdır.",
-      "titlethree":"Küçük Yatırımlarla Büyük Adımlar",
-      "textthree":"OpenRoof, her bütçeye uygun bir yatırım imkanı sunar.Yatırımcılarımızın hepsine, yatırım miktarları ne olursa olsun, eşit fırsatlar ve olanaklar sunmayı hedefleriz. Küçük yatırımlarla bile büyük adımlar atabilir, gelir elde ederken aynı zamanda çevre dostu bir enerji kaynağını destekleyebilirsiniz. OpenRoof, küçük yatırımları en uygun çatıda birleştirerek güneş enerjisi projelerini hayata geçirir. Bu sayede, büyük projelerin karlılığını küçük yatırımlar için de sağlayarak yatırımda fırsat eşitliğini destekler.",
-      "titlefour":" Gerçek Üretim, Gerçek Getiri",
-      "textfour":"OpenRoof yatırımlarının arkasında somut bir değer vardır:elektrik. Güneş enerjisi sistemlerimiz, doğal ve yenilenebilir bir kaynak olan güneşten enerji üretir ve bu enerjiyi elektrik şebekesine satar. Bu sayede, yatırımlarınızın getirisi, güneşin doğuşuna ve insanların elektriğe olan sürekli ihtiyacına dayanır.",
-      "titlefive":"Şeffaflıkla Kazanç Paylaşımı",
-      "textfive":"OpenRoof, şeffaf ve adil bir gelir paylaşımı modeli ile yatırımcılarına güven sağlar. Herhangi bir gizli ücret olmaksızın, sadece yatırımcılar kazandıkça kazanır. Düzenli raporlar ve geliştirmekte olduğumuz portal ve mobil uygulama ile yatırımlarınızın performansını her an takip edebilir, anlık getiri ve ay sonu tahmini getirilerinizi görebilirsiniz."
-    },
-    "footer":{
-      "address":"Etiler, REMEL PLAZA, Evliya Çelebi Cd.",
-      "addressnum":" No:23/106, 07010, Muratpaşa/Antalya",
-      "midhead":"Site Haritası",
-      "navh":"Nasıl Çalışır?",
-      "navb":"Faydalar",
-      "navr":"Gelir Paylaşımı",
-      "navc":"Merak Edilenler",
-      "button":"Sizi Arayalım!",
-      "İletişim":"İletişim Formu",
-      "last":"Sorularınız mı var?",
-      "merak":"Merak Edilenler",
-      "sayfamızı":"sayfamızı ziyaret edin",
-      "veya":"veya",
-      "Sizi":"Sizi Arayalım!",
-      "copy":" ©2023 OpenRoof Enerji A.Ş. Tüm Hakları Saklıdır."
-    },
-    "revenue":{
-      "neden":"Neden OpenRoof?",
-      "titleone":"Panel Kurulum Maliyetini Üstleniyoruz",
-      "descone":"Maliyetin istediğiniz kadarına ortak olarak, elektrik faturasından tasarruf etmek ile para kazanmak arasında bir tercih yapabilirsiniz.",
-      "titletwo":"Mülkün Değerini Artırıyoruz",
-      "desctwo":"Elektrik faturası ödemeyen, hatta kendi kendine para kazandıran bir mülke sahip olmanıza imkan sağlıyoruz.",
-      "titlethree":"Panelleri Devrediyoruz",
-      "descthree":"Sözleşme sonunda tüm sistemi ve gelirleri mülk sahibine devrediyoruz.",
-      "titlefour":"Hızlı Amorti Süresi",
-      "descfour":"Ev alıp 20 yıl beklemek yerine, güneş doğduğu sürece 5-6 yıl içinde yatırımınızı geri alabilir ve kazanç elde etmeye devam edebilirsiniz.",
-      "titlefive":"Gerçek Üretim Temelli",
-      "descfive":" Yatırımınız gerçek üretimden beslendiği için spekülatif risklerden uzak, sağlam bir temele oturtuyoruz.",
-      "titlesix":"Minimal Risk",
-      "descsix":"Yatırımcıyı koruyan sözleşmemiz sayesinde, yatırımınızın belirlenen süre zarfında amorti olmaması durumunda, yatırdığınız miktarı faiziyle birlikte geri ödeme garantisi veriyoruz!",
-      "titleseven":"Düşük Yatırım Olanağı",
-      "descseven":"Küçük yatırımların birleşik gücü ile, bireysel olarak ulaşılması güç olan büyük projelere OpenRoof ile erişebilirsiniz.",
-      "titleeight":"Yeşil Bir Gelecek Yaratma İmkanı",
-      "desceight":"Sürdürülebilir enerjiye geçerek doğaya verilen zararı minimize etmeyi hedefliyoruz.",
-      "titlenine":"Tüm Detaylarla Biz İlgileniyoruz",
-      "descnine":"Kurulum firması, kurulum gücü, kullanılacak ekipmanlar, başvuru süreçleri, kar dağıtımı, ve benzeri tüm bürokratik, teknik ve operasyonel konuları biz üstleniyoruz.",
-      "titleten":"Eşsiz Yatırım Fırsatı",
-      "descten":"Yatırımcı ve mülk sahibini buluşturarak, yenilenebilir enerji sektöründe benzersiz bir yatırım imkanı sağlıyoruz; yenilebilir enerjiye erişim ve katılımı kapsamlı sözleşmemizle kolaylaştırıyoruz.",
-      "titleel":"İlk Andan İtibaren Şeffaflık",
-      "descel":"GES projesinin akıbeti ve aylık geri ödemelerin raporlanması gibi tüm süreçlerde para akışlarını şeffaflıkla paylaşıyoruz.."
-
-    },
-    "sharing":{
-      "Gelir":"Gelir Paylaşımı",
-      "Üretilen":"Üretilen değer",
-      "yıl":"10 yıl boyunca",
-      "yatırımcı":"yatırımcı, mülk sahibi, ve OpenRoof arasında paylaşılır.",
-      "Ardından":"Ardından gelen",
-      "boyunca":"5 yıl boyunca",
-      "payı":"yatırımcının payı düzenli olarak azalırken, mülk sahibinin payı aynı ölçüde artar.",
-      "Toplam":"Toplam",
-      "sonunda":"15 yılın sonunda",
-      "sistemin":"sistemin mülkiyeti ve gelirleri tamamen mülk sahibinin olur.",
-      "Mülk":"Mülk sahipleri, kurulum maliyetinin",
-      "ila":"ila",
-      "apos":"apos;sine katılarak hasılat paylaşımındaki oranlarını belirleyebilirler. Yatırımcılar ise yatırmak istedikleri tutara göre bir mülk ile eşleştirilir."   
-    },
-    "notfound":{
-      "Aradığınız":"Aradığınız içeriği maalesef bulamadık"
-    },
-    "KnowMore":{
-      "soru":"Aklınızda soru kalmasın! Merak ettiğiniz tüm soruları cevapladık.",
-      "Merak":"Merak Edilenler"
-    },
-    "LocaleSwitcher": {
-      "label": "Change language",
-      "locale": "{locale, select, tr {Turhish} en {English} other {Unknown}}"
-    },
-    "faq":{
-      "title":"Aklınızda soru kalmasın",
-      "titleonefaq":"Mülk Sahibi",
-      "titletwofaq":"Yatırımcı"
-    }
+  "Index": {
+    "title": "hhhhhhhhh!"
+  },
+  "header": {
+    "navh": "Nasıl Çalışır?",
+    "navb": "Faydalar",
+    "navr": "Gelir Paylaşımı",
+    "navc": "Merak Edilenler",
+    "button": "Sizi Arayalım!"
+  },
+  "metin": {
+    "low": "DÜŞÜK",
+    "Invest": "Yatırım",
+    "hight": "YÜKSEK",
+    "ret": "Getiri",
+    "min": "MİNİMAL",
+    "risk": "Risk",
+    "metin": "Yatırımlarınızı Güneşin Gücüyle Büyütün!",
+    "button": "Sizi Arayalım!"
+  },
+  "benefit": {
+    "why": "Nasıl Çalışır?",
+    "investment": "Yatırım",
+    "setup": "Kurulum",
+    "earning": "Kazanç",
+    "Yatırımınızı": "Yatırımınızı",
+    "güvenli": "güvenli",
+    "ve": "ve",
+    "risksiz": "risksiz",
+    "bir": "bir şekilde gerçekleştirin.",
+    "Uygun": "Uygun bir mülk ile eşleştirerek",
+    "panel": "panel kurulumu",
+    "yapalım": "yapalım.",
+    "Üretilen": "Üretilen elektrikten",
+    "devlet": "devlet garantili",
+    "satışlarla": "satışlarla",
+    "gelir": "gelir",
+    "elde": "elde edin."
+  },
+  "AskComponents": {
+    "Merak": "Merak Edilenler",
+    "one": "",
+    "two": "",
+    "three": "",
+    "four": "",
+    "five": "",
+    "button": " Tüm Soruları Gör"
+  },
+  "CarouselMoreInfo": {
+    "titleone": "Birlikte Daha İyi Bir Gelecek İnşa Ediyoruz",
+    "textone": "Hayata geçirilen her bir OpenRoof projesi, karbondioksit salınımlarını ve atmosferimize verilen zararı azaltır. Yeşil enerjiye destek vererek, gezegenimizin sürdürülebilir bir geleceğe sahip olmasını sağlayabilirsiniz.",
+    "titletwo": "Risksiz Yatırım: Sözleşmelerle Güvence Altında",
+    "texttwo": "OpenRoof, yatırımcıların güvenini en ön planda tutar. Yatırımınızı yaparken herhangi bir ekonomik belirsizlikten etkilenmemeniz için, yaptığınız yatırımlarınız sözleşmelerle güvence altına alınır. Örneğin, yatırımınızın belirlenen süre zarfında amorti olmaması durumunda, sizlere bir güvence olarak, yatırdığınız sermayeyi faiziyle birlikte geri ödeme taahhüdünde bulunuyoruz. Bu, yatırımcı sözleşmemizde net bir şekilde belirtilir ve yasal olarak güvence altına alınır. OpenRoof, yatırımcısına güven veren, belirsizliklerden uzak, sağlam bir yapıya sahip bir yatırım aracıdır.",
+    "titlethree": "Küçük Yatırımlarla Büyük Adımlar",
+    "textthree": "OpenRoof, her bütçeye uygun bir yatırım imkanı sunar.Yatırımcılarımızın hepsine, yatırım miktarları ne olursa olsun, eşit fırsatlar ve olanaklar sunmayı hedefleriz. Küçük yatırımlarla bile büyük adımlar atabilir, gelir elde ederken aynı zamanda çevre dostu bir enerji kaynağını destekleyebilirsiniz. OpenRoof, küçük yatırımları en uygun çatıda birleştirerek güneş enerjisi projelerini hayata geçirir. Bu sayede, büyük projelerin karlılığını küçük yatırımlar için de sağlayarak yatırımda fırsat eşitliğini destekler.",
+    "titlefour": " Gerçek Üretim, Gerçek Getiri",
+    "textfour": "OpenRoof yatırımlarının arkasında somut bir değer vardır:elektrik. Güneş enerjisi sistemlerimiz, doğal ve yenilenebilir bir kaynak olan güneşten enerji üretir ve bu enerjiyi elektrik şebekesine satar. Bu sayede, yatırımlarınızın getirisi, güneşin doğuşuna ve insanların elektriğe olan sürekli ihtiyacına dayanır.",
+    "titlefive": "Şeffaflıkla Kazanç Paylaşımı",
+    "textfive": "OpenRoof, şeffaf ve adil bir gelir paylaşımı modeli ile yatırımcılarına güven sağlar. Herhangi bir gizli ücret olmaksızın, sadece yatırımcılar kazandıkça kazanır. Düzenli raporlar ve geliştirmekte olduğumuz portal ve mobil uygulama ile yatırımlarınızın performansını her an takip edebilir, anlık getiri ve ay sonu tahmini getirilerinizi görebilirsiniz."
+  },
+  "footer": {
+    "address": "Etiler, REMEL PLAZA, Evliya Çelebi Cd.",
+    "addressnum": " No:23/106, 07010, Muratpaşa/Antalya",
+    "midhead": "Site Haritası",
+    "navh": "Nasıl Çalışır?",
+    "navb": "Faydalar",
+    "navr": "Gelir Paylaşımı",
+    "navc": "Merak Edilenler",
+    "button": "Sizi Arayalım!",
+    "İletişim": "İletişim Formu",
+    "last": "Sorularınız mı var?",
+    "merak": "Merak Edilenler",
+    "sayfamızı": "sayfamızı ziyaret edin",
+    "veya": "veya",
+    "Sizi": "Sizi Arayalım!",
+    "copy": " ©2023 OpenRoof Enerji A.Ş. Tüm Hakları Saklıdır."
+  },
+  "revenue": {
+    "neden": "Neden OpenRoof?",
+    "titleone": "Panel Kurulum Maliyetini Üstleniyoruz",
+    "descone": "Maliyetin istediğiniz kadarına ortak olarak, elektrik faturasından tasarruf etmek ile para kazanmak arasında bir tercih yapabilirsiniz.",
+    "titletwo": "Mülkün Değerini Artırıyoruz",
+    "desctwo": "Elektrik faturası ödemeyen, hatta kendi kendine para kazandıran bir mülke sahip olmanıza imkan sağlıyoruz.",
+    "titlethree": "Panelleri Devrediyoruz",
+    "descthree": "Sözleşme sonunda tüm sistemi ve gelirleri mülk sahibine devrediyoruz.",
+    "titlefour": "Hızlı Amorti Süresi",
+    "descfour": "Ev alıp 20 yıl beklemek yerine, güneş doğduğu sürece 5-6 yıl içinde yatırımınızı geri alabilir ve kazanç elde etmeye devam edebilirsiniz.",
+    "titlefive": "Gerçek Üretim Temelli",
+    "descfive": " Yatırımınız gerçek üretimden beslendiği için spekülatif risklerden uzak, sağlam bir temele oturtuyoruz.",
+    "titlesix": "Minimal Risk",
+    "descsix": "Yatırımcıyı koruyan sözleşmemiz sayesinde, yatırımınızın belirlenen süre zarfında amorti olmaması durumunda, yatırdığınız miktarı faiziyle birlikte geri ödeme garantisi veriyoruz!",
+    "titleseven": "Düşük Yatırım Olanağı",
+    "descseven": "Küçük yatırımların birleşik gücü ile, bireysel olarak ulaşılması güç olan büyük projelere OpenRoof ile erişebilirsiniz.",
+    "titleeight": "Yeşil Bir Gelecek Yaratma İmkanı",
+    "desceight": "Sürdürülebilir enerjiye geçerek doğaya verilen zararı minimize etmeyi hedefliyoruz.",
+    "titlenine": "Tüm Detaylarla Biz İlgileniyoruz",
+    "descnine": "Kurulum firması, kurulum gücü, kullanılacak ekipmanlar, başvuru süreçleri, kar dağıtımı, ve benzeri tüm bürokratik, teknik ve operasyonel konuları biz üstleniyoruz.",
+    "titleten": "Eşsiz Yatırım Fırsatı",
+    "descten": "Yatırımcı ve mülk sahibini buluşturarak, yenilenebilir enerji sektöründe benzersiz bir yatırım imkanı sağlıyoruz; yenilebilir enerjiye erişim ve katılımı kapsamlı sözleşmemizle kolaylaştırıyoruz.",
+    "titleel": "İlk Andan İtibaren Şeffaflık",
+    "descel": "GES projesinin akıbeti ve aylık geri ödemelerin raporlanması gibi tüm süreçlerde para akışlarını şeffaflıkla paylaşıyoruz.."
+  },
+  "sharing": {
+    "Gelir": "Gelir Paylaşımı",
+    "Üretilen": "Üretilen değer",
+    "yıl": "10 yıl boyunca",
+    "yatırımcı": "yatırımcı, mülk sahibi, ve OpenRoof arasında paylaşılır.",
+    "Ardından": "Ardından gelen",
+    "boyunca": "5 yıl boyunca",
+    "payı": "yatırımcının payı düzenli olarak azalırken, mülk sahibinin payı aynı ölçüde artar.",
+    "Toplam": "Toplam",
+    "sonunda": "15 yılın sonunda",
+    "sistemin": "sistemin mülkiyeti ve gelirleri tamamen mülk sahibinin olur.",
+    "Mülk": "Mülk sahipleri, kurulum maliyetinin",
+    "ila": "ila",
+    "apos": "apos;sine katılarak hasılat paylaşımındaki oranlarını belirleyebilirler. Yatırımcılar ise yatırmak istedikleri tutara göre bir mülk ile eşleştirilir."
+  },
+  "notfound": {
+    "Aradığınız": "Aradığınız içeriği maalesef bulamadık"
+  },
+  "KnowMore": {
+    "soru": "Aklınızda soru kalmasın! Merak ettiğiniz tüm soruları cevapladık.",
+    "Merak": "Merak Edilenler"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, tr {Turkish} en {English} other {Unknown}}"
+  },
+  "faq": {
+    "title": "Aklınızda soru kalmasın",
+    "titleonefaq": "Mülk Sahibi",
+    "titletwofaq": "Yatırımcı"
   }
+}

@@ -1,17 +1,20 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import logo from "../../../../public/assets/Header/Frame 318.svg";
+import logo from "../../../../../public/assets/Header/Frame 318.svg";
 import "./header.css";
-import { tallyHref } from "@/app/config/constants";
 import Image from "next/image";
 import Link from "next/link";
 import DrawerNav from "./DrawerNav";
 import { PhoneButton } from "../Ask/svg/phone";
-import {useTranslations} from 'next-intl';
+import { useTranslations } from "next-intl";
+import { useCookies } from "react-cookie";
+import { tallyHref } from "../../commons/commons";
 const Header = () => {
-  const t = useTranslations('header');
+  const t = useTranslations("header");
   const [scrolled, setScrolled] = useState(false);
-
+  const [cookies, setCookie, removeCookie] = useCookies();
+  const lang = cookies["NEXT_LOCALE"];
+  const langPath = lang === "tr" ? "" : "/en";
   useEffect(() => {
     const scrollHandler = () => {
       window.pageYOffset > 680 ? setScrolled(true) : setScrolled(false);
@@ -29,22 +32,22 @@ const Header = () => {
         </div>
         <div className="navbar">
           <ul className="ul-navbar">
-            <Link smooth href="/#NasilCalisir">
-              <li className="nav-link">{t('navh')}</li>
+            <Link href={`/#NasilCalisir`}>
+              <li className="nav-link">{t("navh")}</li>
             </Link>
-            <Link smooth href="/#Faydalar">
-              <li className="nav-link">{t('navb')}</li>
+            <Link href={`/#Faydalar`}>
+              <li className="nav-link">{t("navb")}</li>
             </Link>
-            <Link smooth href="/#GelirPaylasimi">
-              <li className="nav-link">{t('navr')}</li>
+            <Link href={`/#GelirPaylasimi`}>
+              <li className="nav-link">{t("navr")}</li>
             </Link>
-            <Link href="/sss">
+            <Link href={`/sss`}>
               <li className="nav-link sss">
                 {/* S.S.S. */}
-                {t('navc')}
+                {t("navc")}
               </li>
             </Link>
-                {/* <Link  href={`/${localStorage.getItem('lang') === 'lang' ? localStorage.getItem('lang') : ''}/#NasilCalisir`}>
+            {/* <Link  href={`/${localStorage.getItem('lang') === 'lang' ? localStorage.getItem('lang') : ''}/#NasilCalisir`}>
             <li className="nav-link">{t("navh")}</li>
           </Link>
           <Link  href={`/${localStorage.getItem('lang') === 'lang' ?localStorage.getItem('lang') : ''}/#Faydalar`}>
@@ -69,7 +72,7 @@ const Header = () => {
                     <PhoneButton className="phone-img-button-header "></PhoneButton>
                   </div>
                   <div className="header-button-text">
-                    <p className="header-button-text-info">{t('button')}</p>
+                    <p className="header-button-text-info">{t("button")}</p>
                   </div>
                 </button>
               </a>

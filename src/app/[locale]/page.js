@@ -1,22 +1,21 @@
 "use client";
-import "../../app/Home.css";
+import "./Home.css";
 import Image from "next/image";
 import home from "../../../public/assets/Header/Hero görsel.svg";
 import ko from "../../../public/assets/Header/ok0.svg";
-import Metin from "../components/metin/Metin";
-import Benefit from "../components/benefit/Benefit";
-import Revenue from "../components/revenue/Revenue";
-import RevenueSharing from "../components/RevenueSharing/RevenueSharing";
-import AskComponents from "../components/askcomponent/AskComponents";
-import CarouselLogo from "../components/carousel/carouselLogo";
-import CarouselMoreInfo from "../components/carousel/carouselMoreInfo";
+import Metin from "./components/metin/Metin";
+import Benefit from "./components/benefit/Benefit";
+import Revenue from "./components/revenue/Revenue";
+import RevenueSharing from "./components/RevenueSharing/RevenueSharing";
+import AskComponents from "./components/askcomponent/AskComponents";
+import CarouselLogo from "./components/carousel/carouselLogo";
+import CarouselMoreInfo from "./components/carousel/carouselMoreInfo";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import KnowMore from "../components/knowMore/knowMore";
+import KnowMore from "./components/knowMore/knowMore";
 
 export default function Home() {
-    
   useEffect(() => {
     AOS.init({ delay: 300, once: true });
   }, []);
@@ -48,7 +47,7 @@ export default function Home() {
             data-aos="fade-down"
             id="metin-desktop"
           >
-            <Metin/>
+            <Metin />
           </div>
           <Image className="arrimg" src={ko} alt="arrow" />
         </div>

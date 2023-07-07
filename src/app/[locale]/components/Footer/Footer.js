@@ -1,20 +1,20 @@
 "use client";
 import "./Footer.css";
-import logo from "../../../../public/assets/Home/footer_logo.svg";
+import logo from "../../../../../public/assets/Home/footer_logo.svg";
 import { PhoneButton } from "../Ask/svg/phone";
 import { tallyHref } from "../../commons/commons";
 import Image from "next/image";
 import Link from "next/link";
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormHelperText from '@mui/material/FormHelperText';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
-import {useTranslations} from 'next-intl';
-import LocaleSwitcher from "../../[locale]/LanguageSwitch";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import FormHelperText from "@mui/material/FormHelperText";
+import FormControl from "@mui/material/FormControl";
+import Select from "@mui/material/Select";
+import { useTranslations } from "next-intl";
+import LocaleSwitcher from "../../LanguageSwitch";
 
 const Footer = () => {
-  const t = useTranslations('footer');
+  const t = useTranslations("footer");
   return (
     <div className="footer-copy-com">
       <div className="footer-wrapper">
@@ -22,12 +22,8 @@ const Footer = () => {
           <div className="footer-first">
             <Image className="footer-logo" src={logo} alt="logo" />
             <div className="footer-number">
-              <p className="footer-address">
-                {t('address')}
-              </p>
-              <p className="footer-address">
-               {t('addressnum')}
-              </p>
+              <p className="footer-address">{t("address")}</p>
+              <p className="footer-address">{t("addressnum")}</p>
               {/* <p className="footer-address">07010 Muratpaşa/Antalya</p> */}
               <a href="tel:+90 (242) 475 07 01">
                 {" "}
@@ -37,7 +33,7 @@ const Footer = () => {
                 {" "}
                 <p className="footer-mail">info@openroof.com.tr</p>
               </a>
-            <LocaleSwitcher/>
+              <LocaleSwitcher />
             </div>
             {/* <div className='footer-copy'>
                 <p>
@@ -47,43 +43,43 @@ const Footer = () => {
           </div>
 
           <div className="footer-mid">
-            <p className="mid-head">{t('midhead')}</p>
+            <p className="mid-head">{t("midhead")}</p>
 
             <ul className="ul-link">
-              <Link smooth href="/#NasilCalisir">
-                <li className="li-link">{t('navh')}</li>
+              <Link  href="/#NasilCalisir">
+                <li className="li-link">{t("navh")}</li>
               </Link>
-              <Link smooth href="/#Faydalar">
-                <li className="li-link">{t('navb')}</li>
+              <Link  href="/#Faydalar">
+                <li className="li-link">{t("navb")}</li>
               </Link>
-              <Link smooth href="/#GelirPaylasimi">
-                <li className="li-link">{t('navr')}</li>
+              <Link  href="/#GelirPaylasimi">
+                <li className="li-link">{t("navr")}</li>
               </Link>
-              <Link smooth href="/sss">
+              <Link  href="/sss">
                 <li
                   onClick={() => {
                     window.scrollTo(0, 0);
                   }}
                   className="li-link"
                 >
-                  {t('navc')}
+                  {t("navc")}
                 </li>
               </Link>
               <a href={tallyHref}>
-                <li>{t('İletişim')}</li>
+                <li>{t("İletişim")}</li>
               </a>
             </ul>
           </div>
           <div className="footer-last">
-            <p className="last-head">{t('last')}</p>
+            <p className="last-head">{t("last")}</p>
             <div className="last-body">
               <div className="last-body-one">
                 <p className="last-body-first">
-                  <a href="/sss">{t('merak')}</a>
+                  <a href="/sss">{t("merak")}</a>
                 </p>
-                <p className="last-body-mid">{t('sayfamızı')}</p>
+                <p className="last-body-mid">{t("sayfamızı")}</p>
               </div>
-              <p className="last-body-mid veya">{t('veya')}</p>
+              <p className="last-body-mid veya">{t("veya")}</p>
             </div>
             <div className="footer-button">
               <a href={tallyHref}>
@@ -92,16 +88,14 @@ const Footer = () => {
                     <PhoneButton className="phone-img-button-footer "></PhoneButton>
                   </div>
                   <div className="footer-button-text">
-                    <p className="footer-button-text-info">{t('Sizi')}</p>
+                    <p className="footer-button-text-info">{t("Sizi")}</p>
                   </div>
                 </button>
               </a>
             </div>
           </div>
         </div>
-        <p className="footer-copy">
-         {t('copy')}
-        </p>
+        <p className="footer-copy">{t("copy")}</p>
       </div>
     </div>
   );
